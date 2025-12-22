@@ -1,0 +1,23 @@
+.DS_Store
+02/.vscode/settings.json
+.gitignore
+04/\[스프린트미션]4_결정트리와 앙상블(우수사례 1).ipynb
+05/\[스프린트+미션]5_오토인코더_문서+복원.ipynb
+01/
+
+06_DL_FineTuning/data/
+06_DL_FineTuning/checkpoints/
+07_DL_ObjectDetection/data/
+07_DL_ObjectDetection/\[스프린트_미션]7_Object_Detection.ipynb
+06_DL_FineTuning/스프린트+미션+6+이미지+분류+X-Ray.ipynb
+07_DL_ObjectDetection/best_model.pth
+07_DL_ObjectDetection/final_model.pth
+07_DL_ObjectDetection/predictions.png
+07_DL_ObjectDetection/training_history.png
+08_DL_ImageSegmentation/instances_val2017.json
+08_DL_ImageSegmentation/data/
+08_DL_ImageSegmentation/\[스프린트미션]8_Image+Segmentation.ipynb
+08_DL_ImageSegmentation/__pycache__/train_unet.cpython-310.pyc
+09_DL_cGAN/data/
+09_DL_cGAN/\[스프린트미션]9_Image_Generation_FashionMNIST.ipynb
+05_DL_AutoEncoder/train/train_cleaned/

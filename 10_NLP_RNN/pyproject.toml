@@ -1,0 +1,11 @@
+[project]
+name = "10-nlp-rnn2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "colablinter>=0.1.6",
+    "ipykernel>=7.1.0",
+    "scikit-learn>=1.7.2",
+]

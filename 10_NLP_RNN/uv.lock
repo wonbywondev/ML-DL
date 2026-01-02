@@ -12,6 +12,7 @@ name = "10-nlp-rnn2"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "chardet" },
     { name = "colablinter" },
     { name = "ipykernel" },
     { name = "matplotlib" },
@@ -26,6 +27,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "chardet", specifier = ">=5.2.0" },
     { name = "colablinter", specifier = ">=0.1.6" },
     { name = "ipykernel", specifier = ">=7.1.0" },
     { name = "matplotlib", specifier = ">=3.10.8" },

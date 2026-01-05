@@ -25,7 +25,8 @@
 100_DL_ObjectDetection/data/train_images/
 100_DL_ObjectDetection/data/test_images/
 100_DL_ObjectDetection/data/train_annotations/
-10_NLP_RNN/data/
+10_NLP_RNN/data/20news-bydate-test/
+10_NLP_RNN/data/20news-bydate-train/
 100_DL_ObjectDetection/docs/ai_hub_classes/
 100_DL_ObjectDetection/docs/설명 자료_원성일.pptx
 100_DL_ObjectDetection/docs/~$설명 자료_원성일.pptx

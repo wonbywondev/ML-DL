@@ -5056,11 +5056,15 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.autos/101674": [
         {
             "quote_mark": ">",
-            "quote_sentence": "> In article <1993Apr1.191826.28921@iscnvx.lmsc.lockheed.com> sharen@iscnvx.lmsc.lockheed.com (Sharen A. Rund) writes:"
+            "quote_sentence": "> This has me thinking.  Is there a biological reason why women can't put"
         },
         {
             "quote_mark": "> <",
             "quote_sentence": "> <apparently you're not a woman - my husband hates the auto door locks"
+        },
+        {
+            "quote_mark": "> >",
+            "quote_sentence": "> >features, but forgets that besides families with children, a woman"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.autos/101680": [
@@ -15027,8 +15031,16 @@
             "quote_sentence": "|> In article <AfnKOVK00UhB01RDtJ@andrew.cmu.edu>, Robert Angelo Pleshar <rp16+@andrew.cmu.edu> writes:"
         },
         {
-            "quote_mark": "|> > \t<",
-            "quote_sentence": "|> > \t<kfnJYea00Uh_I1VmUs@andrew.cmu.edu>"
+            "quote_mark": "|> >",
+            "quote_sentence": "|> > Yeah, and also be second in the team in scoring and play about 35"
+        },
+        {
+            "quote_mark": "|> >>",
+            "quote_sentence": "|> >>will spend lots of time in the penalty box and get lots of"
+        },
+        {
+            "quote_mark": "|> >>>",
+            "quote_sentence": "|> >>>into all of the defensemen on the Islanders, Capitals, and Devils..."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/53623": [
@@ -15361,8 +15373,16 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/53697": [
         {
-            "quote_mark": "> \t<",
-            "quote_sentence": "> \t<kfnJYea00Uh_I1VmUs@andrew.cmu.edu>"
+            "quote_mark": ">",
+            "quote_sentence": "> Yeah, and also be second in the team in scoring and play about 35"
+        },
+        {
+            "quote_mark": ">>",
+            "quote_sentence": ">>In other words, you want to turn them all into assholes so they"
+        },
+        {
+            "quote_mark": ">>>",
+            "quote_sentence": ">>>into all of the defensemen on the Islanders, Capitals, and Devils..."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/52577": [
@@ -16343,8 +16363,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/54058": [
         {
-            "quote_mark": "<",
-            "quote_sentence": "<In response to a debate about who has has a better season- Jagr of Francis>"
+            "quote_mark": ">",
+            "quote_sentence": ">  Actually, what I think has become more evident, is that you are determined to"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/54252": [
@@ -17464,7 +17484,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15667": [
         {
             "quote_mark": "<",
-            "quote_sentence": "<pat@rwing.UUCP (Pat Myrto) writes:"
+            "quote_sentence": "<the case that all the Republicans, etc. in the NSA and FBI and CIA"
         },
         {
             "quote_mark": "<>",
@@ -19518,7 +19538,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15555": [
         {
             "quote_mark": "<",
-            "quote_sentence": "<strnlght@netcom.com (David Sternlight) writes:"
+            "quote_sentence": "<As usually, you are not reading. The proposal -does- say that it is a"
         },
         {
             "quote_mark": "<>",
@@ -20157,12 +20177,12 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/59149": [
         {
-            "quote_mark": "",
+            "quote_mark": "   ",
             "quote_sentence": "   Path: news.larc.nasa.gov!darwin.sura.net!zaphod.mps.ohio-state.edu!uwm.edu!linac!att!bu.edu!dozonoff"
         },
         {
-            "quote_mark": "{",
-            "quote_sentence": "   {much deleted]"
+            "quote_mark": "   :",
+            "quote_sentence": "   : The fact that this happened while eating two sugar coated cereals made"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/58853": [
@@ -20546,7 +20566,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/59153": [
         {
             "quote_mark": "<",
-            "quote_sentence": "<In article <1993Apr21.024103.29880@spdcc.com> dyer@spdcc.com (Steve Dyer) writes:"
+            "quote_sentence": "<The original poster mentioned fatigue.  I had that too, but it was"
         },
         {
             "quote_mark": "<>",
@@ -21449,8 +21469,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/59111": [
         {
-            "quote_mark": "{",
-            "quote_sentence": "{much deleted]"
+            "quote_mark": ":",
+            "quote_sentence": ": The fact that this happened while eating two sugar coated cereals made"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/58833": [
@@ -25757,8 +25777,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/104711": [
         {
-            "quote_mark": "<",
-            "quote_sentence": "<tale of bike-eating-devil-dog deleted>"
+            "quote_mark": ">",
+            "quote_sentence": ">Moral: I'm not really sure, but more and more I believe that bikers ought "
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/104523": [
@@ -26074,11 +26094,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/103134": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <C4wKBp.B9w@eskimo.com>, maven@eskimo.com (Norman Hamer) writes:"
+            "quote_sentence": ">{drinking & riding}"
         },
         {
-            "quote_mark": ">{",
-            "quote_sentence": ">{drinking & riding}"
+            "quote_mark": ">>",
+            "quote_sentence": ">>  What is a general rule of thumb for sobriety and cycling? Couple hours after"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/103133": [
@@ -26901,8 +26921,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/103215": [
         {
-            "quote_mark": "{",
-            "quote_sentence": "{drinking & riding}"
+            "quote_mark": ">",
+            "quote_sentence": "> a blood/alcohol level of 0.4 as legally drunk, I think, which is more than"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/103212": [
@@ -28530,7 +28550,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/66932": [
         {
             "quote_mark": "<",
-            "quote_sentence": "<Dear Xperts:"
+            "quote_sentence": "<   Here's my problem:  I am designing several related X "
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/67028": [
@@ -28574,7 +28594,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/67072": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <1993Apr4.183419.584@vms.huji.ac.il> klony@vms.huji.ac.il writes:"
+            "quote_sentence": ">I also found it on uunet in /pub/window-sys/X/contrib, for those that can"
         },
         {
             "quote_mark": "><",
@@ -29188,7 +29208,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/66931": [
         {
             "quote_mark": "<",
-            "quote_sentence": "<In article <118590@netnews.upenn.edu> mcclenne@dingdong.cis.upenn.edu (nennelccM nodroG) writes:"
+            "quote_sentence": "<It is ordinarily set to the highest value the underlying OS can"
         },
         {
             "quote_mark": "<>",
@@ -31523,7 +31543,7 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60688": [
         {
-            "quote_mark": "> <",
+            "quote_mark": ">",
             "quote_sentence": "> <reference to running ATI's Install Program and using"
         }
     ],
@@ -34914,11 +34934,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54511": [
         {
             "quote_mark": "<",
-            "quote_sentence": "<In article <1qna9m$nq8@transfer.stratus.com>, cdt@sw.stratus.com (C. D. Tavares) writes:"
+            "quote_sentence": "<an anachronism.  After all, laws in made by representatives of the "
         },
         {
             "quote_mark": "<->",
-            "quote_sentence": "<-> In article <C5L0n2.5LL@ulowell.ulowell.edu>, jrutledg@cs.ulowell.edu (John Lawrence Rutledge) writes:"
+            "quote_sentence": "<-> the local and federal governments have abandoned their charter to support"
         },
         {
             "quote_mark": "<-> >",
@@ -36140,11 +36160,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54179": [
         {
             "quote_mark": "<",
-            "quote_sentence": "<In article <C5Bu9M.2K7@ulowell.ulowell.edu>"
+            "quote_sentence": "<    country, with its institutions, belongs to the people who inhabit"
         },
         {
-            "quote_mark": "<> [ ...",
-            "quote_sentence": "<> [ ... excellent exchange deleted ... ]"
+            "quote_mark": "<>",
+            "quote_sentence": "<> It seems to me the whole reason for the Second Amendment, to give"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/53355": [
@@ -37873,10 +37893,6 @@
         {
             "quote_mark": "|>",
             "quote_sentence": "|> In article <1993Apr2.170157.24251@ke4zv.uucp> gary@ke4zv.uucp (Gary Coffman) writes:"
-        },
-        {
-            "quote_mark": "<",
-            "quote_sentence": "<stuff deleted>"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/60860": [
@@ -39153,8 +39169,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61123": [
         {
-            "quote_mark": "> <",
-            "quote_sentence": "> <1993Apr21.205403.1@aurora.alaska.edu> nsmca@aurora.alaska.edu writes:"
+            "quote_mark": ">",
+            "quote_sentence": "> The alleged dichotomy between imagination and knowledge is one of the most"
         },
         {
             "quote_mark": ">>",
@@ -39279,8 +39295,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61164": [
         {
-            "quote_mark": "<<<",
-            "quote_sentence": "<<<most of message deleted>>>"
+            "quote_mark": ">",
+            "quote_sentence": "> What about light pollution in observations? (I read somewhere else that"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61107": [
@@ -42917,8 +42933,20 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/83454": [
         {
-            "quote_mark": "<",
-            "quote_sentence": "<Moral Driver distinctions deleted>"
+            "quote_mark": ">",
+            "quote_sentence": ">Without manifestation, though, how can the Driver be detected? For"
+        },
+        {
+            "quote_mark": ">>",
+            "quote_sentence": ">>In this case, the Driver does not evolve but simply Is. There would"
+        },
+        {
+            "quote_mark": ">>>",
+            "quote_sentence": ">>>What kind of work, exactly?"
+        },
+        {
+            "quote_mark": ">>>>",
+            "quote_sentence": ">>>>If my suggestion holds true then this is the area where work must be"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/84443": [
@@ -43142,6 +43170,14 @@
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/83880": [
+        {
+            "quote_mark": ">",
+            "quote_sentence": ">Paradise and salvation are not the same thing.  Salvation is better.  Refer"
+        },
+        {
+            "quote_mark": ">>",
+            "quote_sentence": ">>So Jesus must have lied to the thief on the cross."
+        },
         {
             "quote_mark": ">><",
             "quote_sentence": ">><I learned that God loves his children who have never heard of him and has a"
@@ -43399,8 +43435,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/84326": [
         {
-            "quote_mark": ">> = <",
-            "quote_sentence": ">> = <1qhn7m$a95@horus.ap.mchp.sni.de> frank@D012S658.uucp (Frank O'Dwyer)"
+            "quote_mark": ">",
+            "quote_sentence": ">Question:  Is there any effective difference between:"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/83900": [
@@ -43646,6 +43682,10 @@
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/83786": [
+        {
+            "quote_mark": ">",
+            "quote_sentence": ">So Jesus must have lied to the thief on the cross."
+        },
         {
             "quote_mark": "><",
             "quote_sentence": "><I learned that God loves his children who have never heard of him and has a"

@@ -14,11 +14,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76277": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">"
-        },
-        {
-            "quote_mark": ">[",
-            "quote_sentence": ">[Serdar Argic's bountiful, divine, all-knowing, and footnoted "
+            "quote_sentence": ">WHERE CAN I JOIN THE SERDAR ARGIC FAN CLUB?  DO I GET A T-SHIRT?"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76045": [
@@ -95,7 +91,15 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76080": [
         {
-            "quote_mark": ">>> [",
+            "quote_mark": ">",
+            "quote_sentence": ">Based on the same reasons?  You mean you were opposed to US intervention in"
+        },
+        {
+            "quote_mark": ">>",
+            "quote_sentence": ">>intervention with arguments based on Vietnam has not escaped me.  I was opposed"
+        },
+        {
+            "quote_mark": ">>>",
             "quote_sentence": ">>> [I said the fixation on Bosnia is due to it being in a European country,"
         }
     ],
@@ -267,7 +271,7 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76282": [
         {
-            "quote_mark": "[",
+            "quote_mark": "[KT]",
             "quote_sentence": "[KT] HELLO, shit face david, I see that you are still around. I dont want to "
         }
     ],
@@ -396,11 +400,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76508": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <1993Apr17.185118.10792@ee.rochester.edu>, terziogl@ee.rochester.edu (Esin Terzioglu) writes:"
-        },
-        {
-            "quote_mark": ">|>..[",
-            "quote_sentence": ">|>..[cancellum]... "
+            "quote_sentence": ">WILL NO  LONGER sit there QUIET and LET TURKS get away with their FAMOUS "
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/75983": [
@@ -1401,8 +1401,12 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76230": [
         {
-            "quote_mark": ">> [",
-            "quote_sentence": ">> [I complained about the US taking the point in Bosnia, when the Europeans"
+            "quote_mark": ">",
+            "quote_sentence": ">This implies both sides are equal.  True, it may sometimes be difficult or"
+        },
+        {
+            "quote_mark": ">>",
+            "quote_sentence": ">>These people have been butchering each other for centuries.  When one"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76208": [
@@ -1629,8 +1633,12 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76274": [
         {
-            "quote_mark": ">> [",
-            "quote_sentence": ">> [I said the fixation on Bosnia is due to it being in a European country,"
+            "quote_mark": ">",
+            "quote_sentence": ">I am a staunch Republican, BTW.  The irony of arguing against military"
+        },
+        {
+            "quote_mark": ">>",
+            "quote_sentence": ">>I recall, before we did anything for Somalia, (apparent) left-wingers saying"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76280": [
@@ -1733,12 +1741,6 @@
         {
             "quote_mark": ">>>",
             "quote_sentence": ">>>I must say I was appalled by the American Jewish Council's open letter."
-        }
-    ],
-    "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76210": [
-        {
-            "quote_mark": "[",
-            "quote_sentence": "[Serdar Argic's bountiful, divine, all-knowing, and footnoted "
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.mideast/76022": [
@@ -7861,7 +7863,7 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/alt.atheism/51121": [
         {
-            "quote_mark": "|> [",
+            "quote_mark": "|>",
             "quote_sentence": "|> [1] HOWEVER, I hate economic terrorism and political correctness"
         }
     ],
@@ -16281,12 +16283,6 @@
             "quote_sentence": ">It was Bryan Trottier, not Denis Potvin.  It was a vicious"
         }
     ],
-    "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/52594": [
-        {
-            "quote_mark": "[",
-            "quote_sentence": "[all kinds of unacceptably racist drivel deleted]"
-        }
-    ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/53680": [
         {
             "quote_mark": ">",
@@ -16409,8 +16405,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/52550": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[I wrote:]"
+            "quote_mark": ">",
+            "quote_sentence": ">It was at this point the Pens attendance was near capacity (34 out of 40 "
         },
         {
             "quote_mark": ">>",
@@ -16831,8 +16827,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/54198": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[Much text deleted]"
+            "quote_mark": ":",
+            "quote_sentence": ":   plus/minus ... it is the most misleading hockey stat available."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.sport.hockey/53712": [
@@ -17071,8 +17067,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15526": [
         {
-            "quote_mark": "> [",
-            "quote_sentence": "> [ responding to claims about Skipjack cracking engines ]"
+            "quote_mark": ">",
+            "quote_sentence": ">Thousands?  Tens of thousands?  Do some arithmetic, please...  Skipjack"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15370": [
@@ -17145,7 +17141,7 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15572": [
         {
-            "quote_mark": "[",
+            "quote_mark": "\t",
             "quote_sentence": "\t[a list of large-integer arithmetic packages elided]"
         }
     ],
@@ -17987,8 +17983,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15620": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "\t[Prof. Denning's description of SkipJack mostly omitted]"
+            "quote_mark": "\t",
+            "quote_sentence": "\tClipper Chip contains a classified 64-bit block encryption"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15412": [
@@ -18273,8 +18269,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15709": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[article deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">Just doing a quick reality check here - is this for real or did someone"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15700": [
@@ -18477,8 +18473,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15374": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[Summary elided]"
+            "quote_mark": ">",
+            "quote_sentence": ">The system as described here can't possibly work. What happens when"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15710": [
@@ -18821,14 +18817,14 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15265": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[From yesterdays S.F. Chronicle]"
+            "quote_mark": ">",
+            "quote_sentence": ">on spy agencies, satellites and other intelligence activities in fiscal"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15601": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[I wrote:]"
+            "quote_mark": ">",
+            "quote_sentence": ">will punish you for revealing what classified information you learned"
         },
         {
             "quote_mark": ">>",
@@ -19025,8 +19021,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/14987": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[Lots of stuff.]"
+            "quote_mark": ">",
+            "quote_sentence": ">Please note that as long as it is much harder to factor a RSA modulus"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15600": [
@@ -19073,8 +19069,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15613": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[A lot of this article has been deleted for space.]"
+            "quote_mark": ">",
+            "quote_sentence": ">   tooth and nail, every step of the way, it'll be a crime to use"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15277": [
@@ -19290,11 +19286,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15418": [
         {
             "quote_mark": ":",
-            "quote_sentence": ": uni@acs.bu.edu (Shaen Bernhardt) writes:"
+            "quote_sentence": ": The Second and Fourth Amendments do come to mind.  "
         },
         {
-            "quote_mark": ": [",
-            "quote_sentence": ": [deletions]"
+            "quote_mark": ": >",
+            "quote_sentence": ": > How can you reconcile the administrations self proclaimed purpose of "
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/14992": [
@@ -19561,12 +19557,6 @@
         {
             "quote_mark": ">",
             "quote_sentence": ">Here's a simple way to convert the Clipper proposal to an unexceptionable"
-        }
-    ],
-    "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15590": [
-        {
-            "quote_mark": "[",
-            "quote_sentence": "[not very comprehensive list deleted]"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.crypt/15351": [
@@ -20101,8 +20091,12 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/58059": [
         {
-            "quote_mark": ": [",
-            "quote_sentence": ": [reply to ron.roth@rose.com (ron roth)]"
+            "quote_mark": ":",
+            "quote_sentence": ": Ron, you're an endless source of misinformation!  There ARE no sacral"
+        },
+        {
+            "quote_mark": ": >",
+            "quote_sentence": ": >While you're right that the S vertebrae are attached to each other,"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/58095": [
@@ -20196,11 +20190,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/59113": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">From: dougb@comm.mot.com (Doug Bank)"
-        },
-        {
-            "quote_mark": "[",
-            "quote_sentence": "[lots of editing out of previuos posts]"
+            "quote_sentence": ">try chinese food, however, I finally tried some in order to please a"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/58831": [
@@ -20835,12 +20825,12 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/58792": [
         {
-            "quote_mark": ">  [",
-            "quote_sentence": ">  [ Somebody writes: ]"
+            "quote_mark": ">",
+            "quote_sentence": ">He also proposed numerous experiments which if performed would distinguish a"
         },
         {
             "quote_mark": ">>",
-            "quote_sentence": ">>I doubt if Einstein used any formal methodology.  ...."
+            "quote_sentence": ">>I doubt if Einstein used any formal methodology."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/59224": [
@@ -20903,8 +20893,12 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/58993": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[reply to rsilver@world.std.com (Richard Silver)]"
+            "quote_mark": ">",
+            "quote_sentence": ">There is an \"eyedness\" analogous to handedness but it has nothing to do"
+        },
+        {
+            "quote_mark": ">>",
+            "quote_sentence": ">>right-handedness in the population? I mean do most people require less"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.med/59074": [
@@ -22394,21 +22388,21 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/176889": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">julie@eddie.jpl.nasa.gov (Julie Kangas) writes:"
+            "quote_sentence": ">It's like subsidizing the wealthy countries (Japan, Germany, etc.) with"
         },
         {
             "quote_mark": ">|>",
-            "quote_sentence": ">|> In article <C50FnH.Cvo@news.udel.edu> roby@chopin.udel.edu (Scott W Roby) writes:"
+            "quote_sentence": ">|> Don't look at me.  I want to send aid to Russia.  Many other"
         },
         {
-            "quote_mark": ">|> >  [",
-            "quote_sentence": ">|> >  [With a tip of the hat to David Letterman for making the Top Ten format "
+            "quote_mark": ">|> >",
+            "quote_sentence": ">|> >Top Ten Reasons that Conservatives don't want to aid Russia:"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178587": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[ These two paragraphs are from two different posts.  In splicing them "
+            "quote_mark": ">",
+            "quote_sentence": ">As noted in another thread (Limiting govt), the problem libertarians face"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/176845": [
@@ -22453,8 +22447,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178589": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[purile babble deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">      BROMEISTER PREDICTED:"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178348": [
@@ -22804,11 +22798,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178695": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <1993Apr15.170731.8797@isc-br.isc-br.com> steveh@thor.isc-br.com (Steve Hendricks) writes:"
+            "quote_sentence": ">  together it is not my intention to change Steve's meaning or misrepresent"
         },
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[ These two paragraphs are from two different posts.  In splicing them "
+            "quote_mark": ">>",
+            "quote_sentence": ">>As noted in another thread (Limiting govt), the problem libertarians face"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178498": [
@@ -22937,8 +22931,20 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178452": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[J. Lani Herrmann:]"
+            "quote_mark": ">",
+            "quote_sentence": ">Well, your ignorance about this is unsurprising, given you're a"
+        },
+        {
+            "quote_mark": ">>",
+            "quote_sentence": ">> While I'm hardly one of Prof. Hill's biggest fans, I find *this* hard"
+        },
+        {
+            "quote_mark": ">>>",
+            "quote_sentence": ">>> the rumors that she sometimes returned papers to her students with"
+        },
+        {
+            "quote_mark": ">>>>",
+            "quote_sentence": ">>>> We are wondering why the Clinton administration is having so much"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178499": [
@@ -22998,15 +23004,27 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/176970": [
         {
             "quote_mark": ">",
-            "quote_sentence": "> In Article 164905 in talk.politics.misc,decay@cbnewsj.cb.att.com "
+            "quote_sentence": "> shoe were on the other foot.  The \"brain life/death\" paradigm is one that"
+        },
+        {
+            "quote_mark": "> >",
+            "quote_sentence": "> >For my answer to your question, I refer you to Roe v Wade and"
+        },
+        {
+            "quote_mark": "> >>",
+            "quote_sentence": "> >> whose rights are protected by the Constitution and the law) as someone with "
         },
         {
             "quote_mark": "> >>>",
             "quote_sentence": "> >>>    1) Is an unborn child a human being at ANY POINT during pregnency?"
         },
         {
-            "quote_mark": "> [",
-            "quote_sentence": "> [Ground covered in another post deleted]"
+            "quote_mark": "> >> >",
+            "quote_sentence": "> >> >Because a woman has a right to have any object which threatens her"
+        },
+        {
+            "quote_mark": "> >> >>",
+            "quote_sentence": "> >> >>            her when she is in the womb but not after she has passed"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178446": [
@@ -23361,8 +23379,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/176857": [
         {
-            "quote_mark": ">  [",
-            "quote_sentence": ">  [With a tip of the hat to David Letterman for making the Top Ten format "
+            "quote_mark": ">",
+            "quote_sentence": ">Top Ten Reasons that Conservatives don't want to aid Russia:"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178595": [
@@ -23792,11 +23810,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/176870": [
         {
             "quote_mark": "|>",
-            "quote_sentence": "|> In article <C50FnH.Cvo@news.udel.edu> roby@chopin.udel.edu (Scott W Roby) writes:"
+            "quote_sentence": "|> DISCLAIMER:  All opinions here belong to my cat and no one else"
         },
         {
-            "quote_mark": "|> >  [",
-            "quote_sentence": "|> >  [With a tip of the hat to David Letterman for making the Top Ten format "
+            "quote_mark": "|> >",
+            "quote_sentence": "|> >Top Ten Reasons that Conservatives don't want to aid Russia:"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178546": [
@@ -24258,11 +24276,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/176904": [
         {
             "quote_mark": ">",
-            "quote_sentence": "> In article <1993Apr2.055109.5833@rigel.econ.uga.edu> depken@rigel.econ.uga.edu (Craig Depken) writes:"
+            "quote_sentence": "> No, they wanted slavery.  If free trade was in their economic interests"
         },
         {
-            "quote_mark": "> [",
-            "quote_sentence": "> [to which is concluded...]"
+            "quote_mark": "> >",
+            "quote_sentence": "> >The South only wanted FREE TRADE!!! "
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.misc/178852": [
@@ -26743,8 +26761,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/104472": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "     [riveting BMWMOA election soap-opera details deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">Well, there doesn't seem to be any shortage of alternative candidates."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/104486": [
@@ -26890,11 +26908,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/103212": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <65886@mimsy.umd.edu>, leavitt@cs (Mr. Bill) writes:"
+            "quote_sentence": ">[put pistons in bores first then lower onto bottom end deleted]"
         },
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[put pistons in bores first then lower onto bottom end deleted]"
+            "quote_mark": ">>",
+            "quote_sentence": ">>Has anybody actually carried out this procedure?  I can visualize fewer"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/104407": [
@@ -27190,14 +27208,14 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/104516": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <speedy.153@engr.latech.edu> speedy@engr.latech.edu (Speedy Mercer) writes:"
+            "quote_sentence": ">I'll go 2 feet, but I draw the line at 3."
         },
         {
             "quote_mark": ">>",
-            "quote_sentence": ">>In article <2553@spam.maths.adelaide.edu.au> amydlak@spam.maths.adelaide.edu.au (Adam Mydlak) writes:"
+            "quote_sentence": ">> 5.  Helment laws vary from state to state.  In my state (Louisiana) it is"
         },
         {
-            "quote_mark": ">>>[",
+            "quote_mark": ">>>",
             "quote_sentence": ">>>[Squid deleted]"
         }
     ],
@@ -27422,10 +27440,10 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/104384": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <2553@spam.maths.adelaide.edu.au> amydlak@spam.maths.adelaide.edu.au (Adam Mydlak) writes:"
+            "quote_sentence": "> 5.  Helment laws vary from state to state.  In my state (Louisiana) it is"
         },
         {
-            "quote_mark": ">>[",
+            "quote_mark": ">>",
             "quote_sentence": ">>[Squid deleted]"
         }
     ],
@@ -28683,8 +28701,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/67069": [
         {
-            "quote_mark": "|> [",
-            "quote_sentence": "|> [ Article crossposted from hp.windows ]"
+            "quote_mark": "|>",
+            "quote_sentence": "|> For some reason the following code causes my X application to beep whenever I"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/66973": [
@@ -29027,8 +29045,8 @@
             "quote_sentence": ">dmm@head-cfa.harvard.edu (David Meleedy) writes:"
         },
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[Description of compiling problems deleted.]"
+            "quote_mark": ">>",
+            "quote_sentence": ">>   _XGetVisualInfo"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/66881": [
@@ -29127,8 +29145,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/67076": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[posted for a friend]"
+            "quote_mark": ">",
+            "quote_sentence": ">Okay, I looked through the FAQs and didn't see this, but I know its"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/66953": [
@@ -29251,8 +29269,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/67030": [
         {
-            "quote_mark": "|> [",
-            "quote_sentence": "|> [ Article crossposted from hp.windows ]"
+            "quote_mark": "|>",
+            "quote_sentence": "|> For some reason the following code causes my X application to beep whenever I"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.windows.x/67205": [
@@ -29724,11 +29742,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.graphics/38387": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In <1qlobb$p5a@tuegate.tue.nl> renew@blade.stack.urc.tue.nl (Rene Walter) writes:"
+            "quote_sentence": ">Nevertheless, it is an important bug that needs to be squashed.  I am"
         },
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[Most info regarding dangers of reading from Floppy disks omitted]"
+            "quote_mark": ">>",
+            "quote_sentence": ">>unrevcoverable way.  SO BE CAREFUL!  It is incredibly poor programming for a"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.graphics/38743": [
@@ -30451,8 +30469,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.graphics/38436": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[Most info regarding dangers of reading from Floppy disks omitted]"
+            "quote_mark": ">",
+            "quote_sentence": ">unrevcoverable way.  SO BE CAREFUL!  It is incredibly poor programming for a"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.graphics/38269": [
@@ -31097,8 +31115,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60740": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "  [stuff deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">Did I once hear that in order for the date to advance, something, like a "
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60142": [
@@ -31601,12 +31619,6 @@
             "quote_sentence": ">I read about the development of EISA-2 some time ago but dismissed it"
         }
     ],
-    "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60448": [
-        {
-            "quote_mark": "[",
-            "quote_sentence": "[much discussion about switching 5.25\" and 3.5\" drives removed]"
-        }
-    ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60195": [
         {
             "quote_mark": ">",
@@ -31649,8 +31661,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60739": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "  [stuff deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">So the lowly low-density original PC FDD card used DMA and the PC-AT"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60150": [
@@ -32155,8 +32167,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60435": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[Stuff about the connection between IDE and IDA deleated]"
+            "quote_mark": ">",
+            "quote_sentence": ">8MHz clock, 16 bit width, 5MB/sec."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60264": [
@@ -32179,8 +32191,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60461": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[stuff deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">of the NEC 5FG (or now also available the NEC 5FGe - only difference,"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60468": [
@@ -32314,11 +32326,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60615": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">   richk@grebyn.com (Richard Krehbiel) writes:"
+            "quote_sentence": ">   If IDE speed come from IDA WHERE does the 8.3MB/s sighted for IDE"
         },
         {
-            "quote_mark": ">   [",
-            "quote_sentence": ">   [Stuff about the connection between IDE and IDA deleated]"
+            "quote_mark": ">   >",
+            "quote_sentence": ">   >8MHz clock, 16 bit width, 5MB/sec."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/60249": [
@@ -32553,8 +32565,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/58997": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[STUFF DELETED]"
+            "quote_mark": ">",
+            "quote_sentence": ">-PCI (Intel) bus:"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/comp.sys.ibm.pc.hardware/58906": [
@@ -34333,8 +34345,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.electronics/53982": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[deletions]"
+            "quote_mark": ">",
+            "quote_sentence": ">It appears to use two balanced-line connections, but what each connection"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.electronics/53723": [
@@ -34585,8 +34597,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54120": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">day when I go out to lunch I always see cops coming in.  The majority that I"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54129": [
@@ -34702,15 +34714,15 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54180": [
         {
             "quote_mark": ":",
-            "quote_sentence": ":In article <0096B294.AAD9C1E0@uinpla.npl.uiuc.edu> reimer@uinpla.npl.uiuc.edu  "
+            "quote_sentence": ":Such as?  Drunk drivers get back on the road in no time, to kill again.  Seems"
         },
         {
             "quote_mark": ":>",
-            "quote_sentence": ":> In article <1qkftjINNoij@cronkite.cisco.com>, pitargue@cisco.com (Marciano  "
+            "quote_sentence": ":> There are a lot of automobile accidents, but atleast there is some"
         },
         {
-            "quote_mark": ":> [",
-            "quote_sentence": ":> [stuff deleted about causes of people in ER]"
+            "quote_mark": ":> >",
+            "quote_sentence": ":> >due to automobile accidents and automobile crimes.  maybe we should outlaw"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54510": [
@@ -34815,8 +34827,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54121": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">state cops are.  I don't know where you are originally from David but you live"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/53304": [
@@ -35160,15 +35172,19 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54437": [
         {
             "quote_mark": ">",
-            "quote_sentence": "> In article <1r1rad$7rl@transfer.stratus.com> cdt@sw.stratus.com (C. D. Tavares) writes:"
+            "quote_sentence": "> I paid my taxes.  There was no reference to sex or religion on the form."
         },
         {
             "quote_mark": "> >",
-            "quote_sentence": "> >In article <C5s0Ds.J54@news.udel.edu>, roby@chopin.udel.edu (Scott W Roby) writes:"
+            "quote_sentence": "> >Point noted.  Have you submitted YOUR faith and sex life for BATF clearance?"
         },
         {
-            "quote_mark": ">   [",
-            "quote_sentence": ">   [The original question was about who started the fire and whether the "
+            "quote_mark": "> >>",
+            "quote_sentence": "> >> According to an Australian documentary made in the year before the stand off"
+        },
+        {
+            "quote_mark": "> >> >:",
+            "quote_sentence": "> >> >:Two of the nine who escaped the compound said the fire was deliberately set"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54408": [
@@ -35672,19 +35688,23 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54505": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <C5t38G.IL@news.udel.edu>, roby@chopin.udel.edu (Scott W Roby) writes:"
+            "quote_sentence": ">Was THAT your argument.  Well, you didn't make it very well.  You started"
         },
         {
             "quote_mark": ">>",
-            "quote_sentence": ">> In article <1r1rad$7rl@transfer.stratus.com> cdt@sw.stratus.com (C. D. Tavares) writes:"
+            "quote_sentence": ">> I paid my taxes.  There was no reference to sex or religion on the form."
         },
         {
             "quote_mark": ">> >",
-            "quote_sentence": ">> >In article <C5s0Ds.J54@news.udel.edu>, roby@chopin.udel.edu (Scott W Roby) writes:"
+            "quote_sentence": ">> >Point noted.  Have you submitted YOUR faith and sex life for BATF clearance?"
         },
         {
-            "quote_mark": ">>   [",
-            "quote_sentence": ">>   [The original question was about who started the fire and whether the "
+            "quote_mark": ">> >>",
+            "quote_sentence": ">> >> According to an Australian documentary made in the year before the stand off"
+        },
+        {
+            "quote_mark": ">> >> >:",
+            "quote_sentence": ">> >> >:Two of the nine who escaped the compound said the fire was deliberately set"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/53344": [
@@ -36140,11 +36160,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54170": [
         {
             "quote_mark": ">",
-            "quote_sentence": "> In article <1qkftjINNoij@cronkite.cisco.com>, pitargue@cisco.com (Marciano  "
+            "quote_sentence": "> There are a lot of automobile accidents, but atleast there is some"
         },
         {
-            "quote_mark": "> [",
-            "quote_sentence": "> [stuff deleted about causes of people in ER]"
+            "quote_mark": "> >",
+            "quote_sentence": "> >and your factoid about shooting victims in the ER.  count how many come in"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54184": [
@@ -36298,11 +36318,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54176": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <1qkftjINNoij@cronkite.cisco.com>, pitargue@cisco.com (Marciano Pitargue) writes:"
+            "quote_sentence": ">of both the owner and gun, and manditory liability insurance be nice for"
         },
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[stuff deleted about causes of people in ER]"
+            "quote_mark": ">>",
+            "quote_sentence": ">>and your factoid about shooting victims in the ER.  count how many come in"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54344": [
@@ -36347,12 +36367,6 @@
         {
             "quote_mark": ">",
             "quote_sentence": ">What happened in Waco is not the fault of the BATF. If they would of"
-        }
-    ],
-    "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54375": [
-        {
-            "quote_mark": "[",
-            "quote_sentence": "   [flame-bait, pure and simple]"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/53362": [
@@ -36450,11 +36464,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54122": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In <93104.173826U28037@uicvm.uic.edu> Jason Kratz <U28037@uicvm.uic.edu> writes:"
+            "quote_sentence": ">Which crap, the ridiculous assertions that Uzis are mowing down cops"
         },
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[deleted]"
+            "quote_mark": ">>",
+            "quote_sentence": ">>are state cops) are armed better than the Chicago police.  It seems most"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54898": [
@@ -36485,12 +36499,12 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54608": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[and quotes a lot of stuff unnecessarily]"
+            "quote_mark": ">",
+            "quote_sentence": ">snot out of people who accidentally stray onto his land in the"
         },
         {
-            "quote_mark": ">> [",
-            "quote_sentence": ">> [worth posting again ;-]"
+            "quote_mark": ">>",
+            "quote_sentence": ">>it's about black-clad, helmeted and booted troops storming"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54402": [
@@ -36572,11 +36586,15 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54231": [
         {
             "quote_mark": "|>",
-            "quote_sentence": "|> In <93104.173826U28037@uicvm.uic.edu> Jason Kratz <U28037@uicvm.uic.edu> writes:"
+            "quote_sentence": "|> Colt .45. Does one fires faster than the other? Nope. Aside from which"
         },
         {
-            "quote_mark": "|> [",
-            "quote_sentence": "|> [deleted]"
+            "quote_mark": "|> >",
+            "quote_sentence": "|> >revolver but if you're a cop that is up against some gang member with a couple"
+        },
+        {
+            "quote_mark": "|> []",
+            "quote_sentence": "|> []armed if you want to hit what you aim at."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.politics.guns/54460": [
@@ -37521,8 +37539,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/60180": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[Excellent discussion of DC-X landing techniques by Henry deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">Since the DC-X is to take off horizontal, why not land that way??"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61031": [
@@ -37707,7 +37725,7 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61128": [
         {
-            "quote_mark": "|> [",
+            "quote_mark": "|>",
             "quote_sentence": "|> [Pluto's] atmosphere will start to freeze out around 2010, and after about"
         }
     ],
@@ -37827,8 +37845,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61129": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[A GOOD DEAL OF HEALTHY IF NOT DEEPLY THOUGHT OUT IDEALISM DELETED"
+            "quote_mark": ">",
+            "quote_sentence": ">Major question is if you decide to mine the moon or Mars, who will stop you?"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61142": [
@@ -37955,10 +37973,6 @@
         {
             "quote_mark": ">",
             "quote_sentence": ">In sci.astro, dmcaloon@tuba.calpoly.edu (David McAloon) writes:"
-        },
-        {
-            "quote_mark": ">[",
-            "quote_sentence": ">[ a nearly perfect parody  -- needed more random CAPS]"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61134": [
@@ -38109,8 +38123,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/60244": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[On the issue of 'burning' nuclear wastes using particle beams...]"
+            "quote_mark": ">",
+            "quote_sentence": ">Gee fred.  After your bitter defense of 20 KHz power as a Basic technology"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/60872": [
@@ -38191,12 +38205,6 @@
         {
             "quote_mark": "|>>",
             "quote_sentence": "|>>Paul, quite frankly I'll believe that this is really going to work on"
-        }
-    ],
-    "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61135": [
-        {
-            "quote_mark": "[",
-            "quote_sentence": "[ a nearly perfect parody  -- needed more random CAPS]"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/60810": [
@@ -38849,12 +38857,6 @@
             "quote_sentence": " >In article <1993Apr19.020359.26996@sq.sq.com>, msb@sq.sq.com (Mark Brader) "
         }
     ],
-    "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61095": [
-        {
-            "quote_mark": "[",
-            "quote_sentence": "[Lots of trippy stuff deleted]"
-        }
-    ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61061": [
         {
             "quote_mark": "#",
@@ -39377,7 +39379,11 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61162": [
         {
-            "quote_mark": ">|> [",
+            "quote_mark": ">",
+            "quote_sentence": ">Where does the shadow come from?  There's nothing close enough to block"
+        },
+        {
+            "quote_mark": ">|>",
             "quote_sentence": ">|> [Pluto's] atmosphere will start to freeze out around 2010, and after about"
         }
     ],
@@ -39390,10 +39396,10 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/61154": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <C5ros0.uy@zoo.toronto.edu>, henry@zoo.toronto.edu (Henry Spencer) writes:"
+            "quote_sentence": ">Where does the shadow come from?  There's nothing close enough to block"
         },
         {
-            "quote_mark": ">|> [",
+            "quote_mark": ">|>",
             "quote_sentence": ">|> [Pluto's] atmosphere will start to freeze out around 2010, and after about"
         }
     ],
@@ -39789,7 +39795,11 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/sci.space/60190": [
         {
-            "quote_mark": ">>[",
+            "quote_mark": ">",
+            "quote_sentence": ">In that case it's rather ironic that they are doing so poorly on the commercial"
+        },
+        {
+            "quote_mark": ">>",
             "quote_sentence": ">>[Titan III is the cheapest US launcher on a $/lb basis]"
         }
     ],
@@ -40023,7 +40033,7 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20669": [
         {
-            "quote_mark": "> [",
+            "quote_mark": ">",
             "quote_sentence": "> [In looking through my files this weekend, I ran across some lyrics from"
         }
     ],
@@ -40199,12 +40209,12 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20914": [
         {
-            "quote_mark": ">>",
-            "quote_sentence": ">>Paul Conditt writes:"
+            "quote_mark": ">",
+            "quote_sentence": ">I don't know why it is so obvious.  We are not speaking of acts of the "
         },
         {
-            "quote_mark": "[",
-            "quote_sentence": "[insert deletion of Paul's and Aaron's discourse on anger, ref Galatians"
+            "quote_mark": ">>",
+            "quote_sentence": ">>Paul Conditt writes:"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/21409": [
@@ -40239,8 +40249,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20517": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[deleted]"
+            "quote_mark": ">",
+            "quote_sentence": "> and that consumerism and our rapacious style of living"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20946": [
@@ -40453,8 +40463,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20963": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[Descriptions of true and false obedience]"
+            "quote_mark": ">",
+            "quote_sentence": ">Obedience is not solely a matter of compliance/refusal.  The nature of"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20709": [
@@ -40523,8 +40533,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20909": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[it has to do with honoring the laws of the state, and]"
+            "quote_mark": ">",
+            "quote_sentence": ">also to do with how people will perceive us; i.e. it is culturally insensitive"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20931": [
@@ -40562,11 +40572,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20752": [
         {
             "quote_mark": ">",
-            "quote_sentence": "> In article <Apr.13.00.09.02.1993.28445@athos.rutgers.edu> miner@kuhub.cc.ukans.edu writes:"
+            "quote_sentence": "> soc.religion.christian seem to not be embarrassed by apologists such as"
         },
         {
-            "quote_mark": ">>[",
-            "quote_sentence": ">>[Any former atheists converted by argument?}"
+            "quote_mark": ">>",
+            "quote_sentence": ">>when Aquinas flourished) argument was a useful tool because everyone"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20594": [
@@ -40647,8 +40657,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20505": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[much of the excellent post deleted for space -- TjL]"
+            "quote_mark": ")",
+            "quote_sentence": ")->With all the suffering and persecution that it meant to be a believer,"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20708": [
@@ -40693,8 +40703,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/21309": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[I think you're talking about the \"assumption of the Blessed Virgin"
+            "quote_mark": ">",
+            "quote_sentence": ">Mary, having completed the course of her earthly life, was assumed"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20821": [
@@ -40902,11 +40912,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20829": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">norris@athena.mit.edu  writes:"
+            "quote_sentence": ">     we assume the universe just exists as you assume God to"
         },
         {
-            "quote_mark": "> [",
-            "quote_sentence": "> [some stuff deleted]"
+            "quote_mark": ">>",
+            "quote_sentence": ">> questions that can never be reduced away by natural science.  For"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/21339": [
@@ -40964,11 +40974,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/21355": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">scott@born.phys.virginia.edu wrote:"
+            "quote_sentence": ">Matthew 1 you will notice that they trace different lines back to David."
         },
         {
-            "quote_mark": ">:[",
-            "quote_sentence": ">:[intro deleted...] "
+            "quote_mark": ">:",
+            "quote_sentence": ">: to have been. Joseph was, but Christians say that Joseph wasn't related to"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20842": [
@@ -41079,8 +41089,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20654": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[insert deletion of unnecessary quote]"
+            "quote_mark": ">",
+            "quote_sentence": ">To the earlier poster who tried to support the eternal hell theory with"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20492": [
@@ -41158,7 +41168,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/21374": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <May.5.02.50.42.1993.28665@athos.rutgers.edu> Fil.Sapienza@med.umich.edu (Fil Sapienza) writes:"
+            "quote_sentence": ">This is condescending at best and a slightly disquised ad hominem"
         },
         {
             "quote_mark": "[",
@@ -41227,8 +41237,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20608": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[a lot of stuff deleted]"
+            "quote_mark": ":",
+            "quote_sentence": ":      For that matter, stay Biblical and call it Omar Rasheet (The Feast of"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20862": [
@@ -41245,8 +41255,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20865": [
         {
-            "quote_mark": "> [",
-            "quote_sentence": "> [Several people were involved in trying to figure out who first used"
+            "quote_mark": ">",
+            "quote_sentence": "> \"There is a God shaped vacuum in all of us\" (or something to that effect) is"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20891": [
@@ -41263,8 +41273,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/21344": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[ Much deletion.  He is trying to explain the Immaculate Conception"
+            "quote_mark": ">",
+            "quote_sentence": ">    dies. Adam and Eve would not have died had they"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/21388": [
@@ -41412,11 +41422,11 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20972": [
         {
             "quote_mark": "=",
-            "quote_sentence": "= Jason Smith (jasons@atlastele.com) wrote:"
+            "quote_sentence": "= I would argue that causality is actually a property of spacetime;"
         },
         {
-            "quote_mark": "= : [",
-            "quote_sentence": "= : [ The discussion begins: why does the universe exist at all?  ]"
+            "quote_mark": "= :",
+            "quote_sentence": "= : One of the Laws of Nature, specifying cause and effect seems to dictate"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20727": [
@@ -41457,8 +41467,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20929": [
         {
-            "quote_mark": ": [",
-            "quote_sentence": ": [ The discussion begins: why does the universe exist at all?  ]"
+            "quote_mark": ":",
+            "quote_sentence": ": One of the Laws of Nature, specifying cause and effect seems to dictate"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20571": [
@@ -41561,8 +41571,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20945": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[bits deleted]"
+            "quote_mark": ">",
+            "quote_sentence": "> The same research produced the results that abstinence-related curricula"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/21404": [
@@ -41811,8 +41821,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20751": [
         {
-            "quote_mark": "> [",
-            "quote_sentence": "> [Very good and reasonable statements on \"authority\" deleted]"
+            "quote_mark": ">",
+            "quote_sentence": "> reasonable assertion in itself, but it leads to a practical difficulty."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20563": [
@@ -41839,14 +41849,14 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20882": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[Anecedotal material which ultimately shows that...]"
+            "quote_mark": ">",
+            "quote_sentence": "> the modern Jew is not known for his proselytism."
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20624": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[Any former atheists converted by argument?}"
+            "quote_mark": ">",
+            "quote_sentence": ">when Aquinas flourished) argument was a useful tool because everyone"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/21392": [
@@ -41927,8 +41937,12 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20489": [
         {
-            "quote_mark": "> [",
+            "quote_mark": ">",
             "quote_sentence": "   > [A very nice article on the DSS, which I thought answered"
+        },
+        {
+            "quote_mark": "   ",
+            "quote_sentence": "   Here are some books I have read recently that helped me not only"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20670": [
@@ -42127,20 +42141,14 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20815": [
         {
-            "quote_mark": "[",
-            "quote_sentence": "[FAQ and Darius' response deleted]"
+            "quote_mark": ">",
+            "quote_sentence": ">probably all that needs to be said.  I accept that Darius is doing"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/soc.religion.christian/20640": [
         {
             "quote_mark": ">",
             "quote_sentence": ">\tFortunately, my own personal theology, which will probably not"
-        }
-    ],
-    "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/misc.forsale/75861": [
-        {
-            "quote_mark": "[",
-            "quote_sentence": "[advertises his printing business]"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/misc.forsale/74784": [
@@ -42215,8 +42223,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/misc.forsale/75998": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[advertises his printing business]"
+            "quote_mark": ">",
+            "quote_sentence": ">I don't know whether this is an official Usenet rule or just a long-"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/misc.forsale/77056": [
@@ -42761,6 +42769,10 @@
         {
             "quote_mark": "[",
             "quote_sentence": "[ a lot of religious opinions and quotations from the Bible and from "
+        },
+        {
+            "quote_mark": ">",
+            "quote_sentence": "> Anyway, this is a big subject.  PLEASE add your comments,"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/84043": [
@@ -42955,8 +42967,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/82771": [
         {
-            "quote_mark": ">[",
-            "quote_sentence": ">[Many good points deleted. Anyone who missed it should see the original.]"
+            "quote_mark": ">",
+            "quote_sentence": ">Lists like this that just toss a bunch of quotes together to"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/83491": [
@@ -43738,15 +43750,19 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/84558": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <C5FtJt.885@sunfish.usd.edu>, rfox@charlie.usd.edu (Rich Fox, Univ of South Dakota) writes:"
+            "quote_sentence": ">Rich, I am curious as to why you and others award custody of the baby to"
         },
         {
             "quote_mark": ">|>",
-            "quote_sentence": ">|>In article <1993Apr10.213547.17644@rambo.atlanta.dg.com>, wpr@atlanta.dg.com (Bill Rawlins) writes:"
+            "quote_sentence": ">|>Nope, no fallacy.  Yep, science is best in determining how; religions handle"
         },
         {
-            "quote_mark": ">|>[",
-            "quote_sentence": ">|>[earlier dialogue deleted]"
+            "quote_mark": ">|>>",
+            "quote_sentence": ">|>>     There is a great fallacy in your statement. The question of origins is"
+        },
+        {
+            "quote_mark": ">|>>|>",
+            "quote_sentence": ">|>>|> Perhaps you should read it and stop advancing the Bible as evidence relating"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/84309": [
@@ -43775,8 +43791,8 @@
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/84157": [
         {
-            "quote_mark": "> [",
-            "quote_sentence": "> [irrelevant inserts from previous postings deleted]"
+            "quote_mark": ">",
+            "quote_sentence": "> to nature and to the supernatural. ...  legends are ususally defined as"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/83524": [
@@ -44231,12 +44247,6 @@
             "quote_sentence": ">I just recently realized that I am bisexual, and also just recently returned to"
         }
     ],
-    "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/84202": [
-        {
-            "quote_mark": "[",
-            "quote_sentence": "[lotsa stuff taken out]"
-        }
-    ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/83488": [
         {
             "quote_mark": ">",
@@ -44484,15 +44494,19 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/83507": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <C5FtJt.885@sunfish.usd.edu>, rfox@charlie.usd.edu (Rich Fox, Univ of South Dakota) writes:"
+            "quote_sentence": ">        The problem is that most scientists exclude the possibility of the"
         },
         {
             "quote_mark": ">|>",
-            "quote_sentence": ">|> In article <1993Apr10.213547.17644@rambo.atlanta.dg.com>, wpr@atlanta.dg.com (Bill Rawlins) writes:"
+            "quote_sentence": ">|> Nope, no fallacy.  Yep, science is best in determining how; religions handle"
         },
         {
-            "quote_mark": ">|> [",
-            "quote_sentence": ">|> [earlier dialogue deleted]"
+            "quote_mark": ">|> >",
+            "quote_sentence": ">|> >     There is a great fallacy in your statement. The question of origins is"
+        },
+        {
+            "quote_mark": ">|> >|>",
+            "quote_sentence": ">|> >|> Perhaps you should read it and stop advancing the Bible as evidence relating"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/talk.religion.misc/84174": [

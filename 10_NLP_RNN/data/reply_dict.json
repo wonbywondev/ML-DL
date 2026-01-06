@@ -26980,11 +26980,7 @@
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/103213": [
         {
             "quote_mark": ">",
-            "quote_sentence": ">In article <1993Apr1.173354.14424@research.nj.nec.com> behanna@phoenix.syl.nj.nec.com (Chris BeHanna) writes:"
-        },
-        {
-            "quote_mark": "",
-            "quote_sentence": ""
+            "quote_sentence": ">in the South, and part of my cultural heritage is waving at passersby.  I"
         }
     ],
     "/Users/won/dev/00_codeit/0_mission/10_NLP_RNN/data/20news-bydate-train/rec.motorcycles/104452": [

@@ -36,3 +36,6 @@
 02_EDA/.vscode/settings.json
 10_NLP_RNN/\[스프린트미션]10_텍스트_임베딩과_텍스트_분류(예시_코드).ipynb
 10_NLP_RNN_colab/
+11_DL_Attention/\[스프린트미션]11_한영_번역_Seq2Seq_Attention_Transformer.ipynb
+11_DL_Attention/data/train_set.json
+11_DL_Attention/data/valid_set.json

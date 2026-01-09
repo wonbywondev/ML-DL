@@ -40,3 +40,5 @@
 11_DL_Attention/data/train_set.json
 11_DL_Attention/data/valid_set.json
 11_DL_Attention/data/raw/
+11_DL_Attention/data/raw.tar.gz
+11_DL_Attention/data/raw.tar.zst

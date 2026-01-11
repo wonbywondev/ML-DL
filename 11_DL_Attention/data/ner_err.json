@@ -1,82 +1,117 @@
 {
     "126016": {
-        "text": "<ORG>\uad6c\uae00</ORG> \uc5b4\uc2dc\uc2a4\ud134\ud2b8 \uc544\ub9c8\uc874 \uc54c\ub809\uc0ac\ub97c \ud1b5\ud574 \uc81c\uc5b4\ud560 \uc218 \uc788\ub2e4.",
-        "tags": {
-            "tag": "PRODUCT",
-            "value": "\uad6c\uae00 \uc5b4\uc2dc\uc2a4\ud134\ud2b8",
-            "position": "[0, 8]"
-        }
+        "text": "<ORG>구글</ORG> 어시스턴트 아마존 알렉사를 통해 제어할 수 있다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "아마존 알렉사",
+                "position": "[9, 16]"
+            },
+            {
+                "tag": "ORG",
+                "value": "아마존",
+                "position": "[9, 12]"
+            },
+            {
+                "tag": "PRODUCT",
+                "value": "구글 어시스턴트",
+                "position": "[0, 8]"
+            }
+        ]
     },
     "435082": {
-        "text": "3~8\uc138 \uc5b4\ub9b0\uc774\uc6a9\uc774 \uc18c\uc7a5\uc6a9 \ud53c\uaddc\uc5b4\ub85c \uc544\uc774\ub4e4\uc740 BBB\u00b7\ud53d\uc0ac \ud1a0\uc774\uc2a4\ud1a0\ub9ac \uc601\ud654\uc5d0\uc11c \uc88b\uc544\ud558\ub294 \uc21c\uac04\uc744 \uc7ac\ud604\ud558\uace0 \uc790\uc2e0\ub9cc\uc758 \uc0c8\ub85c\uc6b4 \uc21c\uac04\uc744 \ub9cc\ub4e4 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
-        "tags": {
-            "tag": "WORK_OF_ART",
-            "value": "BBB",
-            "position": "[26, 29]"
-        }
+        "text": "3~8세 어린이용이 소장용 피규어로 아이들은 BBB·픽사 토이스토리 영화에서 좋아하는 순간을 재현하고 자신만의 새로운 순간을 만들 수 있습니다.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "픽사 토이스토리",
+                "position": "[30, 38]"
+            },
+            {
+                "tag": "WORK_OF_ART",
+                "value": "BBB",
+                "position": "[26, 29]"
+            }
+        ]
     },
     "474648": {
-        "text": "><PERSON>\ubc31\uc885\uc6d0</PERSON>\uc758 \uace8\ubaa9\uc2dd\ub2f9 \ucda9\uccad\ub0a8\ub3c4 \uc11c\uc0b0\uc5d0 \uc788\ub294 \ud574\ubbf8\uc74d\uc131\uc774\ub77c\ub294 \uacf3\uc785\ub2c8\ub2e4.",
-        "tags": {
-            "tag": "WORK_OF_ART",
-            "value": "\ubc31\uc885\uc6d0\uc758 \uace8\ubaa9\uc2dd\ub2f9",
-            "position": "[1, 10]"
-        }
+        "text": "><PERSON>백종원</PERSON>의 골목식당 충청남도 서산에 있는 해미읍성이라는 곳입니다.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "백종원의 골목식당",
+                "position": "[1, 10]"
+            }
+        ]
     },
     "520783": {
-        "text": "\uc606\uc5d0 \uacc4\uc2e0 \ubd84\uc740 \uc81c \uc0c1\uc0ac\uc774\uc2e0 \ubc15 \uc774\uc0ac\ub2d8\uc774\uc2ed\ub2c8\ub2e4",
-        "tags": {
-            "tag": "PERSON",
-            "value": "\ubc15",
-            "position": "[17, 18]"
-        }
+        "text": "옆에 계신 분은 제 상사이신 박 이사님이십니다",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "박",
+                "position": "[17, 18]"
+            }
+        ]
     },
     "650740": {
-        "text": "\uc606\uc5d0 \uacc4\uc2e0 \ubd84\uc740 \uc81c \uc0c1\uc0ac\uc774\uc2e0 \ubc15\uc774\uc0ac\ub2d8 \uc774\uc2ed\ub2c8\ub2e4",
-        "tags": {
-            "tag": "PERSON",
-            "value": "\ubc15",
-            "position": "[17, 18]"
-        }
+        "text": "옆에 계신 분은 제 상사이신 박이사님 이십니다",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "박",
+                "position": "[17, 18]"
+            }
+        ]
     },
     "660264": {
-        "text": "3\uac1c\uc758 120mm ML \uc2dc\ub9ac\uc988 \uc790\uae30 \ubd80\uc0c1 <PRODUCT>PWM \ud32c</PRODUCT>\uc740 \ucd5c\uace0\uc758 CPU \ub0c9\uac01 \uc131\ub2a5\uc744 \uc704\ud574 \ud5a5\uc0c1\ub41c \uacf5\uae30 \ud750\ub984\uc744 \uc81c\uacf5\ud569\ub2c8\ub2e4.",
-        "tags": {
-            "tag": "PRODUCT",
-            "value": "",
-            "position": "[26, 27]"
-        }
+        "text": "3개의 120mm ML 시리즈 자기 부상 <PRODUCT>PWM 팬</PRODUCT>은 최고의 CPU 냉각 성능을 위해 향상된 공기 흐름을 제공합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "",
+                "position": "[26, 27]"
+            }
+        ]
     },
     "711506": {
-        "text": "\ubaa8\ub4e0 \uace0\uac1d\uc5d0\uac8c \uace0\ud488\uc9c8\uc744 \uc81c\uacf5\ud558\uae30 \uc704\ud574 \ubaa8\ub4e0 \ub2e8\uacc4\uc5d0\uc11c \ud488\uc9c8\uc744 \ud655\uc778\ud558\uace0 \uc81c\uc5b4\ud558\ub294 QC \ud300\uc774 \uc788\uc2b5\ub2c8\ub2e4.",
-        "tags": {
-            "tag": "ORG",
-            "value": "QC",
-            "position": "[45, 47]"
-        }
+        "text": "모든 고객에게 고품질을 제공하기 위해 모든 단계에서 품질을 확인하고 제어하는 QC 팀이 있습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "QC",
+                "position": "[45, 47]"
+            }
+        ]
     },
     "829998": {
-        "text": "><WORK_OF_ART>\ubc31\uc885\uc6d0\uc758 \uace8\ubaa9\uc2dd\ub2f9</WORK_OF_ART> \uc218\uc6d0 \uc815\uc790\ub3d9 \uace8\ubaa9\uc0c1\uad8c \uc0b4\ub9ac\uace0 \uc788\uc2b5\ub2c8\ub2e4.",
-        "tags": {
-            "tag": "PERSON",
-            "value": "\ubc31\uc885\uc6d0",
-            "position": "[1, 4]"
-        }
+        "text": "><WORK_OF_ART>백종원의 골목식당</WORK_OF_ART> 수원 정자동 골목상권 살리고 있습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "백종원",
+                "position": "[1, 4]"
+            }
+        ]
     },
     "965420": {
-        "text": "\uc606\uc5d0 \uacc4\uc2e0 \ubd84\uc740 \uc81c \uc0c1\uc0ac\uc774\uc2e0 \ubc15 \uc774\uc0ac\ub2d8\uc774\uc2ed\ub2c8\ub2e4.",
-        "tags": {
-            "tag": "PERSON",
-            "value": "\ubc15",
-            "position": "[17, 18]"
-        }
+        "text": "옆에 계신 분은 제 상사이신 박 이사님이십니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "박",
+                "position": "[17, 18]"
+            }
+        ]
     },
     "1055667": {
-        "text": "\ubaa8\ub4e0 <ORG>\ube0c\ub9ac\ud0c0</ORG> \ud544\ud130\ub9c1 \ubb3c\ubcd1\uacfc \ud638\ud658 \uac00\ub2a5\ud569\ub2c8\ub2e4.",
-        "tags": {
-            "tag": "PRODUCT",
-            "value": "\ube0c\ub9ac\ud0c0 \ud544\ud130\ub9c1 \ubb3c\ubcd1",
-            "position": "[3, 13]"
-        }
+        "text": "모든 <ORG>브리타</ORG> 필터링 물병과 호환 가능합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "브리타 필터링 물병",
+                "position": "[3, 13]"
+            }
+        ]
     }
 }

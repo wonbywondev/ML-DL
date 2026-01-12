@@ -5,7 +5,10 @@
             {
                 "tag": "PERSON",
                 "value": "리",
-                "position": "[21, 23]"
+                "position": [
+                    21,
+                    23
+                ]
             }
         ]
     },
@@ -15,7 +18,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "아스트로스코프 피규어",
-                "position": "[78, 90]"
+                "position": [
+                    78,
+                    90
+                ]
             }
         ]
     },
@@ -25,7 +31,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "커피 탬퍼",
-                "position": "[2, 8]"
+                "position": [
+                    2,
+                    8
+                ]
             }
         ]
     },
@@ -35,7 +44,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF",
-                "position": "[24, 28]"
+                "position": [
+                    24,
+                    28
+                ]
             }
         ]
     },
@@ -45,7 +57,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF1",
-                "position": "[43, 48]"
+                "position": [
+                    43,
+                    48
+                ]
             }
         ]
     },
@@ -55,7 +70,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "조이콘 컨트롤러",
-                "position": "[2, 11]"
+                "position": [
+                    2,
+                    11
+                ]
             }
         ]
     },
@@ -65,7 +83,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "PS4",
-                "position": "[22, 26]"
+                "position": [
+                    22,
+                    26
+                ]
             }
         ]
     },
@@ -75,7 +96,10 @@
             {
                 "tag": "PERSON",
                 "value": "은혁이",
-                "position": "[2, 6]"
+                "position": [
+                    2,
+                    6
+                ]
             }
         ]
     },
@@ -85,7 +109,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB",
-                "position": "[10, 14]"
+                "position": [
+                    10,
+                    14
+                ]
             }
         ]
     },
@@ -95,7 +122,10 @@
             {
                 "tag": "PERSON",
                 "value": "Jupiter",
-                "position": "[4, 12]"
+                "position": [
+                    4,
+                    12
+                ]
             }
         ]
     },
@@ -105,7 +135,10 @@
             {
                 "tag": "ORG",
                 "value": "CE",
-                "position": "[14, 17]"
+                "position": [
+                    14,
+                    17
+                ]
             }
         ]
     },
@@ -115,7 +148,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA",
-                "position": "[33, 37]"
+                "position": [
+                    33,
+                    37
+                ]
             }
         ]
     },
@@ -125,7 +161,10 @@
             {
                 "tag": "ORG",
                 "value": "V 디자인",
-                "position": "[2, 8]"
+                "position": [
+                    2,
+                    8
+                ]
             }
         ]
     },
@@ -135,7 +174,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "단일 전면 지원 자동차용 나이트 비전 주차 모드 G-센서 루프 녹음 지원",
-                "position": "[30, 71]"
+                "position": [
+                    30,
+                    71
+                ]
             }
         ]
     },
@@ -145,7 +187,10 @@
             {
                 "tag": "PERSON",
                 "value": "민석이",
-                "position": "[20, 24]"
+                "position": [
+                    20,
+                    24
+                ]
             }
         ]
     },
@@ -155,7 +200,10 @@
             {
                 "tag": "ORG",
                 "value": "Sunshine 슈퍼마켓",
-                "position": "[2, 16]"
+                "position": [
+                    2,
+                    16
+                ]
             }
         ]
     },
@@ -165,7 +213,10 @@
             {
                 "tag": "PERSON",
                 "value": "데이나 화이트",
-                "position": "[36, 44]"
+                "position": [
+                    36,
+                    44
+                ]
             }
         ]
     },
@@ -175,7 +226,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB사",
-                "position": "[16, 21]"
+                "position": [
+                    16,
+                    21
+                ]
             }
         ]
     },
@@ -185,7 +239,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB",
-                "position": "[9, 14]"
+                "position": [
+                    9,
+                    14
+                ]
             }
         ]
     },
@@ -195,7 +252,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "텔룰라이O",
-                "position": "[8, 15]"
+                "position": [
+                    8,
+                    15
+                ]
             }
         ]
     },
@@ -205,7 +265,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "황남빵",
-                "position": "[7, 11]"
+                "position": [
+                    7,
+                    11
+                ]
             }
         ]
     },
@@ -215,7 +278,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "디즈니 베이비 미니 마우스 헤어 브러시",
-                "position": "[8, 30]"
+                "position": [
+                    8,
+                    30
+                ]
             }
         ]
     },
@@ -225,7 +291,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB2",
-                "position": "[11, 16]"
+                "position": [
+                    11,
+                    16
+                ]
             }
         ]
     },
@@ -235,7 +304,10 @@
             {
                 "tag": "PERSON",
                 "value": "재훈이",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             }
         ]
     },
@@ -245,7 +317,10 @@
             {
                 "tag": "PERSON",
                 "value": "한승",
-                "position": "[3, 6]"
+                "position": [
+                    3,
+                    6
+                ]
             }
         ]
     },
@@ -255,7 +330,10 @@
             {
                 "tag": "ORG",
                 "value": "A",
-                "position": "[26, 28]"
+                "position": [
+                    26,
+                    28
+                ]
             }
         ]
     },
@@ -265,7 +343,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "Android",
-                "position": "[4, 12]"
+                "position": [
+                    4,
+                    12
+                ]
             }
         ]
     },
@@ -275,12 +356,18 @@
             {
                 "tag": "PRODUCT",
                 "value": "Mechanics",
-                "position": "[22, 32]"
+                "position": [
+                    22,
+                    32
+                ]
             },
             {
                 "tag": "PRODUCT",
                 "value": "Mechanics",
-                "position": "[2, 12]"
+                "position": [
+                    2,
+                    12
+                ]
             }
         ]
     },
@@ -290,7 +377,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "스무드 쉐이브 젤",
-                "position": "[6, 16]"
+                "position": [
+                    6,
+                    16
+                ]
             }
         ]
     },
@@ -300,7 +390,10 @@
             {
                 "tag": "ORG",
                 "value": "bbb 과학제품",
-                "position": "[2, 11]"
+                "position": [
+                    2,
+                    11
+                ]
             }
         ]
     },
@@ -310,7 +403,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "시네마 카메라 Varicam",
-                "position": "[34, 50]"
+                "position": [
+                    34,
+                    50
+                ]
             }
         ]
     },
@@ -320,7 +416,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "Xbox One",
-                "position": "[16, 25]"
+                "position": [
+                    16,
+                    25
+                ]
             }
         ]
     },
@@ -330,7 +429,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "BBB1",
-                "position": "[11, 16]"
+                "position": [
+                    11,
+                    16
+                ]
             }
         ]
     },
@@ -340,7 +442,10 @@
             {
                 "tag": "PERSON",
                 "value": "트럼프",
-                "position": "[4, 8]"
+                "position": [
+                    4,
+                    8
+                ]
             }
         ]
     },
@@ -350,7 +455,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "엑셀",
-                "position": "[29, 32]"
+                "position": [
+                    29,
+                    32
+                ]
             }
         ]
     },
@@ -360,7 +468,10 @@
             {
                 "tag": "PERSON",
                 "value": "AA3",
-                "position": "[10, 14]"
+                "position": [
+                    10,
+                    14
+                ]
             }
         ]
     },
@@ -370,7 +481,10 @@
             {
                 "tag": "PERSON",
                 "value": "손예진",
-                "position": "[8, 12]"
+                "position": [
+                    8,
+                    12
+                ]
             }
         ]
     },
@@ -380,7 +494,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "마틴게일 루프",
-                "position": "[5, 13]"
+                "position": [
+                    5,
+                    13
+                ]
             }
         ]
     },
@@ -390,7 +507,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "참치피자",
-                "position": "[12, 17]"
+                "position": [
+                    12,
+                    17
+                ]
             }
         ]
     },
@@ -400,7 +520,10 @@
             {
                 "tag": "ORG",
                 "value": "",
-                "position": "[7, 8]"
+                "position": [
+                    7,
+                    8
+                ]
             }
         ]
     },
@@ -410,7 +533,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "제노봇",
-                "position": "[39, 43]"
+                "position": [
+                    39,
+                    43
+                ]
             }
         ]
     },
@@ -420,7 +546,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "Alexa",
-                "position": "[5, 11]"
+                "position": [
+                    5,
+                    11
+                ]
             }
         ]
     },
@@ -430,7 +559,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "씨홀리",
-                "position": "[6, 10]"
+                "position": [
+                    6,
+                    10
+                ]
             }
         ]
     },
@@ -440,7 +572,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "미네랄 다이얼 윈도우",
-                "position": "[12, 24]"
+                "position": [
+                    12,
+                    24
+                ]
             }
         ]
     },
@@ -450,7 +585,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB 인터내셔널 TV",
-                "position": "[2, 15]"
+                "position": [
+                    2,
+                    15
+                ]
             }
         ]
     },
@@ -460,17 +598,26 @@
             {
                 "tag": "PRODUCT",
                 "value": "아마존 알렉사",
-                "position": "[9, 16]"
+                "position": [
+                    9,
+                    16
+                ]
             },
             {
                 "tag": "ORG",
                 "value": "아마존",
-                "position": "[9, 12]"
+                "position": [
+                    9,
+                    12
+                ]
             },
             {
                 "tag": "PRODUCT",
                 "value": "구글 어시스턴트",
-                "position": "[0, 8]"
+                "position": [
+                    0,
+                    8
+                ]
             }
         ]
     },
@@ -480,7 +627,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF1",
-                "position": "[6, 12]"
+                "position": [
+                    6,
+                    12
+                ]
             }
         ]
     },
@@ -490,7 +640,10 @@
             {
                 "tag": "ORG",
                 "value": "G32",
-                "position": "[9, 13]"
+                "position": [
+                    9,
+                    13
+                ]
             }
         ]
     },
@@ -500,7 +653,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF2",
-                "position": "[45, 50]"
+                "position": [
+                    45,
+                    50
+                ]
             }
         ]
     },
@@ -510,7 +666,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "nasties",
-                "position": "[3, 11]"
+                "position": [
+                    3,
+                    11
+                ]
             }
         ]
     },
@@ -520,7 +679,10 @@
             {
                 "tag": "PERSON",
                 "value": "허준",
-                "position": "[14, 17]"
+                "position": [
+                    14,
+                    17
+                ]
             }
         ]
     },
@@ -530,7 +692,10 @@
             {
                 "tag": "PERSON",
                 "value": "소민",
-                "position": "[4, 7]"
+                "position": [
+                    4,
+                    7
+                ]
             }
         ]
     },
@@ -540,7 +705,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "패떴",
-                "position": "[10, 13]"
+                "position": [
+                    10,
+                    13
+                ]
             }
         ]
     },
@@ -550,7 +718,10 @@
             {
                 "tag": "ORG",
                 "value": "CE",
-                "position": "[24, 27]"
+                "position": [
+                    24,
+                    27
+                ]
             }
         ]
     },
@@ -560,7 +731,10 @@
             {
                 "tag": "PERSON",
                 "value": "000",
-                "position": "[10, 14]"
+                "position": [
+                    10,
+                    14
+                ]
             }
         ]
     },
@@ -570,7 +744,10 @@
             {
                 "tag": "PERSON",
                 "value": "Mr.아",
-                "position": "[12, 17]"
+                "position": [
+                    12,
+                    17
+                ]
             }
         ]
     },
@@ -580,7 +757,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "M1",
-                "position": "[0, 3]"
+                "position": [
+                    0,
+                    3
+                ]
             }
         ]
     },
@@ -590,7 +770,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "EVA 미드솔",
-                "position": "[9, 17]"
+                "position": [
+                    9,
+                    17
+                ]
             }
         ]
     },
@@ -600,7 +783,10 @@
             {
                 "tag": "ORG",
                 "value": "구글",
-                "position": "[14, 17]"
+                "position": [
+                    14,
+                    17
+                ]
             }
         ]
     },
@@ -610,7 +796,10 @@
             {
                 "tag": "ORG",
                 "value": "아스트로",
-                "position": "[0, 5]"
+                "position": [
+                    0,
+                    5
+                ]
             }
         ]
     },
@@ -620,7 +809,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "워킹 슈즈 트렐리스",
-                "position": "[18, 29]"
+                "position": [
+                    18,
+                    29
+                ]
             }
         ]
     },
@@ -630,7 +822,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF",
-                "position": "[34, 38]"
+                "position": [
+                    34,
+                    38
+                ]
             }
         ]
     },
@@ -640,7 +835,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA",
-                "position": "[10, 14]"
+                "position": [
+                    10,
+                    14
+                ]
             }
         ]
     },
@@ -650,12 +848,18 @@
             {
                 "tag": "PRODUCT",
                 "value": "RE Signature",
-                "position": "[52, 65]"
+                "position": [
+                    52,
+                    65
+                ]
             },
             {
                 "tag": "PRODUCT",
                 "value": "2.0 LPe",
-                "position": "[6, 14]"
+                "position": [
+                    6,
+                    14
+                ]
             }
         ]
     },
@@ -665,12 +869,18 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "런닝맨",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             },
             {
                 "tag": "PERSON",
                 "value": "이광수",
-                "position": "[7, 11]"
+                "position": [
+                    7,
+                    11
+                ]
             }
         ]
     },
@@ -680,7 +890,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "DAS10",
-                "position": "[15, 21]"
+                "position": [
+                    15,
+                    21
+                ]
             }
         ]
     },
@@ -690,7 +903,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "M27",
-                "position": "[11, 15]"
+                "position": [
+                    11,
+                    15
+                ]
             }
         ]
     },
@@ -700,7 +916,10 @@
             {
                 "tag": "PERSON",
                 "value": "재훈",
-                "position": "[11, 14]"
+                "position": [
+                    11,
+                    14
+                ]
             }
         ]
     },
@@ -710,7 +929,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "Analogue",
-                "position": "[24, 33]"
+                "position": [
+                    24,
+                    33
+                ]
             }
         ]
     },
@@ -720,7 +942,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "피O",
-                "position": "[5, 8]"
+                "position": [
+                    5,
+                    8
+                ]
             }
         ]
     },
@@ -730,7 +955,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "CN220",
-                "position": "[25, 31]"
+                "position": [
+                    25,
+                    31
+                ]
             }
         ]
     },
@@ -740,7 +968,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA",
-                "position": "[7, 11]"
+                "position": [
+                    7,
+                    11
+                ]
             }
         ]
     },
@@ -750,7 +981,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB",
-                "position": "[10, 14]"
+                "position": [
+                    10,
+                    14
+                ]
             }
         ]
     },
@@ -760,7 +994,10 @@
             {
                 "tag": "ORG",
                 "value": "KBS 월드 라디오",
-                "position": "[2, 13]"
+                "position": [
+                    2,
+                    13
+                ]
             }
         ]
     },
@@ -770,7 +1007,10 @@
             {
                 "tag": "ORG",
                 "value": "ISO",
-                "position": "[19, 23]"
+                "position": [
+                    19,
+                    23
+                ]
             }
         ]
     },
@@ -780,7 +1020,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "PS4",
-                "position": "[16, 20]"
+                "position": [
+                    16,
+                    20
+                ]
             }
         ]
     },
@@ -790,12 +1033,18 @@
             {
                 "tag": "PERSON",
                 "value": "돈스파이크",
-                "position": "[7, 13]"
+                "position": [
+                    7,
+                    13
+                ]
             },
             {
                 "tag": "ORG",
                 "value": "BBB",
-                "position": "[18, 22]"
+                "position": [
+                    18,
+                    22
+                ]
             }
         ]
     },
@@ -805,7 +1054,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF",
-                "position": "[41, 45]"
+                "position": [
+                    41,
+                    45
+                ]
             }
         ]
     },
@@ -815,7 +1067,10 @@
             {
                 "tag": "ORG",
                 "value": "Shushi Shogun",
-                "position": "[16, 30]"
+                "position": [
+                    16,
+                    30
+                ]
             }
         ]
     },
@@ -825,7 +1080,10 @@
             {
                 "tag": "PERSON",
                 "value": "X",
-                "position": "[19, 21]"
+                "position": [
+                    19,
+                    21
+                ]
             }
         ]
     },
@@ -835,7 +1093,10 @@
             {
                 "tag": "PERSON",
                 "value": "카림",
-                "position": "[19, 22]"
+                "position": [
+                    19,
+                    22
+                ]
             }
         ]
     },
@@ -845,7 +1106,10 @@
             {
                 "tag": "PERSON",
                 "value": "도권",
-                "position": "[7, 10]"
+                "position": [
+                    7,
+                    10
+                ]
             }
         ]
     },
@@ -855,7 +1119,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA1",
-                "position": "[3, 8]"
+                "position": [
+                    3,
+                    8
+                ]
             }
         ]
     },
@@ -865,7 +1132,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "BPA 무료 병",
-                "position": "[5, 14]"
+                "position": [
+                    5,
+                    14
+                ]
             }
         ]
     },
@@ -875,7 +1145,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "컬러 플러스 컨디셔너",
-                "position": "[4, 16]"
+                "position": [
+                    4,
+                    16
+                ]
             }
         ]
     },
@@ -885,7 +1158,10 @@
             {
                 "tag": "PERSON",
                 "value": "예진",
-                "position": "[10, 13]"
+                "position": [
+                    10,
+                    13
+                ]
             }
         ]
     },
@@ -895,7 +1171,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "회상",
-                "position": "[16, 19]"
+                "position": [
+                    16,
+                    19
+                ]
             }
         ]
     },
@@ -905,7 +1184,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "Microsoft",
-                "position": "[0, 10]"
+                "position": [
+                    0,
+                    10
+                ]
             }
         ]
     },
@@ -915,7 +1197,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "썬더볼트 3",
-                "position": "[22, 29]"
+                "position": [
+                    22,
+                    29
+                ]
             }
         ]
     },
@@ -925,7 +1210,10 @@
             {
                 "tag": "ORG",
                 "value": "ISO9000:2008",
-                "position": "[3, 17]"
+                "position": [
+                    3,
+                    17
+                ]
             }
         ]
     },
@@ -935,7 +1223,10 @@
             {
                 "tag": "PERSON",
                 "value": "이정현",
-                "position": "[32, 36]"
+                "position": [
+                    32,
+                    36
+                ]
             }
         ]
     },
@@ -945,7 +1236,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "유OO",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             }
         ]
     },
@@ -955,7 +1249,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB1 무역",
-                "position": "[2, 10]"
+                "position": [
+                    2,
+                    10
+                ]
             }
         ]
     },
@@ -965,7 +1262,10 @@
             {
                 "tag": "ORG",
                 "value": "Hanafuda",
-                "position": "[0, 9]"
+                "position": [
+                    0,
+                    9
+                ]
             }
         ]
     },
@@ -975,7 +1275,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF",
-                "position": "[9, 14]"
+                "position": [
+                    9,
+                    14
+                ]
             }
         ]
     },
@@ -985,7 +1288,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF2",
-                "position": "[23, 28]"
+                "position": [
+                    23,
+                    28
+                ]
             }
         ]
     },
@@ -995,7 +1301,10 @@
             {
                 "tag": "PERSON",
                 "value": "김경호",
-                "position": "[6, 10]"
+                "position": [
+                    6,
+                    10
+                ]
             }
         ]
     },
@@ -1005,7 +1314,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB메디슨",
-                "position": "[33, 40]"
+                "position": [
+                    33,
+                    40
+                ]
             }
         ]
     },
@@ -1015,7 +1327,10 @@
             {
                 "tag": "ORG",
                 "value": "www.인터네셔널컴퍼니.com",
-                "position": "[18, 35]"
+                "position": [
+                    18,
+                    35
+                ]
             }
         ]
     },
@@ -1025,7 +1340,10 @@
             {
                 "tag": "ORG",
                 "value": "BOEING",
-                "position": "[5, 12]"
+                "position": [
+                    5,
+                    12
+                ]
             }
         ]
     },
@@ -1035,7 +1353,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "아티팩트 화장지",
-                "position": "[3, 12]"
+                "position": [
+                    3,
+                    12
+                ]
             }
         ]
     },
@@ -1045,7 +1366,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "버거 프레스 주철",
-                "position": "[2, 12]"
+                "position": [
+                    2,
+                    12
+                ]
             }
         ]
     },
@@ -1055,7 +1379,10 @@
             {
                 "tag": "PERSON",
                 "value": "박",
-                "position": "[3, 5]"
+                "position": [
+                    3,
+                    5
+                ]
             }
         ]
     },
@@ -1065,7 +1392,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "프린스 에드워드 섬",
-                "position": "[26, 37]"
+                "position": [
+                    26,
+                    37
+                ]
             }
         ]
     },
@@ -1075,7 +1405,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF5",
-                "position": "[23, 28]"
+                "position": [
+                    23,
+                    28
+                ]
             }
         ]
     },
@@ -1085,7 +1418,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "김미 김미",
-                "position": "[10, 16]"
+                "position": [
+                    10,
+                    16
+                ]
             }
         ]
     },
@@ -1095,7 +1431,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB1 Research Labs",
-                "position": "[2, 21]"
+                "position": [
+                    2,
+                    21
+                ]
             }
         ]
     },
@@ -1105,7 +1444,10 @@
             {
                 "tag": "PERSON",
                 "value": "하하",
-                "position": "[7, 10]"
+                "position": [
+                    7,
+                    10
+                ]
             }
         ]
     },
@@ -1115,7 +1457,10 @@
             {
                 "tag": "PERSON",
                 "value": "양세찬",
-                "position": "[4, 8]"
+                "position": [
+                    4,
+                    8
+                ]
             }
         ]
     },
@@ -1125,7 +1470,10 @@
             {
                 "tag": "PERSON",
                 "value": "이승기",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             }
         ]
     },
@@ -1135,7 +1483,10 @@
             {
                 "tag": "PERSON",
                 "value": "S.E.S",
-                "position": "[1, 7]"
+                "position": [
+                    1,
+                    7
+                ]
             }
         ]
     },
@@ -1145,7 +1496,10 @@
             {
                 "tag": "ORG",
                 "value": "PetSafe",
-                "position": "[11, 19]"
+                "position": [
+                    11,
+                    19
+                ]
             }
         ]
     },
@@ -1155,7 +1509,10 @@
             {
                 "tag": "ORG",
                 "value": "BBb2",
-                "position": "[7, 12]"
+                "position": [
+                    7,
+                    12
+                ]
             }
         ]
     },
@@ -1165,12 +1522,18 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "픽사 토이스토리",
-                "position": "[30, 38]"
+                "position": [
+                    30,
+                    38
+                ]
             },
             {
                 "tag": "WORK_OF_ART",
                 "value": "BBB",
-                "position": "[26, 29]"
+                "position": [
+                    26,
+                    29
+                ]
             }
         ]
     },
@@ -1180,7 +1543,10 @@
             {
                 "tag": "PERSON",
                 "value": "송강호",
-                "position": "[8, 12]"
+                "position": [
+                    8,
+                    12
+                ]
             }
         ]
     },
@@ -1190,7 +1556,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA1",
-                "position": "[32, 37]"
+                "position": [
+                    32,
+                    37
+                ]
             }
         ]
     },
@@ -1200,7 +1569,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "마이 패스포트 울트라 Mac용 휴대용 드라이브",
-                "position": "[9, 35]"
+                "position": [
+                    9,
+                    35
+                ]
             }
         ]
     },
@@ -1210,7 +1582,10 @@
             {
                 "tag": "PERSON",
                 "value": "동현이",
-                "position": "[4, 8]"
+                "position": [
+                    4,
+                    8
+                ]
             }
         ]
     },
@@ -1220,7 +1595,10 @@
             {
                 "tag": "PERSON",
                 "value": "안정환",
-                "position": "[32, 36]"
+                "position": [
+                    32,
+                    36
+                ]
             }
         ]
     },
@@ -1230,7 +1608,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB",
-                "position": "[2, 7]"
+                "position": [
+                    2,
+                    7
+                ]
             }
         ]
     },
@@ -1240,7 +1621,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "캣카 자동차",
-                "position": "[14, 21]"
+                "position": [
+                    14,
+                    21
+                ]
             }
         ]
     },
@@ -1250,7 +1634,10 @@
             {
                 "tag": "PERSON",
                 "value": "소민이",
-                "position": "[10, 14]"
+                "position": [
+                    10,
+                    14
+                ]
             }
         ]
     },
@@ -1260,12 +1647,18 @@
             {
                 "tag": "PERSON",
                 "value": "B",
-                "position": "[12, 14]"
+                "position": [
+                    12,
+                    14
+                ]
             },
             {
                 "tag": "ORG",
                 "value": "BBB1",
-                "position": "[6, 11]"
+                "position": [
+                    6,
+                    11
+                ]
             }
         ]
     },
@@ -1275,7 +1668,10 @@
             {
                 "tag": "ORG",
                 "value": "어나더리즈",
-                "position": "[0, 6]"
+                "position": [
+                    0,
+                    6
+                ]
             }
         ]
     },
@@ -1285,7 +1681,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "월간 윤종신",
-                "position": "[4, 11]"
+                "position": [
+                    4,
+                    11
+                ]
             }
         ]
     },
@@ -1295,7 +1694,10 @@
             {
                 "tag": "ORG",
                 "value": "Korean Food",
-                "position": "[13, 25]"
+                "position": [
+                    13,
+                    25
+                ]
             }
         ]
     },
@@ -1305,7 +1707,10 @@
             {
                 "tag": "PERSON",
                 "value": "조지 스티븐슨",
-                "position": "[35, 43]"
+                "position": [
+                    35,
+                    43
+                ]
             }
         ]
     },
@@ -1315,7 +1720,10 @@
             {
                 "tag": "PERSON",
                 "value": "장훈이",
-                "position": "[8, 12]"
+                "position": [
+                    8,
+                    12
+                ]
             }
         ]
     },
@@ -1325,7 +1733,10 @@
             {
                 "tag": "PERSON",
                 "value": "리사",
-                "position": "[1, 4]"
+                "position": [
+                    1,
+                    4
+                ]
             }
         ]
     },
@@ -1335,7 +1746,10 @@
             {
                 "tag": "PERSON",
                 "value": "형규",
-                "position": "[13, 16]"
+                "position": [
+                    13,
+                    16
+                ]
             }
         ]
     },
@@ -1345,7 +1759,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "백종원의 골목식당",
-                "position": "[1, 10]"
+                "position": [
+                    1,
+                    10
+                ]
             }
         ]
     },
@@ -1355,7 +1772,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF1",
-                "position": "[7, 12]"
+                "position": [
+                    7,
+                    12
+                ]
             }
         ]
     },
@@ -1365,7 +1785,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "미쉐린 가이드 2020",
-                "position": "[2, 15]"
+                "position": [
+                    2,
+                    15
+                ]
             }
         ]
     },
@@ -1375,7 +1798,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "페파 클락 페이스",
-                "position": "[10, 20]"
+                "position": [
+                    10,
+                    20
+                ]
             }
         ]
     },
@@ -1385,7 +1811,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "terri09",
-                "position": "[52, 60]"
+                "position": [
+                    52,
+                    60
+                ]
             }
         ]
     },
@@ -1395,7 +1824,10 @@
             {
                 "tag": "PERSON",
                 "value": "유재석",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             }
         ]
     },
@@ -1405,7 +1837,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "G23",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             }
         ]
     },
@@ -1415,7 +1850,10 @@
             {
                 "tag": "PERSON",
                 "value": "세찬이",
-                "position": "[11, 15]"
+                "position": [
+                    11,
+                    15
+                ]
             }
         ]
     },
@@ -1425,7 +1863,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "볼 히치",
-                "position": "[1, 6]"
+                "position": [
+                    1,
+                    6
+                ]
             }
         ]
     },
@@ -1435,7 +1876,10 @@
             {
                 "tag": "PERSON",
                 "value": "한승",
-                "position": "[6, 9]"
+                "position": [
+                    6,
+                    9
+                ]
             }
         ]
     },
@@ -1445,7 +1889,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "이범의 끝을 잡고",
-                "position": "[37, 47]"
+                "position": [
+                    37,
+                    47
+                ]
             }
         ]
     },
@@ -1455,7 +1902,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "풍력터빈 모델",
-                "position": "[1, 9]"
+                "position": [
+                    1,
+                    9
+                ]
             }
         ]
     },
@@ -1465,7 +1915,10 @@
             {
                 "tag": "PERSON",
                 "value": "박",
-                "position": "[17, 18]"
+                "position": [
+                    17,
+                    18
+                ]
             }
         ]
     },
@@ -1475,7 +1928,10 @@
             {
                 "tag": "PERSON",
                 "value": "도권",
-                "position": "[6, 9]"
+                "position": [
+                    6,
+                    9
+                ]
             }
         ]
     },
@@ -1485,7 +1941,10 @@
             {
                 "tag": "PERSON",
                 "value": "인선",
-                "position": "[7, 10]"
+                "position": [
+                    7,
+                    10
+                ]
             }
         ]
     },
@@ -1495,7 +1954,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "PDF",
-                "position": "[33, 37]"
+                "position": [
+                    33,
+                    37
+                ]
             }
         ]
     },
@@ -1505,7 +1967,10 @@
             {
                 "tag": "ORG",
                 "value": "S’well",
-                "position": "[15, 22]"
+                "position": [
+                    15,
+                    22
+                ]
             }
         ]
     },
@@ -1515,7 +1980,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "P-Cap 터치 기술",
-                "position": "[36, 48]"
+                "position": [
+                    36,
+                    48
+                ]
             }
         ]
     },
@@ -1525,12 +1993,18 @@
             {
                 "tag": "PRODUCT",
                 "value": "바비",
-                "position": "[31, 34]"
+                "position": [
+                    31,
+                    34
+                ]
             },
             {
                 "tag": "PRODUCT",
                 "value": "바비 프린세스 어드벤처",
-                "position": "[5, 18]"
+                "position": [
+                    5,
+                    18
+                ]
             }
         ]
     },
@@ -1540,7 +2014,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFf1",
-                "position": "[0, 5]"
+                "position": [
+                    0,
+                    5
+                ]
             }
         ]
     },
@@ -1550,7 +2027,10 @@
             {
                 "tag": "PERSON",
                 "value": "하하",
-                "position": "[11, 14]"
+                "position": [
+                    11,
+                    14
+                ]
             }
         ]
     },
@@ -1560,7 +2040,10 @@
             {
                 "tag": "PERSON",
                 "value": "김OO",
-                "position": "[0, 4]"
+                "position": [
+                    0,
+                    4
+                ]
             }
         ]
     },
@@ -1570,7 +2053,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB2 병원",
-                "position": "[17, 25]"
+                "position": [
+                    17,
+                    25
+                ]
             }
         ]
     },
@@ -1580,7 +2066,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "픽시",
-                "position": "[3, 6]"
+                "position": [
+                    3,
+                    6
+                ]
             }
         ]
     },
@@ -1590,7 +2079,10 @@
             {
                 "tag": "PERSON",
                 "value": "김희선",
-                "position": "[19, 23]"
+                "position": [
+                    19,
+                    23
+                ]
             }
         ]
     },
@@ -1600,7 +2092,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "W1 칩",
-                "position": "[2, 7]"
+                "position": [
+                    2,
+                    7
+                ]
             }
         ]
     },
@@ -1610,7 +2105,10 @@
             {
                 "tag": "PERSON",
                 "value": "산타",
-                "position": "[4, 7]"
+                "position": [
+                    4,
+                    7
+                ]
             }
         ]
     },
@@ -1620,7 +2118,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "미키 마우스",
-                "position": "[0, 7]"
+                "position": [
+                    0,
+                    7
+                ]
             }
         ]
     },
@@ -1630,7 +2131,10 @@
             {
                 "tag": "PERSON",
                 "value": "은혁이",
-                "position": "[1, 5]"
+                "position": [
+                    1,
+                    5
+                ]
             }
         ]
     },
@@ -1640,7 +2144,10 @@
             {
                 "tag": "ORG",
                 "value": "IDA",
-                "position": "[20, 25]"
+                "position": [
+                    20,
+                    25
+                ]
             }
         ]
     },
@@ -1650,7 +2157,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA1",
-                "position": "[11, 16]"
+                "position": [
+                    11,
+                    16
+                ]
             }
         ]
     },
@@ -1660,7 +2170,10 @@
             {
                 "tag": "ORG",
                 "value": "NBA",
-                "position": "[9, 14]"
+                "position": [
+                    9,
+                    14
+                ]
             }
         ]
     },
@@ -1670,7 +2183,10 @@
             {
                 "tag": "ORG",
                 "value": "BbB1",
-                "position": "[9, 14]"
+                "position": [
+                    9,
+                    14
+                ]
             }
         ]
     },
@@ -1680,7 +2196,10 @@
             {
                 "tag": "PERSON",
                 "value": "박",
-                "position": "[17, 18]"
+                "position": [
+                    17,
+                    18
+                ]
             }
         ]
     },
@@ -1690,7 +2209,10 @@
             {
                 "tag": "PERSON",
                 "value": "종국",
-                "position": "[1, 4]"
+                "position": [
+                    1,
+                    4
+                ]
             }
         ]
     },
@@ -1700,7 +2222,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "S&P 500",
-                "position": "[12, 20]"
+                "position": [
+                    12,
+                    20
+                ]
             }
         ]
     },
@@ -1710,7 +2235,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "",
-                "position": "[26, 27]"
+                "position": [
+                    26,
+                    27
+                ]
             }
         ]
     },
@@ -1720,7 +2248,10 @@
             {
                 "tag": "PERSON",
                 "value": "소민이",
-                "position": "[2, 6]"
+                "position": [
+                    2,
+                    6
+                ]
             }
         ]
     },
@@ -1730,7 +2261,10 @@
             {
                 "tag": "ORG",
                 "value": "RoHS",
-                "position": "[18, 23]"
+                "position": [
+                    18,
+                    23
+                ]
             }
         ]
     },
@@ -1740,7 +2274,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "싱글 PPM",
-                "position": "[17, 24]"
+                "position": [
+                    17,
+                    24
+                ]
             }
         ]
     },
@@ -1750,7 +2287,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "THERMALOCK",
-                "position": "[0, 11]"
+                "position": [
+                    0,
+                    11
+                ]
             }
         ]
     },
@@ -1760,7 +2300,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "S/4HANA",
-                "position": "[19, 27]"
+                "position": [
+                    19,
+                    27
+                ]
             }
         ]
     },
@@ -1770,7 +2313,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB",
-                "position": "[9, 13]"
+                "position": [
+                    9,
+                    13
+                ]
             }
         ]
     },
@@ -1780,7 +2326,10 @@
             {
                 "tag": "ORG",
                 "value": "GM",
-                "position": "[0, 3]"
+                "position": [
+                    0,
+                    3
+                ]
             }
         ]
     },
@@ -1790,7 +2339,10 @@
             {
                 "tag": "ORG",
                 "value": "SK 하이닉스",
-                "position": "[15, 23]"
+                "position": [
+                    15,
+                    23
+                ]
             }
         ]
     },
@@ -1800,12 +2352,18 @@
             {
                 "tag": "ORG",
                 "value": "BBB1",
-                "position": "[5, 10]"
+                "position": [
+                    5,
+                    10
+                ]
             },
             {
                 "tag": "PERSON",
                 "value": "AAA1",
-                "position": "[15, 20]"
+                "position": [
+                    15,
+                    20
+                ]
             }
         ]
     },
@@ -1815,7 +2373,10 @@
             {
                 "tag": "PERSON",
                 "value": "윌리암즈",
-                "position": "[6, 11]"
+                "position": [
+                    6,
+                    11
+                ]
             }
         ]
     },
@@ -1825,7 +2386,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "B 베이비캠",
-                "position": "[2, 9]"
+                "position": [
+                    2,
+                    9
+                ]
             }
         ]
     },
@@ -1835,7 +2399,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "WWE 슈퍼스타",
-                "position": "[14, 23]"
+                "position": [
+                    14,
+                    23
+                ]
             }
         ]
     },
@@ -1845,7 +2412,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "pH 밸런스 핸드 워시 폼",
-                "position": "[14, 29]"
+                "position": [
+                    14,
+                    29
+                ]
             }
         ]
     },
@@ -1855,7 +2425,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "RORO Ships",
-                "position": "[2, 13]"
+                "position": [
+                    2,
+                    13
+                ]
             }
         ]
     },
@@ -1865,7 +2438,10 @@
             {
                 "tag": "PERSON",
                 "value": "지석진",
-                "position": "[15, 19]"
+                "position": [
+                    15,
+                    19
+                ]
             }
         ]
     },
@@ -1875,7 +2451,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "ABS 플라스틱",
-                "position": "[7, 17]"
+                "position": [
+                    7,
+                    17
+                ]
             }
         ]
     },
@@ -1885,7 +2464,10 @@
             {
                 "tag": "ORG",
                 "value": "QC",
-                "position": "[45, 47]"
+                "position": [
+                    45,
+                    47
+                ]
             }
         ]
     },
@@ -1895,7 +2477,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "아쿠아 슈즈",
-                "position": "[28, 35]"
+                "position": [
+                    28,
+                    35
+                ]
             }
         ]
     },
@@ -1905,7 +2490,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB",
-                "position": "[4, 8]"
+                "position": [
+                    4,
+                    8
+                ]
             }
         ]
     },
@@ -1915,7 +2503,10 @@
             {
                 "tag": "PERSON",
                 "value": "윤아",
-                "position": "[5, 8]"
+                "position": [
+                    5,
+                    8
+                ]
             }
         ]
     },
@@ -1925,7 +2516,10 @@
             {
                 "tag": "PERSON",
                 "value": "SES",
-                "position": "[4, 8]"
+                "position": [
+                    4,
+                    8
+                ]
             }
         ]
     },
@@ -1935,7 +2529,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA1",
-                "position": "[12, 17]"
+                "position": [
+                    12,
+                    17
+                ]
             }
         ]
     },
@@ -1945,7 +2542,10 @@
             {
                 "tag": "PERSON",
                 "value": "재석이",
-                "position": "[21, 25]"
+                "position": [
+                    21,
+                    25
+                ]
             }
         ]
     },
@@ -1955,7 +2555,10 @@
             {
                 "tag": "PERSON",
                 "value": "JK",
-                "position": "[1, 4]"
+                "position": [
+                    1,
+                    4
+                ]
             }
         ]
     },
@@ -1965,7 +2568,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA2",
-                "position": "[16, 21]"
+                "position": [
+                    16,
+                    21
+                ]
             }
         ]
     },
@@ -1975,7 +2581,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "THE더 레이스",
-                "position": "[10, 19]"
+                "position": [
+                    10,
+                    19
+                ]
             }
         ]
     },
@@ -1985,7 +2594,10 @@
             {
                 "tag": "ORG",
                 "value": "케빈",
-                "position": "[65, 68]"
+                "position": [
+                    65,
+                    68
+                ]
             }
         ]
     },
@@ -1995,7 +2607,10 @@
             {
                 "tag": "PERSON",
                 "value": "개",
-                "position": "[1, 3]"
+                "position": [
+                    1,
+                    3
+                ]
             }
         ]
     },
@@ -2005,7 +2620,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "24베이 NAS 시스템",
-                "position": "[43, 56]"
+                "position": [
+                    43,
+                    56
+                ]
             }
         ]
     },
@@ -2015,7 +2633,10 @@
             {
                 "tag": "PERSON",
                 "value": "예진이",
-                "position": "[5, 9]"
+                "position": [
+                    5,
+                    9
+                ]
             }
         ]
     },
@@ -2025,7 +2646,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "One-Stop 서비스",
-                "position": "[18, 31]"
+                "position": [
+                    18,
+                    31
+                ]
             }
         ]
     },
@@ -2035,7 +2659,10 @@
             {
                 "tag": "ORG",
                 "value": "AIX®",
-                "position": "[8, 13]"
+                "position": [
+                    8,
+                    13
+                ]
             }
         ]
     },
@@ -2045,7 +2672,10 @@
             {
                 "tag": "PERSON",
                 "value": "A",
-                "position": "[10, 12]"
+                "position": [
+                    10,
+                    12
+                ]
             }
         ]
     },
@@ -2055,7 +2685,10 @@
             {
                 "tag": "PERSON",
                 "value": "유화",
-                "position": "[19, 22]"
+                "position": [
+                    19,
+                    22
+                ]
             }
         ]
     },
@@ -2065,7 +2698,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FITH",
-                "position": "[18, 23]"
+                "position": [
+                    18,
+                    23
+                ]
             }
         ]
     },
@@ -2075,7 +2711,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA1",
-                "position": "[5, 10]"
+                "position": [
+                    5,
+                    10
+                ]
             }
         ]
     },
@@ -2085,7 +2724,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA1",
-                "position": "[2, 7]"
+                "position": [
+                    2,
+                    7
+                ]
             }
         ]
     },
@@ -2095,7 +2737,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             }
         ]
     },
@@ -2105,7 +2750,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA1",
-                "position": "[26, 31]"
+                "position": [
+                    26,
+                    31
+                ]
             }
         ]
     },
@@ -2115,7 +2763,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "F 바이오",
-                "position": "[2, 8]"
+                "position": [
+                    2,
+                    8
+                ]
             }
         ]
     },
@@ -2125,7 +2776,10 @@
             {
                 "tag": "PERSON",
                 "value": "백종원",
-                "position": "[1, 4]"
+                "position": [
+                    1,
+                    4
+                ]
             }
         ]
     },
@@ -2135,7 +2789,10 @@
             {
                 "tag": "PERSON",
                 "value": "Louise",
-                "position": "[15, 22]"
+                "position": [
+                    15,
+                    22
+                ]
             }
         ]
     },
@@ -2145,7 +2802,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             }
         ]
     },
@@ -2155,7 +2815,10 @@
             {
                 "tag": "ORG",
                 "value": "R.그릭스 그룹",
-                "position": "[20, 29]"
+                "position": [
+                    20,
+                    29
+                ]
             }
         ]
     },
@@ -2165,7 +2828,10 @@
             {
                 "tag": "ORG",
                 "value": "하버드 대학교",
-                "position": "[2, 10]"
+                "position": [
+                    2,
+                    10
+                ]
             }
         ]
     },
@@ -2175,7 +2841,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "봉쥬르(Bonjour) 패키지",
-                "position": "[15, 32]"
+                "position": [
+                    15,
+                    32
+                ]
             }
         ]
     },
@@ -2185,7 +2854,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "PS4",
-                "position": "[40, 44]"
+                "position": [
+                    40,
+                    44
+                ]
             }
         ]
     },
@@ -2195,7 +2867,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FOREX",
-                "position": "[3, 9]"
+                "position": [
+                    3,
+                    9
+                ]
             }
         ]
     },
@@ -2205,7 +2880,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA",
-                "position": "[4, 9]"
+                "position": [
+                    4,
+                    9
+                ]
             }
         ]
     },
@@ -2215,7 +2893,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "BBB 난방기",
-                "position": "[9, 17]"
+                "position": [
+                    9,
+                    17
+                ]
             }
         ]
     },
@@ -2225,7 +2906,10 @@
             {
                 "tag": "PERSON",
                 "value": "임OO",
-                "position": "[0, 4]"
+                "position": [
+                    0,
+                    4
+                ]
             }
         ]
     },
@@ -2235,7 +2919,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "ERP iU Browser",
-                "position": "[8, 23]"
+                "position": [
+                    8,
+                    23
+                ]
             }
         ]
     },
@@ -2245,7 +2932,10 @@
             {
                 "tag": "PERSON",
                 "value": "김",
-                "position": "[8, 10]"
+                "position": [
+                    8,
+                    10
+                ]
             }
         ]
     },
@@ -2255,7 +2945,10 @@
             {
                 "tag": "PERSON",
                 "value": "금새록",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             }
         ]
     },
@@ -2265,7 +2958,10 @@
             {
                 "tag": "PERSON",
                 "value": "광수",
-                "position": "[2, 5]"
+                "position": [
+                    2,
+                    5
+                ]
             }
         ]
     },
@@ -2275,7 +2971,10 @@
             {
                 "tag": "PERSON",
                 "value": "라니",
-                "position": "[13, 16]"
+                "position": [
+                    13,
+                    16
+                ]
             }
         ]
     },
@@ -2285,7 +2984,10 @@
             {
                 "tag": "PERSON",
                 "value": "AAA1",
-                "position": "[2, 7]"
+                "position": [
+                    2,
+                    7
+                ]
             }
         ]
     },
@@ -2295,7 +2997,10 @@
             {
                 "tag": "PERSON",
                 "value": "재석이",
-                "position": "[7, 11]"
+                "position": [
+                    7,
+                    11
+                ]
             }
         ]
     },
@@ -2305,7 +3010,10 @@
             {
                 "tag": "ORG",
                 "value": "XYZ",
-                "position": "[32, 36]"
+                "position": [
+                    32,
+                    36
+                ]
             }
         ]
     },
@@ -2315,7 +3023,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "MU",
-                "position": "[10, 13]"
+                "position": [
+                    10,
+                    13
+                ]
             }
         ]
     },
@@ -2325,12 +3036,18 @@
             {
                 "tag": "ORG",
                 "value": "UiPath",
-                "position": "[2, 9]"
+                "position": [
+                    2,
+                    9
+                ]
             },
             {
                 "tag": "PRODUCT",
                 "value": "RPA",
-                "position": "[16, 20]"
+                "position": [
+                    16,
+                    20
+                ]
             }
         ]
     },
@@ -2340,7 +3057,10 @@
             {
                 "tag": "PERSON",
                 "value": "사오리",
-                "position": "[11, 15]"
+                "position": [
+                    11,
+                    15
+                ]
             }
         ]
     },
@@ -2350,7 +3070,10 @@
             {
                 "tag": "PERSON",
                 "value": "B",
-                "position": "[12, 14]"
+                "position": [
+                    12,
+                    14
+                ]
             }
         ]
     },
@@ -2360,7 +3083,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "STANDARD 100",
-                "position": "[19, 33]"
+                "position": [
+                    19,
+                    33
+                ]
             }
         ]
     },
@@ -2370,7 +3096,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB2",
-                "position": "[13, 18]"
+                "position": [
+                    13,
+                    18
+                ]
             }
         ]
     },
@@ -2380,7 +3109,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB2",
-                "position": "[16, 21]"
+                "position": [
+                    16,
+                    21
+                ]
             }
         ]
     },
@@ -2390,7 +3122,10 @@
             {
                 "tag": "ORG",
                 "value": "롯O",
-                "position": "[17, 20]"
+                "position": [
+                    17,
+                    20
+                ]
             }
         ]
     },
@@ -2400,7 +3135,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "머그컵 4개 세",
-                "position": "[1, 10]"
+                "position": [
+                    1,
+                    10
+                ]
             }
         ]
     },
@@ -2410,7 +3148,10 @@
             {
                 "tag": "ORG",
                 "value": "방사선사",
-                "position": "[7, 12]"
+                "position": [
+                    7,
+                    12
+                ]
             }
         ]
     },
@@ -2420,7 +3161,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "플란넬 셔츠",
-                "position": "[7, 14]"
+                "position": [
+                    7,
+                    14
+                ]
             }
         ]
     },
@@ -2430,7 +3174,10 @@
             {
                 "tag": "PERSON",
                 "value": "소민",
-                "position": "[18, 21]"
+                "position": [
+                    18,
+                    21
+                ]
             }
         ]
     },
@@ -2440,7 +3187,10 @@
             {
                 "tag": "PERSON",
                 "value": "박",
-                "position": "[17, 18]"
+                "position": [
+                    17,
+                    18
+                ]
             }
         ]
     },
@@ -2450,7 +3200,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "iOS",
-                "position": "[5, 9]"
+                "position": [
+                    5,
+                    9
+                ]
             }
         ]
     },
@@ -2460,7 +3213,10 @@
             {
                 "tag": "PERSON",
                 "value": "세찬이",
-                "position": "[5, 9]"
+                "position": [
+                    5,
+                    9
+                ]
             }
         ]
     },
@@ -2470,7 +3226,10 @@
             {
                 "tag": "ORG",
                 "value": "DAC",
-                "position": "[7, 11]"
+                "position": [
+                    7,
+                    11
+                ]
             }
         ]
     },
@@ -2480,7 +3239,10 @@
             {
                 "tag": "PERSON",
                 "value": "하바타",
-                "position": "[2, 6]"
+                "position": [
+                    2,
+                    6
+                ]
             }
         ]
     },
@@ -2490,7 +3252,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "트라우마 플레이트",
-                "position": "[2, 12]"
+                "position": [
+                    2,
+                    12
+                ]
             }
         ]
     },
@@ -2500,7 +3265,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "Thinkware",
-                "position": "[63, 73]"
+                "position": [
+                    63,
+                    73
+                ]
             }
         ]
     },
@@ -2510,7 +3278,10 @@
             {
                 "tag": "PERSON",
                 "value": "김숙",
-                "position": "[3, 6]"
+                "position": [
+                    3,
+                    6
+                ]
             }
         ]
     },
@@ -2520,7 +3291,10 @@
             {
                 "tag": "PERSON",
                 "value": "A",
-                "position": "[21, 23]"
+                "position": [
+                    21,
+                    23
+                ]
             }
         ]
     },
@@ -2530,7 +3304,10 @@
             {
                 "tag": "ORG",
                 "value": "BBB Metals Korea",
-                "position": "[2, 19]"
+                "position": [
+                    2,
+                    19
+                ]
             }
         ]
     },
@@ -2540,7 +3317,10 @@
             {
                 "tag": "ORG",
                 "value": "에어비앤비",
-                "position": "[26, 32]"
+                "position": [
+                    26,
+                    32
+                ]
             }
         ]
     },
@@ -2550,7 +3330,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "2M 샤워 호수",
-                "position": "[25, 34]"
+                "position": [
+                    25,
+                    34
+                ]
             }
         ]
     },
@@ -2560,7 +3343,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "IPTV",
-                "position": "[4, 9]"
+                "position": [
+                    4,
+                    9
+                ]
             }
         ]
     },
@@ -2570,7 +3356,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "펜트하우스",
-                "position": "[0, 6]"
+                "position": [
+                    0,
+                    6
+                ]
             }
         ]
     },
@@ -2580,7 +3369,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "FFF1",
-                "position": "[27, 32]"
+                "position": [
+                    27,
+                    32
+                ]
             }
         ]
     },
@@ -2590,7 +3382,10 @@
             {
                 "tag": "PERSON",
                 "value": "광수",
-                "position": "[22, 25]"
+                "position": [
+                    22,
+                    25
+                ]
             }
         ]
     },
@@ -2600,7 +3395,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "젯소나 프라이머",
-                "position": "[5, 14]"
+                "position": [
+                    5,
+                    14
+                ]
             }
         ]
     },
@@ -2610,7 +3408,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "PDF",
-                "position": "[3, 7]"
+                "position": [
+                    3,
+                    7
+                ]
             }
         ]
     },
@@ -2620,7 +3421,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "브리타 필터링 물병",
-                "position": "[3, 13]"
+                "position": [
+                    3,
+                    13
+                ]
             }
         ]
     },
@@ -2630,7 +3434,10 @@
             {
                 "tag": "PRODUCT",
                 "value": "ISO9001",
-                "position": "[9, 17]"
+                "position": [
+                    9,
+                    17
+                ]
             }
         ]
     },
@@ -2640,7 +3447,10 @@
             {
                 "tag": "PERSON",
                 "value": "AA",
-                "position": "[20, 23]"
+                "position": [
+                    20,
+                    23
+                ]
             }
         ]
     },
@@ -2650,7 +3460,10 @@
             {
                 "tag": "WORK_OF_ART",
                 "value": "런닝맨",
-                "position": "[10, 14]"
+                "position": [
+                    10,
+                    14
+                ]
             }
         ]
     }

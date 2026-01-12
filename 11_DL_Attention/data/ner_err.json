@@ -1,4 +1,459 @@
 {
+    "1361": {
+        "text": "친애하는 <PERSON>올리비아</PERSON> 선생님 저는 마케팅부<PERSON> 리</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "리",
+                "position": "[21, 23]"
+            }
+        ]
+    },
+    "3509": {
+        "text": "포함된 <PRODUCT>파이어 블라스트 액세서리</PRODUCT> 2개를 포함된 2개의 <ORG>캐논</ORG> 액세서리 또는 피규어의 입에 부착하여 불 뿜는 모습 시뮬레이션, 위성 모드가 있는<PRODUCT> 아스트로스코프 피규어</PRODUCT>를 제공합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "아스트로스코프 피규어",
+                "position": "[78, 90]"
+            }
+        ]
+    },
+    "3541": {
+        "text": "저는<PRODUCT> 커피 탬퍼</PRODUCT> 제품을 소개하려고 합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "커피 탬퍼",
+                "position": "[2, 8]"
+            }
+        ]
+    },
+    "6485": {
+        "text": "<PRODUCT>유튜브</PRODUCT> 채널을 브랜딩 하기 위한 기초 이론을<PRODUCT> FFF</PRODUCT>에서 살펴볼 수 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF",
+                "position": "[24, 28]"
+            }
+        ]
+    },
+    "9729": {
+        "text": "또한 요즘 <PRODUCT>유튜브</PRODUCT>라는 SNS를 미국에서 누구나 많이 사용한다고 하는데 유튜브에<PRODUCT> FFF1</PRODUCT>과 저희 <ORG>BBB1</ORG>을 광고하면 어떨까요?",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF1",
+                "position": "[43, 48]"
+            }
+        ]
+    },
+    "10516": {
+        "text": "왼쪽<PRODUCT> 조이콘 컨트롤러</PRODUCT>를 <PRODUCT>조이콘 컴포트 그립</PRODUCT>의 왼쪽 레일에 맞춰 ㅡ 기호가 맨 위에 있는지 확인합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "조이콘 컨트롤러",
+                "position": "[2, 11]"
+            }
+        ]
+    },
+    "14292": {
+        "text": "공식 라이선스 키패드, 마우스 컨트롤러는<PRODUCT> PS4</PRODUCT>에 PC 스타일의 제어를 제공합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "PS4",
+                "position": "[22, 26]"
+            }
+        ]
+    },
+    "15718": {
+        "text": "> <PERSON>은혁이 </PERSON>스파이 아닐거에요.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "은혁이",
+                "position": "[2, 6]"
+            }
+        ]
+    },
+    "17541": {
+        "text": "저는 지난 5년간 <ORG>BBB </ORG>회사의 회계 부서에서 재무 관리를 담당해왔습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB",
+                "position": "[10, 14]"
+            }
+        ]
+    },
+    "20516": {
+        "text": "친애하는<PERSON> Jupiter</PERSON>님, 어제 저희 단골 고객과의 만남에서 귀하의 회사를 알게 되었습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "Jupiter",
+                "position": "[4, 12]"
+            }
+        ]
+    },
+    "23729": {
+        "text": "우리의 자물쇠는 <ORG>FCC</ORG>, <ORG>CE </ORG>인증 <PRODUCT>전자 자물쇠</PRODUCT>입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "CE",
+                "position": "[14, 17]"
+            }
+        ]
+    },
+    "24220": {
+        "text": "지난번 이집트에 오셨을 때 소개해 드린 <ORG>카이로 종합병원</ORG> 의사<PERSON> AAA</PERSON> 기억하시죠?",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA",
+                "position": "[33, 37]"
+            }
+        ]
+    },
+    "30537": {
+        "text": "사실<ORG> V 디자인</ORG>은 오랜 세월 동안 가장 힘든 작업 현장에서 중요한 역할을 해왔습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "V 디자인",
+                "position": "[2, 8]"
+            }
+        ]
+    },
+    "32220": {
+        "text": "<PRODUCT>듀얼 대시 캠 듀얼 FHD 전면 및 후면 대시 카메라</PRODUCT> <PRODUCT>단일 전면 지원 자동차용 나이트 비전 주차 모드 G-센서 루프 녹음 지원 </PRODUCT>제품을 소개합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "단일 전면 지원 자동차용 나이트 비전 주차 모드 G-센서 루프 녹음 지원",
+                "position": "[30, 71]"
+            }
+        ]
+    },
+    "33024": {
+        "text": ">아, 그러니까 나는 내가 보기에는 <PERSON>민석이 </PERSON>되게 착하단 말이야.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "민석이",
+                "position": "[20, 24]"
+            }
+        ]
+    },
+    "34590": {
+        "text": "저는<ORG> Sunshine 슈퍼마켓</ORG>의 <PERSON>Rachel</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "Sunshine 슈퍼마켓",
+                "position": "[2, 16]"
+            }
+        ]
+    },
+    "40946": {
+        "text": "나도 다시 <ORG>ufc</ORG> 무대에 설 수 있을까 고민을 하다가 <ORG>ufc</ORG> 대표<PERSON> 데이나 화이트</PERSON>에게 메일을 보냈다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "데이나 화이트",
+                "position": "[36, 44]"
+            }
+        ]
+    },
+    "42382": {
+        "text": "<ORG>FDA</ORG> 인증 받은 안전한 미국<ORG> BBB사</ORG>의 칫솔모를 사용하였습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB사",
+                "position": "[16, 21]"
+            }
+        ]
+    },
+    "43785": {
+        "text": "저기요 지난 달에<ORG> BBB </ORG>온라인 몰 통해서 <PRODUCT>GREEKVAPOR L200</PRODUCT> 을 구입했는데요.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB",
+                "position": "[9, 14]"
+            }
+        ]
+    },
+    "51109": {
+        "text": "><PERSON>석진이</PERSON> 형한테<PRODUCT> 텔룰라이O </PRODUCT>사달라 그러게요.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "텔룰라이O",
+                "position": "[8, 15]"
+            }
+        ]
+    },
+    "54638": {
+        "text": "저희 동네에는<PRODUCT> 황남빵</PRODUCT>이 유명합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "황남빵",
+                "position": "[7, 11]"
+            }
+        ]
+    },
+    "54970": {
+        "text": "귀엽고 컬러풀한<PRODUCT> 디즈니 베이비 미니 마우스 헤어 브러시</PRODUCT>와 넓은 빗 세트로 일상적인 머리 손질시간을 더 즐겁게 만들어보세요.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "디즈니 베이비 미니 마우스 헤어 브러시",
+                "position": "[8, 30]"
+            }
+        ]
+    },
+    "60776": {
+        "text": "저는 지난 달에 미국<ORG> BBB2</ORG>에 귀하의 회사에 서울에 있는 많은 상업용 부동산을 보여 주었습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB2",
+                "position": "[11, 16]"
+            }
+        ]
+    },
+    "62823": {
+        "text": "빨리 <PERSON>재훈이 </PERSON>형 밥 좀 챙겨줘, 누가.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "재훈이",
+                "position": "[3, 7]"
+            }
+        ]
+    },
+    "62870": {
+        "text": ">어때<PERSON> 한승</PERSON>아.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "한승",
+                "position": "[3, 6]"
+            }
+        ]
+    },
+    "63784": {
+        "text": "이번에 비지니스 미팅 때문에 홍콩에 방문하게 된<ORG> A</ORG>사 직원입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "A",
+                "position": "[26, 28]"
+            }
+        ]
+    },
+    "66463": {
+        "text": "그 후 <PRODUCT>Android </PRODUCT>또는 <PRODUCT>IOS</PRODUCT>에서 소프트웨어를 설치하기만 하면 모바일에서 연결된 캠을 볼 수 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "Android",
+                "position": "[4, 12]"
+            }
+        ]
+    },
+    "69137": {
+        "text": "나는<PRODUCT> Mechanics</PRODUCT>를 사랑하고 우리가<PRODUCT> Mechanics</PRODUCT>에 대해 더 배울 때 좋다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "Mechanics",
+                "position": "[22, 32]"
+            },
+            {
+                "tag": "PRODUCT",
+                "value": "Mechanics",
+                "position": "[2, 12]"
+            }
+        ]
+    },
+    "72183": {
+        "text": "<ORG>포지티블리</ORG> <PRODUCT>스무드 쉐이브 젤 </PRODUCT>제품을 소개합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "스무드 쉐이브 젤",
+                "position": "[6, 16]"
+            }
+        ]
+    },
+    "72299": {
+        "text": "저는<ORG> bbb 과학제품</ORG> 제조업체 영업사원인 <PERSON>aaa</PERSON>라고 합니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "bbb 과학제품",
+                "position": "[2, 11]"
+            }
+        ]
+    },
+    "73164": {
+        "text": "특히 1<PRODUCT>4+ 스톱 V-Log/V-Gamut</PRODUCT>를 탑재해 <ORG>파나소닉</ORG> <PRODUCT>시네마 카메라 Varicam </PRODUCT>등과 호환 가능한 것은 물론,",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "시네마 카메라 Varicam",
+                "position": "[34, 50]"
+            }
+        ]
+    },
+    "73589": {
+        "text": "이 제품은 PC, <PRODUCT>PS 5,</PRODUCT> <PRODUCT>Xbox One </PRODUCT>등과 호환됩니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "Xbox One",
+                "position": "[16, 25]"
+            }
+        ]
+    },
+    "84208": {
+        "text": "<PRODUCT>BBB2</PRODUCT>, <PRODUCT>BBB3</PRODUCT>과<PRODUCT> BBB1</PRODUCT>이 충분히 <ORG>SAGPS</ORG> 테스트를 하고, 이상이 없다라고 판단되면 <ORG>Thinkware</ORG> 에서 테스트를 하는 방법을 제안 드립니다",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "BBB1",
+                "position": "[11, 16]"
+            }
+        ]
+    },
+    "94489": {
+        "text": ">아, <PERSON>트럼프 </PERSON>와이프.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "트럼프",
+                "position": "[4, 8]"
+            }
+        ]
+    },
+    "99987": {
+        "text": "또한 저희에게 어떤 종류의 무선 통신망 기기가 있는지<PRODUCT> 엑셀</PRODUCT>파일로 알려주셨으면 좋겠습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "엑셀",
+                "position": "[29, 32]"
+            }
+        ]
+    },
+    "104475": {
+        "text": "지금까지 <PERSON>AA2,</PERSON> <PERSON>AA3 </PERSON>등의 유튜버들과 작업해왔습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AA3",
+                "position": "[10, 14]"
+            }
+        ]
+    },
+    "105595": {
+        "text": ">그게 아니라 <PERSON>손예진 </PERSON>누나 나오지도 않는다고, 이씨.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "손예진",
+                "position": "[8, 12]"
+            }
+        ]
+    },
+    "108744": {
+        "text": "특허 받은<PRODUCT> 마틴게일 루프</PRODUCT>와 <PRODUCT>앞가슴 하네스</PRODUCT>는 여러분이 가고 있는 방향으로 반려견을 부드럽게 조종함으로써 반려견의 당김을 최소화합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "마틴게일 루프",
+                "position": "[5, 13]"
+            }
+        ]
+    },
+    "112225": {
+        "text": ">피자집 사장님이 만든<PRODUCT> 참치피자</PRODUCT>를 처음 먹어보는 분들이에요.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "참치피자",
+                "position": "[12, 17]"
+            }
+        ]
+    },
+    "114440": {
+        "text": ">우와, 백야<ORG> </ORG>식당 하면 백야라는 뜻도 되고 그리고 <PERSON>백</PERSON> 선생님 야식.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "",
+                "position": "[7, 8]"
+            }
+        ]
+    },
+    "117086": {
+        "text": "식물이나 동물에서 볼 수 없었던 새로운 형태의 번식을 한 주인공은 바로<PRODUCT> 제노봇</PRODUCT>(<PRODUCT>Xenobot</PRODUCT>)입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "제노봇",
+                "position": "[39, 43]"
+            }
+        ]
+    },
+    "118113": {
+        "text": "이 장치는<PRODUCT> Alexa</PRODUCT>와도 작동하므로 아기의 밤에 대해서도 물어볼 수 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "Alexa",
+                "position": "[5, 11]"
+            }
+        ]
+    },
+    "119068": {
+        "text": "저희 회사는<PRODUCT> 씨홀리</PRODUCT>의 줄기세포를 배양하여 세럼을 만들었습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "씨홀리",
+                "position": "[6, 10]"
+            }
+        ]
+    },
+    "119080": {
+        "text": "메탈 케이스가 특징이며<PRODUCT> 미네랄 다이얼 윈도우</PRODUCT>로 되어있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "미네랄 다이얼 윈도우",
+                "position": "[12, 24]"
+            }
+        ]
+    },
+    "120362": {
+        "text": "어제<ORG> BBB 인터내셔널 TV</ORG>에서 광고를 보았습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB 인터내셔널 TV",
+                "position": "[2, 15]"
+            }
+        ]
+    },
     "126016": {
         "text": "<ORG>구글</ORG> 어시스턴트 아마존 알렉사를 통해 제어할 수 있다.",
         "tags": [
@@ -19,6 +474,691 @@
             }
         ]
     },
+    "140618": {
+        "text": "저희의 최신<PRODUCT> FFF1 </PRODUCT>인공위성은 미군도 사용하는 고성능 정찰위성입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF1",
+                "position": "[6, 12]"
+            }
+        ]
+    },
+    "145813": {
+        "text": "뿐만 아니라 저는<ORG> G32</ORG>에 대해 관심이 많은데 이번에 제가 접촉할 기회가 생겼네요.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "G32",
+                "position": "[9, 13]"
+            }
+        ]
+    },
+    "146239": {
+        "text": "마지막으로 꼭 한국에 관심이 많은 시청자들이 보는 고객님의 <PRODUCT>유튜브</PRODUCT> 채널에서 저희의<PRODUCT> FFF2</PRODUCT>를 소개해 주시면 감사하겠습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF2",
+                "position": "[45, 50]"
+            }
+        ]
+    },
+    "149085": {
+        "text": "어려운<PRODUCT> nasties</PRODUCT>로 가득 찬 <PRODUCT>Raccoon City</PRODUCT>의 복잡한 레벨 디자인을 탐색하십시오.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "nasties",
+                "position": "[3, 11]"
+            }
+        ]
+    },
+    "152437": {
+        "text": "> 의사는 조선시대 의사는<PERSON> 허준</PERSON>이지.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "허준",
+                "position": "[14, 17]"
+            }
+        ]
+    },
+    "153685": {
+        "text": ">그런데<PERSON> 소민</PERSON>이...",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "소민",
+                "position": "[4, 7]"
+            }
+        ]
+    },
+    "154798": {
+        "text": ">나는 <WORK_OF_ART>X맨</WORK_OF_ART> 했고 <WORK_OF_ART>패떴 </WORK_OF_ART>했고.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "패떴",
+                "position": "[10, 13]"
+            }
+        ]
+    },
+    "161781": {
+        "text": "<ORG>식품의약품안전처</ORG> 2등급 의료기기 인증과 유럽<ORG> CE</ORG> 인증으로 국내외에서 기술력을 인정받았습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "CE",
+                "position": "[24, 27]"
+            }
+        ]
+    },
+    "164483": {
+        "text": "<ORG>XXX</ORG> 회사 과장 <PERSON>000 </PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "000",
+                "position": "[10, 14]"
+            }
+        ]
+    },
+    "170888": {
+        "text": "안녕하세요. 제 이름은<PERSON> Mr.아</PERSON>.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "Mr.아",
+                "position": "[12, 17]"
+            }
+        ]
+    },
+    "174372": {
+        "text": "<PRODUCT>M1 </PRODUCT>기반 <PRODUCT>맥북</PRODUCT>을 사용하는 경우, 썬더볼트3 포트를 통해 데스크탑을 디스플레이 2개로 확장할 수 없습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "M1",
+                "position": "[0, 3]"
+            }
+        ]
+    },
+    "177500": {
+        "text": "고무 밑창이 있는<PRODUCT> EVA 미드솔</PRODUCT>입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "EVA 미드솔",
+                "position": "[9, 17]"
+            }
+        ]
+    },
+    "191563": {
+        "text": "AI비서 기능을 활용하면 <ORG>구글 </ORG>어시스턴트 기능과 연동하여 볼륨조절, 컨텐츠 검색 등을 제어할 수 있습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "구글",
+                "position": "[14, 17]"
+            }
+        ]
+    },
+    "197922": {
+        "text": "<ORG>아스트로 </ORG><PERSON>차은우</PERSON>!",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "아스트로",
+                "position": "[0, 5]"
+            }
+        ]
+    },
+    "202325": {
+        "text": "<ORG>바이옴 라이프 메리 제인</ORG> 여성용 <PRODUCT>워킹 슈즈 트렐리스 </PRODUCT>제품을 소개합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "워킹 슈즈 트렐리스",
+                "position": "[18, 29]"
+            }
+        ]
+    },
+    "202752": {
+        "text": "커맨더 시리즈는 <PRODUCT>PS4</PRODUCT>에서 PC 스타일 조종을 해볼 수 있는 <PRODUCT>FFF </PRODUCT>게임용 제품입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF",
+                "position": "[34, 38]"
+            }
+        ]
+    },
+    "203765": {
+        "text": "저는 <ORG>서울중앙지검</ORG> <PERSON>AAA </PERSON>수사관입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA",
+                "position": "[10, 14]"
+            }
+        ]
+    },
+    "207388": {
+        "text": "LPG 모델<PRODUCT> 2.0 LPe</PRODUCT>는 SE 2,465만 원, <PRODUCT>LE Signature</PRODUCT> 2,690만 원, <PRODUCT>RE Signature </PRODUCT>3,029만 원, <PRODUCT>프리미에르</PRODUCT> 3,319만 원입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "RE Signature",
+                "position": "[52, 65]"
+            },
+            {
+                "tag": "PRODUCT",
+                "value": "2.0 LPe",
+                "position": "[6, 14]"
+            }
+        ]
+    },
+    "210303": {
+        "text": ">수상<WORK_OF_ART> 런닝맨</WORK_OF_ART><PERSON> 이광수</PERSON> 씨 축하드립니다.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "런닝맨",
+                "position": "[3, 7]"
+            },
+            {
+                "tag": "PERSON",
+                "value": "이광수",
+                "position": "[7, 11]"
+            }
+        ]
+    },
+    "213790": {
+        "text": "이번 보내주신 기계는 모델명<PRODUCT> DAS10</PRODUCT>입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "DAS10",
+                "position": "[15, 21]"
+            }
+        ]
+    },
+    "217114": {
+        "text": "1,000명 한정으로<PRODUCT> M27</PRODUCT>과 <PRODUCT>M89</PRODUCT>을 구매 하신 고객님에게 <PRODUCT>BBB샘플</PRODUCT>을 제공할 예정입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "M27",
+                "position": "[11, 15]"
+            }
+        ]
+    },
+    "219147": {
+        "text": ">딱 거기까지만 하고<PERSON> 재훈</PERSON>이 형한테 그 부분만 좀 맡겨.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "재훈",
+                "position": "[11, 14]"
+            }
+        ]
+    },
+    "226837": {
+        "text": "제 이름은 <PERSON>Mr. Barney</PERSON>이고 <PRODUCT>ADSL</PRODUCT>과<PRODUCT> Analogue</PRODUCT>를 주문했습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "Analogue",
+                "position": "[24, 33]"
+            }
+        ]
+    },
+    "232087": {
+        "text": ">봐봐, <PRODUCT>피O </PRODUCT>냄새 나지?",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "피O",
+                "position": "[5, 8]"
+            }
+        ]
+    },
+    "241939": {
+        "text": "파이프 절단 장비에는 <PRODUCT>CN80,</PRODUCT> <PRODUCT>CN160</PRODUCT>, <PRODUCT>CN220 </PRODUCT>등이 포함됩니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "CN220",
+                "position": "[25, 31]"
+            }
+        ]
+    },
+    "245445": {
+        "text": "당신의 신실한<PERSON> AAA</PERSON> 드림.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA",
+                "position": "[7, 11]"
+            }
+        ]
+    },
+    "271715": {
+        "text": "저희 회사는 미국 <ORG>BBB </ORG>대학교와 손잡고 차세대 인공지능 반도체 기술인 <PRODUCT>뉴로모픽</PRODUCT> 칩을 개발하고 있습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB",
+                "position": "[10, 14]"
+            }
+        ]
+    },
+    "275292": {
+        "text": "현재<ORG> KBS 월드 라디오</ORG>와 <ORG>한민족방송</ORG>, <ORG>전주 제1라디오</ORG>를 송신하고 있습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "KBS 월드 라디오",
+                "position": "[2, 13]"
+            }
+        ]
+    },
+    "277494": {
+        "text": "미국에서 첨단기업으로 인정받았으며,<ORG> ISO</ORG>9001 국제품질기준을 엄격히 통과했습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "ISO",
+                "position": "[19, 23]"
+            }
+        ]
+    },
+    "278815": {
+        "text": "<PRODUCT>택티컬 커맨드 어설트</PRODUCT> 시리즈는<PRODUCT> PS4</PRODUCT>에서 PC 스타일 컨트롤을 즐길 수 있는 FPS 게임용으로 설계된 공식 라이선스 키패드, 마우스 컨트롤러 제품군입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "PS4",
+                "position": "[16, 20]"
+            }
+        ]
+    },
+    "279521": {
+        "text": "<WORK_OF_ART>FFF</WORK_OF_ART>는 역시<PERSON> 돈스파이크</PERSON>가 참여한<ORG> BBB</ORG>의 MSTSTM이 적용되었습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "돈스파이크",
+                "position": "[7, 13]"
+            },
+            {
+                "tag": "ORG",
+                "value": "BBB",
+                "position": "[18, 22]"
+            }
+        ]
+    },
+    "280932": {
+        "text": "이에 <ORG>환경부</ORG>가 선정한 멸종 위기종이 다수 서식하는 지역을 중심으로 농수로에<PRODUCT> FFF</PRODUCT>를 설치하는 활동을 펼쳤습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF",
+                "position": "[41, 45]"
+            }
+        ]
+    },
+    "283454": {
+        "text": "일본의 가정식이 궁금하시다면,<ORG> Shushi Shogun</ORG>의 <PERSON>Takashi</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "Shushi Shogun",
+                "position": "[16, 30]"
+            }
+        ]
+    },
+    "290806": {
+        "text": "이제 나는 당신의 유명한 상사 Mr<PERSON> X</PERSON>를 만나는 것이 약간 긴장됩니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "X",
+                "position": "[19, 21]"
+            }
+        ]
+    },
+    "291870": {
+        "text": "한 회사 당 3명까지 참석 가능이며<PERSON> 카림</PERSON>씨 외에도 두분의 임원을신청해 주세요",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "카림",
+                "position": "[19, 22]"
+            }
+        ]
+    },
+    "294874": {
+        "text": ">다섯 번째 <PERSON>도권 </PERSON>vs <PERSON>종국</PERSON>.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "도권",
+                "position": "[7, 10]"
+            }
+        ]
+    },
+    "303669": {
+        "text": "하긴,<PERSON> AAA1</PERSON>님도 지금 저와 영어로 대화하시는데, 제가 한글로 대화를 해도 되겠지요.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA1",
+                "position": "[3, 8]"
+            }
+        ]
+    },
+    "304644": {
+        "text": "이 시기에<PRODUCT> BPA 무료 병</PRODUCT>은 시장에서 매우 인기가 있어 사람들이 그것을 사는 데 큰 관심을 보이고 있다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "BPA 무료 병",
+                "position": "[5, 14]"
+            }
+        ]
+    },
+    "308144": {
+        "text": "쿠퍼색,<PRODUCT> 컬러 플러스 컨디셔너</PRODUCT>입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "컬러 플러스 컨디셔너",
+                "position": "[4, 16]"
+            }
+        ]
+    },
+    "308935": {
+        "text": "> <PERSON>예진이</PERSON> 와요 아<PERSON> 예진</PERSON>씨 와요?",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "예진",
+                "position": "[10, 13]"
+            }
+        ]
+    },
+    "321079": {
+        "text": "음악 큐 안녕히 계세요 <PERSON>터보</PERSON>의<WORK_OF_ART> 회상</WORK_OF_ART>.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "회상",
+                "position": "[16, 19]"
+            }
+        ]
+    },
+    "322287": {
+        "text": "<PRODUCT>Microsoft </PRODUCT>공식 라이센스를 받은 충전 스탠드입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "Microsoft",
+                "position": "[0, 10]"
+            }
+        ]
+    },
+    "323025": {
+        "text": "<PRODUCT>썬더볼트 3 독 플러스</PRODUCT>는 범용 호환성, <PRODUCT>썬더볼트 3 </PRODUCT>기술의 모든 이점과 편의성은 <PRODUCT>맥</PRODUCT>과 <PRODUCT>윈도우</PRODUCT> 노트북 모두에서 실현 가능합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "썬더볼트 3",
+                "position": "[22, 29]"
+            }
+        ]
+    },
+    "324107": {
+        "text": "더불어<ORG> ISO9000:2008 </ORG>인증을 받았습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "ISO9000:2008",
+                "position": "[3, 17]"
+            }
+        ]
+    },
+    "334389": {
+        "text": "한국의 한류열풍도 한몫했고… 저는 <WORK_OF_ART>겨울연가</WORK_OF_ART> <PERSON>장동건</PERSON> <PERSON>김희선</PERSON> <PERSON>이정현 </PERSON>요즘 뜨는 <PERSON>BTS</PERSON>의 펜이랍니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "이정현",
+                "position": "[32, 36]"
+            }
+        ]
+    },
+    "335285": {
+        "text": "지금 <PRODUCT>유OO </PRODUCT>뭐 이런 거 보시면 전부 다 무슨 투자 곡선이 어쩌고 저쩌고.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "유OO",
+                "position": "[3, 7]"
+            }
+        ]
+    },
+    "335658": {
+        "text": "호주<ORG> BBB1 무역</ORG> <PERSON>AAA1</PERSON> 사원입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB1 무역",
+                "position": "[2, 10]"
+            }
+        ]
+    },
+    "339465": {
+        "text": "<ORG>Hanafuda </ORG>카드를 받을 때까지 기다려 주십시오.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "Hanafuda",
+                "position": "[0, 9]"
+            }
+        ]
+    },
+    "339572": {
+        "text": "<ORG>Nintendo</ORG>의<PRODUCT> FFF </PRODUCT>비디오 게임은 엑서 게임 또는 신체 활동을 장려하는 게임의 한 예입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF",
+                "position": "[9, 14]"
+            }
+        ]
+    },
+    "343255": {
+        "text": "<PRODUCT>SYNC Star</PRODUCT>=39680 <PRODUCT>FFF1</PRODUCT> 속에<PRODUCT> FFF2</PRODUCT>예요.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF2",
+                "position": "[23, 28]"
+            }
+        ]
+    },
+    "346426": {
+        "text": "<PERSON>박완규</PERSON>선배 <PERSON>김경호 </PERSON>선배.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "김경호",
+                "position": "[6, 10]"
+            }
+        ]
+    },
+    "348004": {
+        "text": "이번에 신약 개발을 계획 중인데 이미 세계적으로 유명한 독일<ORG> BBB메디슨</ORG>과 이 일을 함께 해 보고 싶어 미팅을 제안하고자 연락드렸습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB메디슨",
+                "position": "[33, 40]"
+            }
+        ]
+    },
+    "356165": {
+        "text": "당연하죠 <PERSON>케빈</PERSON> 저희회사 사이트는 <ORG>www.인터네셔널컴퍼니.com </ORG>입니다. 거기들어가면 제 프로필 사진과 소개가 있으니 보고 반하지 마세요 호호호호",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "www.인터네셔널컴퍼니.com",
+                "position": "[18, 35]"
+            }
+        ]
+    },
+    "364601": {
+        "text": "기종별로는<ORG> BOEING</ORG>이 4대, <ORG>AirBus</ORG>가 7대입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BOEING",
+                "position": "[5, 12]"
+            }
+        ]
+    },
+    "366736": {
+        "text": "저는 <PRODUCT>아티팩트 화장지 </PRODUCT>제품을 소개하려고 합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "아티팩트 화장지",
+                "position": "[3, 12]"
+            }
+        ]
+    },
+    "376839": {
+        "text": "저는<PRODUCT> 버거 프레스 주철</PRODUCT> 제품을 소개하려고 합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "버거 프레스 주철",
+                "position": "[2, 12]"
+            }
+        ]
+    },
+    "380164": {
+        "text": ">저랑<PERSON> 박</PERSON>군 같이 하면 되겠다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "박",
+                "position": "[3, 5]"
+            }
+        ]
+    },
+    "380943": {
+        "text": "이 게임은 <WORK_OF_ART>아본레아의 지도</WORK_OF_ART>를 가지고 플레이어들이<WORK_OF_ART> 프린스 에드워드 섬</WORK_OF_ART>을 방문할 수 있도록 함으로써 고양될 수 있습니다.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "프린스 에드워드 섬",
+                "position": "[26, 37]"
+            }
+        ]
+    },
+    "392484": {
+        "text": "2017년부터 저희가 자체적으로 개발 중인<PRODUCT> FFF5</PRODUCT>와 최근 <ORG>한국 식약처</ORG>로부터 허가 승인 받은 <PRODUCT>FFF6</PRODUCT>이 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF5",
+                "position": "[23, 28]"
+            }
+        ]
+    },
+    "392905": {
+        "text": "그냥 갑자기 어디 <WORK_OF_ART>김미 김미 </WORK_OF_ART>이런거 틀면.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "김미 김미",
+                "position": "[10, 16]"
+            }
+        ]
+    },
+    "394739": {
+        "text": "저는<ORG> BBB1 Research Labs</ORG>의 연구원 <PERSON>AAA1</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB1 Research Labs",
+                "position": "[2, 21]"
+            }
+        ]
+    },
+    "397962": {
+        "text": "이 등 팀은 <PERSON>하하 </PERSON><PERSON>지효</PERSON> 팀 한명씩 <PERSON>김종국</PERSON>씨 <PERSON>양세찬</PERSON>씨 둘 중에 한 명 먼저 나오시면 되겠습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "하하",
+                "position": "[7, 10]"
+            }
+        ]
+    },
+    "401588": {
+        "text": "<PERSON>전소민</PERSON> <PERSON>양세찬 </PERSON>씨가 추측한 <PERSON>김종국</PERSON> 씨의 단어를 공개하겠습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "양세찬",
+                "position": "[4, 8]"
+            }
+        ]
+    },
+    "407064": {
+        "text": ">신랑<PERSON> 이승기</PERSON>인데?",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "이승기",
+                "position": "[3, 7]"
+            }
+        ]
+    },
+    "410935": {
+        "text": "><PERSON>S.E.S </PERSON>그냥 세스 아니야, 세스?",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "S.E.S",
+                "position": "[1, 7]"
+            }
+        ]
+    },
+    "430116": {
+        "text": "내구성이 뛰어난 이 <ORG>PetSafe </ORG>플라스틱 반려동물 출입문은 반려동물에게 가장 적합한 4가지 크기로 제공됩니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "PetSafe",
+                "position": "[11, 19]"
+            }
+        ]
+    },
+    "430666": {
+        "text": "좋은 아침. <ORG>BBb2 </ORG>회사 한국에 전화 주셔서 감사합니다",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBb2",
+                "position": "[7, 12]"
+            }
+        ]
+    },
     "435082": {
         "text": "3~8세 어린이용이 소장용 피규어로 아이들은 BBB·픽사 토이스토리 영화에서 좋아하는 순간을 재현하고 자신만의 새로운 순간을 만들 수 있습니다.",
         "tags": [
@@ -34,6 +1174,171 @@
             }
         ]
     },
+    "438178": {
+        "text": "그리고 <PERSON>전지현</PERSON> <PERSON>송강호 </PERSON><PERSON>강하늘</PERSON>.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "송강호",
+                "position": "[8, 12]"
+            }
+        ]
+    },
+    "438782": {
+        "text": "원하시는 사항이 있으시거나 제안하고 싶으시다면 마케팅 부서<PERSON> AAA1</PERSON>씨에게 연락주십시오.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA1",
+                "position": "[32, 37]"
+            }
+        ]
+    },
+    "442103": {
+        "text": "<PRODUCT>C 기술</PRODUCT>이 장착된<PRODUCT> 마이 패스포트 울트라 Mac용 휴대용 드라이브</PRODUCT>는 스토리지를 쉽게 확장 할 수 있는 방법을 제공합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "마이 패스포트 울트라 Mac용 휴대용 드라이브",
+                "position": "[9, 35]"
+            }
+        ]
+    },
+    "442505": {
+        "text": "<PERSON>동현</PERSON>, <PERSON>동현이 </PERSON>형 뒤로 더 가셔도 돼요.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "동현이",
+                "position": "[4, 8]"
+            }
+        ]
+    },
+    "443417": {
+        "text": ">왜냐하면 내 기억에 <WORK_OF_ART>폭소클럽</WORK_OF_ART> 그때 머리 그냥 약간 단발 <PERSON>안정환 </PERSON>형 느낌의 머리띠 하얀색 하고 하얀 셔츠 이런 거 입고 까만 바지 입고.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "안정환",
+                "position": "[32, 36]"
+            }
+        ]
+    },
+    "447708": {
+        "text": "우리<ORG> BBB </ORG>악기의 <PRODUCT>전자 드럼</PRODUCT>은 스네어를 메쉬 재질로 탑재하여 실제 타격감을 실현하였습니다",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB",
+                "position": "[2, 7]"
+            }
+        ]
+    },
+    "450214": {
+        "text": "이 세트는 <PRODUCT>캣보이 피겨</PRODUCT>, <PRODUCT>캣카 자동차 </PRODUCT>1대를 포함하고 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "캣카 자동차",
+                "position": "[14, 21]"
+            }
+        ]
+    },
+    "450296": {
+        "text": "그런데 지금 나는 <PERSON>소민이 </PERSON>게 좀 궁금하단 말이지.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "소민이",
+                "position": "[10, 14]"
+            }
+        ]
+    },
+    "453050": {
+        "text": "<PERSON>A</PERSON>씨, 저는<ORG> BBB1</ORG>의<PERSON> B</PERSON>씨입니다. 저는 당신과 중요한 문제를 상의하기 위해 전화했습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "B",
+                "position": "[12, 14]"
+            },
+            {
+                "tag": "ORG",
+                "value": "BBB1",
+                "position": "[6, 11]"
+            }
+        ]
+    },
+    "462207": {
+        "text": "<ORG>어나더리즈 </ORG>스키니 팬츠 라인에 획을 그어줄 아이템이에요.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "어나더리즈",
+                "position": "[0, 6]"
+            }
+        ]
+    },
+    "463381": {
+        "text": "그러니까<WORK_OF_ART> 월간 윤종신</WORK_OF_ART> 하기 전에는 곡을 이렇게 쌓아뒀다가 항상 이제 손님이 오시면 거의 카탈로그 보여주듯이.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "월간 윤종신",
+                "position": "[4, 11]"
+            }
+        ]
+    },
+    "464446": {
+        "text": "육해공을 아우리는 밥상,<ORG> Korean Food</ORG>의 <PERSON>Jin</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "Korean Food",
+                "position": "[13, 25]"
+            }
+        ]
+    },
+    "464717": {
+        "text": "이 책은 또한 1830년대에 최초의 철도를 건설하기 위한 영국인<PERSON> 조지 스티븐슨</PERSON>의 투쟁에 대해 이야기할 것입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "조지 스티븐슨",
+                "position": "[35, 43]"
+            }
+        ]
+    },
+    "465498": {
+        "text": ">잠깐 미안한데<PERSON> 장훈이</PERSON>랑 한번 좀 서봐.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "장훈이",
+                "position": "[8, 12]"
+            }
+        ]
+    },
+    "466855": {
+        "text": "><PERSON>리사 </PERSON>이제 제로.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "리사",
+                "position": "[1, 4]"
+            }
+        ]
+    },
+    "473480": {
+        "text": ">김을 내가 호랑이 김을<PERSON> 형규</PERSON>네 전화해서 했잖아.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "형규",
+                "position": "[13, 16]"
+            }
+        ]
+    },
     "474648": {
         "text": "><PERSON>백종원</PERSON>의 골목식당 충청남도 서산에 있는 해미읍성이라는 곳입니다.",
         "tags": [
@@ -41,6 +1346,116 @@
                 "tag": "WORK_OF_ART",
                 "value": "백종원의 골목식당",
                 "position": "[1, 10]"
+            }
+        ]
+    },
+    "484364": {
+        "text": "끝으로 저희의<PRODUCT> FFF1</PRODUCT>을 <PERSON>AAA1</PERSON>님께 소개드릴 수 있는 시간을 가지게 되서 대단히 영광이었습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF1",
+                "position": "[7, 12]"
+            }
+        ]
+    },
+    "489960": {
+        "text": "또한<PRODUCT> 미쉐린 가이드 2020</PRODUCT>에 선정된 곳이기도 합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "미쉐린 가이드 2020",
+                "position": "[2, 15]"
+            }
+        ]
+    },
+    "492550": {
+        "text": "<PERSON>페파 피그</PERSON>의 8가지<PRODUCT> 페파 클락 페이스</PRODUCT>와 함께 자신만의 수학 학습을 경험해 보세요.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "페파 클락 페이스",
+                "position": "[10, 20]"
+            }
+        ]
+    },
+    "493796": {
+        "text": "카달로그 3페이지에 있는 모델명 <PRODUCT>dano01,</PRODUCT> 6페이지에 있는 <PRODUCT>roan84,</PRODUCT> 13페이지에 있는<PRODUCT> terri09</PRODUCT> 제품들 가격이 궁금해요",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "terri09",
+                "position": "[52, 60]"
+            }
+        ]
+    },
+    "497299": {
+        "text": "마피아<PERSON> 유재석</PERSON>?",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "유재석",
+                "position": "[3, 7]"
+            }
+        ]
+    },
+    "500974": {
+        "text": "저번에<PRODUCT> G23</PRODUCT>의 가격이 얼마나 상승했다고 하셨지요?",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "G23",
+                "position": "[3, 7]"
+            }
+        ]
+    },
+    "505455": {
+        "text": "그러니까 이거 오늘은<PERSON> 세찬이</PERSON>, <PERSON>소민이</PERSON> 중에 들어갈 수 있지.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "세찬이",
+                "position": "[11, 15]"
+            }
+        ]
+    },
+    "507947": {
+        "text": "이<PRODUCT> 볼 히치</PRODUCT>는 오래 사용할 수 있도록 내구성이 뛰어난 <PRODUCT>블랙 파우더 코팅</PRODUCT> 마감으로 보호되며 <PRODUCT>트레일러 볼</PRODUCT>은 세련된 크롬 도금이 적용되어 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "볼 히치",
+                "position": "[1, 6]"
+            }
+        ]
+    },
+    "509511": {
+        "text": ">잘 먹네,<PERSON> 한승</PERSON>이.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "한승",
+                "position": "[6, 9]"
+            }
+        ]
+    },
+    "512998": {
+        "text": "나온 거는 들리는데 있지 아 그거 뭐지 정답 <PERSON>클론</PERSON>의 <WORK_OF_ART>초련</WORK_OF_ART> <PERSON>솔리드</PERSON>의 <WORK_OF_ART>이범의 끝을 잡고 </WORK_OF_ART>아니야.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "이범의 끝을 잡고",
+                "position": "[37, 47]"
+            }
+        ]
+    },
+    "518127": {
+        "text": "이<PRODUCT> 풍력터빈 모델</PRODUCT>은 매우 주목할 만하다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "풍력터빈 모델",
+                "position": "[1, 9]"
             }
         ]
     },
@@ -54,6 +1469,211 @@
             }
         ]
     },
+    "522045": {
+        "text": "다섯 번째 <PERSON>도권 </PERSON>vs <PERSON>종국</PERSON>.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "도권",
+                "position": "[6, 9]"
+            }
+        ]
+    },
+    "527278": {
+        "text": "<PERSON>성주</PERSON> 씨하고 <PERSON>인선 </PERSON>씨 지금 나온 죽 먼저 먹으라고 그래.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "인선",
+                "position": "[7, 10]"
+            }
+        ]
+    },
+    "536221": {
+        "text": "또한 저희 회사의 신형 기기를 모두 수록한 최신 카탈로그를 <PRODUCT>PDF </PRODUCT>파일로 첨부해 동봉해 드립니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "PDF",
+                "position": "[33, 37]"
+            }
+        ]
+    },
+    "549246": {
+        "text": "이동 중에도 사무실 안에서도<ORG> S’well</ORG>은 여러분과 함께 합니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "S’well",
+                "position": "[15, 22]"
+            }
+        ]
+    },
+    "569949": {
+        "text": "더불어 ‘<PRODUCT>옵티컬 본딩(Optical Bonding)</PRODUCT>’ 기술과 고급<PRODUCT> P-Cap 터치 기술</PRODUCT>을 적용하여 패널과 LCD 사이 <PRODUCT>에어갭(Air-gap)</PRODUCT>을 없애 정교한 터치와 종이에 쓰듯 자연스러운 필기감을 선사합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "P-Cap 터치 기술",
+                "position": "[36, 48]"
+            }
+        ]
+    },
+    "570974": {
+        "text": "더 많은 <PRODUCT>바비 프린세스 어드벤처 </PRODUCT>인형과 장난감을 수집하여<PRODUCT> 바비</PRODUCT> 왕국 전체와 이야기를 만들어 나가요.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "바비",
+                "position": "[31, 34]"
+            },
+            {
+                "tag": "PRODUCT",
+                "value": "바비 프린세스 어드벤처",
+                "position": "[5, 18]"
+            }
+        ]
+    },
+    "572769": {
+        "text": "<PRODUCT>FFf1 </PRODUCT>스포츠카입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFf1",
+                "position": "[0, 5]"
+            }
+        ]
+    },
+    "573936": {
+        "text": "> <PERSON>개리</PERSON>를 슬쩍보고 <PERSON>하하 </PERSON>오 리턴 패스였습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "하하",
+                "position": "[11, 14]"
+            }
+        ]
+    },
+    "603094": {
+        "text": "<PERSON>김OO </PERSON>고객님.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "김OO",
+                "position": "[0, 4]"
+            }
+        ]
+    },
+    "604041": {
+        "text": "작년에 <ORG>IAEA</ORG> 프로그램에 따라<ORG> BBB2 병원</ORG>에서 연수를 하며 귀사의 제품을 사용해 본 바 있습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB2 병원",
+                "position": "[17, 25]"
+            }
+        ]
+    },
+    "604821": {
+        "text": "하지만<PRODUCT> 픽시</PRODUCT>만의 묘한 매력이 있답니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "픽시",
+                "position": "[3, 6]"
+            }
+        ]
+    },
+    "614887": {
+        "text": "그때 당시에도 한류열풍 특히 <PERSON>장동건</PERSON><PERSON> 김희선</PERSON> 가수 <PERSON>이정현</PERSON>이 중국에서도 인기가 있었거든요. 지금도 그렇지만 한국이라는 나라가 이미지가 굉장히 세련됐었어요.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "김희선",
+                "position": "[19, 23]"
+            }
+        ]
+    },
+    "621450": {
+        "text": "또한<PRODUCT> W1 칩</PRODUCT>이 탑재되어 있는데요.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "W1 칩",
+                "position": "[2, 7]"
+            }
+        ]
+    },
+    "623156": {
+        "text": ">우리 <PERSON>산타 </PERSON>방송.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "산타",
+                "position": "[4, 7]"
+            }
+        ]
+    },
+    "628253": {
+        "text": "<WORK_OF_ART>미키 마우스 </WORK_OF_ART>팬이라면 이 사랑스러운 <PRODUCT>마그네틱 프레임</PRODUCT>이 마음에 쏙 들 것입니다.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "미키 마우스",
+                "position": "[0, 7]"
+            }
+        ]
+    },
+    "628660": {
+        "text": "><PERSON> 은혁이</PERSON>랑 <PERSON>소민이</PERSON>랑 동창이에요.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "은혁이",
+                "position": "[1, 5]"
+            }
+        ]
+    },
+    "642897": {
+        "text": "최근에는 가난한 나라를 더 돕기 위해<ORG> IDA </ORG>기금을 늘리기로 결정했습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "IDA",
+                "position": "[20, 25]"
+            }
+        ]
+    },
+    "644424": {
+        "text": "영국 <ORG>BBB1</ORG> 공업 <PERSON>AAA1 </PERSON>실장입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA1",
+                "position": "[11, 16]"
+            }
+        ]
+    },
+    "645563": {
+        "text": "인플레이션 니들은<ORG> NBA </ORG>프로 선수들이 사용하는 것과 동일한 니들로 농구뿐만 아니라 풋볼, 축구 공 및 배구 공에도 사용할 수 있습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "NBA",
+                "position": "[9, 14]"
+            }
+        ]
+    },
+    "646584": {
+        "text": "좋은 아침입니다.<ORG> BbB1</ORG> 한국 회사입니다. 어떻게 도와드릴까요?",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BbB1",
+                "position": "[9, 14]"
+            }
+        ]
+    },
     "650740": {
         "text": "옆에 계신 분은 제 상사이신 박이사님 이십니다",
         "tags": [
@@ -61,6 +1681,26 @@
                 "tag": "PERSON",
                 "value": "박",
                 "position": "[17, 18]"
+            }
+        ]
+    },
+    "651319": {
+        "text": "><PERSON> 종국</PERSON> <PERSON>한나</PERSON> 커플팀은 둘 다 원속 카드입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "종국",
+                "position": "[1, 4]"
+            }
+        ]
+    },
+    "657070": {
+        "text": "자사의 시그니처 상품인<PRODUCT> S&P 500</PRODUCT>은 많은 투자자들로부터 극찬을 받아왔습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "S&P 500",
+                "position": "[12, 20]"
             }
         ]
     },
@@ -74,6 +1714,171 @@
             }
         ]
     },
+    "666533": {
+        "text": "야,<PERSON> 소민이</PERSON> 역시 주저하지 않아.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "소민이",
+                "position": "[2, 6]"
+            }
+        ]
+    },
+    "676050": {
+        "text": "이 제품은 <ORG>FCC</ORG> 인증을 받았으며<ORG> RoHS</ORG>를 준수합니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "RoHS",
+                "position": "[18, 23]"
+            }
+        ]
+    },
+    "678850": {
+        "text": "<PRODUCT>ISO 9001과</PRODUCT> <PRODUCT>14001,</PRODUCT> <PRODUCT>싱글 PPM </PRODUCT>및 <PRODUCT>GMP 인증</PRODUCT>을 획득하며 품질을 끌어올렸습니다",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "싱글 PPM",
+                "position": "[17, 24]"
+            }
+        ]
+    },
+    "680116": {
+        "text": "<PRODUCT>THERMALOCK </PRODUCT>진공 단열재로 뜨거운 음료는 최대 4시간 동안 뜨겁게, 차가운 음료는 최대 12시간 동안 차갑게 유지됩니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "THERMALOCK",
+                "position": "[0, 11]"
+            }
+        ]
+    },
+    "682150": {
+        "text": "글로벌 스탠다드로 인정받는 <ORG>SAP</ORG>의<PRODUCT> S/4HANA</PRODUCT>를 비롯해 <PRODUCT>SI ERP</PRODUCT>, 기업의 환경과 요구사항에 부합하는 맞춤형 ERP 서비스를 제공하고 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "S/4HANA",
+                "position": "[19, 27]"
+            }
+        ]
+    },
+    "682297": {
+        "text": "안녕하세요, 저는<ORG> BBB</ORG> 회사 밀라노에서 이야기하고 있습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB",
+                "position": "[9, 13]"
+            }
+        ]
+    },
+    "683650": {
+        "text": "<ORG>GM </ORG>차량의 정품 발전기를 정확히 대체하는 100% 신형 제조품입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "GM",
+                "position": "[0, 3]"
+            }
+        ]
+    },
+    "683896": {
+        "text": "2016년부터 2020년까지<ORG> SK 하이닉스</ORG>에서 근무 하였습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "SK 하이닉스",
+                "position": "[15, 23]"
+            }
+        ]
+    },
+    "692396": {
+        "text": "한국 대전<ORG> BBB1</ORG> 연구소 <PERSON>AAA1 </PERSON>소장입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB1",
+                "position": "[5, 10]"
+            },
+            {
+                "tag": "PERSON",
+                "value": "AAA1",
+                "position": "[15, 20]"
+            }
+        ]
+    },
+    "696987": {
+        "text": "안녕하세요,<PERSON> 윌리암즈</PERSON>씨. 드디어 직접 목소리를 듣게 되어 정말 기쁩니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "윌리암즈",
+                "position": "[6, 11]"
+            }
+        ]
+    },
+    "697271": {
+        "text": "저는<PRODUCT> B 베이비캠</PRODUCT>을 추천합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "B 베이비캠",
+                "position": "[2, 9]"
+            }
+        ]
+    },
+    "698069": {
+        "text": "그림에는 훨씬 더 좋아하는<WORK_OF_ART> WWE 슈퍼스타</WORK_OF_ART>의 순간을 재현하기 위한 머리, 팔, 손, 복장 등 스왑이 가능한 부품도 포함되어 있습니다.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "WWE 슈퍼스타",
+                "position": "[14, 23]"
+            }
+        ]
+    },
+    "699023": {
+        "text": "피부과 전문의가 실험했으며<PRODUCT> pH 밸런스 핸드 워시 폼</PRODUCT>이 피부의 자체 습기를 보존해줍니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "pH 밸런스 핸드 워시 폼",
+                "position": "[14, 29]"
+            }
+        ]
+    },
+    "707462": {
+        "text": "아!<PRODUCT> RORO Ships</PRODUCT>보다 더 저렴한 옵션이 있나요?",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "RORO Ships",
+                "position": "[2, 13]"
+            }
+        ]
+    },
+    "708968": {
+        "text": ">또 다른 활동이라도 저것도<PERSON> 지석진</PERSON>이잖아요.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "지석진",
+                "position": "[15, 19]"
+            }
+        ]
+    },
+    "710138": {
+        "text": "내구성이 있는<PRODUCT> ABS 플라스틱 </PRODUCT>재질로 착용이 편안합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "ABS 플라스틱",
+                "position": "[7, 17]"
+            }
+        ]
+    },
     "711506": {
         "text": "모든 고객에게 고품질을 제공하기 위해 모든 단계에서 품질을 확인하고 제어하는 QC 팀이 있습니다.",
         "tags": [
@@ -81,6 +1886,236 @@
                 "tag": "ORG",
                 "value": "QC",
                 "position": "[45, 47]"
+            }
+        ]
+    },
+    "718743": {
+        "text": "하지만 귀하의 재고가 부족한 이유로 저희가 주문한 <PRODUCT>아쿠아 슈즈 </PRODUCT>상품을 미리 받아 볼 수 없다고 들었습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "아쿠아 슈즈",
+                "position": "[28, 35]"
+            }
+        ]
+    },
+    "723233": {
+        "text": "지난주 <ORG>BBB </ORG>회사에서 출시했습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB",
+                "position": "[4, 8]"
+            }
+        ]
+    },
+    "725411": {
+        "text": "역시 야 <PERSON>윤아 </PERSON>역시 잘춘다 와 대박이야 진짜 잘한다 잘한다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "윤아",
+                "position": "[5, 8]"
+            }
+        ]
+    },
+    "729023": {
+        "text": "가자, <PERSON>SES </PERSON>가.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "SES",
+                "position": "[4, 8]"
+            }
+        ]
+    },
+    "737245": {
+        "text": "한국 <ORG>BBB1 중공업</ORG> <PERSON>AAA1 </PERSON>사원입니다",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA1",
+                "position": "[12, 17]"
+            }
+        ]
+    },
+    "745419": {
+        "text": "나랑 만났는데 나는 몸만 만나고 정신은<PERSON> 재석이</PERSON> 형과 만난 사람이에요.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "재석이",
+                "position": "[21, 25]"
+            }
+        ]
+    },
+    "746601": {
+        "text": "><PERSON>JK </PERSON>이니셜로 그냥 쓰지.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "JK",
+                "position": "[1, 4]"
+            }
+        ]
+    },
+    "747025": {
+        "text": "실례지만, 이번 후임으로 오신<PERSON> AAA2</PERSON> 박사님 이력을 알수 있을까요?",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA2",
+                "position": "[16, 21]"
+            }
+        ]
+    },
+    "749155": {
+        "text": "><PERSON>양세찬</PERSON> 씨 제2의<WORK_OF_ART> THE더 레이스</WORK_OF_ART> 퇴근입니다.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "THE더 레이스",
+                "position": "[10, 19]"
+            }
+        ]
+    },
+    "750877": {
+        "text": "<ORG>케빈 샤인머스캣</ORG>과 통화완료하였고 물건 상차중이에요 물건 실고 있고 물건은 양품으로 제가 확인완료하였습니다. 5일뒤에 <ORG>케빈 </ORG>회사에 입고 될꺼에요.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "케빈",
+                "position": "[65, 68]"
+            }
+        ]
+    },
+    "762675": {
+        "text": "자<PERSON> 개</PERSON>MC!",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "개",
+                "position": "[1, 3]"
+            }
+        ]
+    },
+    "766189": {
+        "text": "중대 규모 비즈니스 고객을 위해 특별히 설계된 <PRODUCT>WD 레드 프로 드라이브</PRODUCT>는 최대<PRODUCT> 24베이 NAS 시스템</PRODUCT>에 사용할 수 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "24베이 NAS 시스템",
+                "position": "[43, 56]"
+            }
+        ]
+    },
+    "767379": {
+        "text": "> <PERSON>예진</PERSON>아<PERSON> 예진이</PERSON> 왔네.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "예진이",
+                "position": "[5, 9]"
+            }
+        ]
+    },
+    "769550": {
+        "text": "물류 전 과정을 세심하게 관리하는<PRODUCT> One-Stop 서비스</PRODUCT>를 제공합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "One-Stop 서비스",
+                "position": "[18, 31]"
+            }
+        ]
+    },
+    "770435": {
+        "text": "이 소프트웨어는<ORG> AIX®</ORG> 또는 Power Systems에서 실행되는 <PRODUCT>Linux</PRODUCT>의 개인 클라우드를 스마트 배포할 수 있는 비용 효율적인 번들입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "AIX®",
+                "position": "[8, 13]"
+            }
+        ]
+    },
+    "780142": {
+        "text": "저를 초대해 주신 <PERSON>A </PERSON>씨에게 감사드립니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "A",
+                "position": "[10, 12]"
+            }
+        ]
+    },
+    "789322": {
+        "text": "이렇게 해서 1등 팀이 <PERSON>정민</PERSON> <PERSON>종국</PERSON> <PERSON>유화 </PERSON><PERSON>재석</PERSON>팀은 알코인 다섯 개 지급할 거고요.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "유화",
+                "position": "[19, 22]"
+            }
+        ]
+    },
+    "789588": {
+        "text": "<ORG>빛과 전자</ORG>, <ORG>커미넷</ORG> 등 협력업체와<PRODUCT> FITH</PRODUCT>(<PRODUCT>Fiber In The Home</PRODUCT>) 광통신 솔루션을 개발하였습니다",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FITH",
+                "position": "[18, 23]"
+            }
+        ]
+    },
+    "792643": {
+        "text": "안녕하세요<PERSON> AAA1</PERSON>입니다. <ORG>BBB Motors</ORG>의 <PERSON>AAA2</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA1",
+                "position": "[5, 10]"
+            }
+        ]
+    },
+    "800349": {
+        "text": "전에<PERSON> AAA1</PERSON>씨와 함께 일해 본 적이 있습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA1",
+                "position": "[2, 7]"
+            }
+        ]
+    },
+    "813906": {
+        "text": "영국 <PERSON>AAA </PERSON>총리님, 그러게 왜 <ORG>EU</ORG>를 나가셔서 이런 고생을 하시는 거예요?",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA",
+                "position": "[3, 7]"
+            }
+        ]
+    },
+    "817029": {
+        "text": "안녕하세요 <ORG>BBB1 Sons Indonesia</ORG>의<PERSON> AAA1</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA1",
+                "position": "[26, 31]"
+            }
+        ]
+    },
+    "823258": {
+        "text": ">내<PRODUCT> F 바이오</PRODUCT>야.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "F 바이오",
+                "position": "[2, 8]"
             }
         ]
     },
@@ -94,6 +2129,311 @@
             }
         ]
     },
+    "830626": {
+        "text": "저는 <ORG>blizzard</ORG> 회사의<PERSON> Louise</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "Louise",
+                "position": "[15, 22]"
+            }
+        ]
+    },
+    "847432": {
+        "text": "네, <PRODUCT>FFF </PRODUCT>캐릭터 피규어는 무료로 증정해 드리고, <PRODUCT>세이펜</PRODUCT>은 판매가에서 30% 할인해서 드립니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF",
+                "position": "[3, 7]"
+            }
+        ]
+    },
+    "853148": {
+        "text": "그러나, 영국 울라스턴 마을에 위치한<ORG> R.그릭스 그룹</ORG>은 이 혁명적인 밑창으로된 첫 번째 작업 부츠를 제작하자는 아이디어를 실행에 옮기기로 했습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "R.그릭스 그룹",
+                "position": "[20, 29]"
+            }
+        ]
+    },
+    "857596": {
+        "text": "미국<ORG> 하버드 대학교</ORG>에서 화학 박사 학위를 수료했고요.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "하버드 대학교",
+                "position": "[2, 10]"
+            }
+        ]
+    },
+    "859771": {
+        "text": "개관 기념으로 진행하고 있는<PRODUCT> 봉쥬르(Bonjour) 패키지</PRODUCT>에 대해 설명해주세요.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "봉쥬르(Bonjour) 패키지",
+                "position": "[15, 32]"
+            }
+        ]
+    },
+    "866335": {
+        "text": "포함된 USB 어댑터로 대기 시간이 짧은 2.4GHz 무선으로 PC 또는<PRODUCT> PS4</PRODUCT>에 무선 연결할 수 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "PS4",
+                "position": "[40, 44]"
+            }
+        ]
+    },
+    "890661": {
+        "text": "당신은<PRODUCT> FOREX</PRODUCT>를 받을 자격이 있습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FOREX",
+                "position": "[3, 9]"
+            }
+        ]
+    },
+    "891487": {
+        "text": "<ORG>BBB</ORG>사<PERSON> AAA </PERSON>담당자 드림.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA",
+                "position": "[4, 9]"
+            }
+        ]
+    },
+    "900055": {
+        "text": "저희 측이 구매한<PRODUCT> BBB 난방기</PRODUCT> 제품의 송금 완료를 알리고자 메일 보내 드립니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "BBB 난방기",
+                "position": "[9, 17]"
+            }
+        ]
+    },
+    "902169": {
+        "text": "<PERSON>임OO </PERSON>고객님.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "임OO",
+                "position": "[0, 4]"
+            }
+        ]
+    },
+    "905842": {
+        "text": "Web을 통하여<PRODUCT> ERP iU Browser</PRODUCT>만 있으면 언제, 어디서나 사용 가능합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "ERP iU Browser",
+                "position": "[8, 23]"
+            }
+        ]
+    },
+    "906529": {
+        "text": "제 후임으로 온<PERSON> 김</PERSON>씨는 이번에 새로 들어온 신입직원 입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "김",
+                "position": "[8, 10]"
+            }
+        ]
+    },
+    "906710": {
+        "text": "그리고<PERSON> 금새록</PERSON>씨, 밥도 안 드시고 저희 일 도와주시느라고 너무 수고했어요.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "금새록",
+                "position": "[3, 7]"
+            }
+        ]
+    },
+    "910443": {
+        "text": "자 <PERSON>광수 </PERSON>형 받을 준비해.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "광수",
+                "position": "[2, 5]"
+            }
+        ]
+    },
+    "911334": {
+        "text": "싸우지 말고 싸우지 말고<PERSON> 라니</PERSON>야 싸우지 말고.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "라니",
+                "position": "[13, 16]"
+            }
+        ]
+    },
+    "914245": {
+        "text": "혹시<PERSON> AAA1</PERSON>씨에게 연결해주실 수 있나요?",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AAA1",
+                "position": "[2, 7]"
+            }
+        ]
+    },
+    "921424": {
+        "text": "> 그래 너 <PERSON>재석이 </PERSON>형하고 시간 좀 보내.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "재석이",
+                "position": "[7, 11]"
+            }
+        ]
+    },
+    "921463": {
+        "text": "안녕하세요, <PERSON>B</PERSON>씨, 저는 당신에게 이메일로 초대장을 보냈던<ORG> XYZ</ORG>의 <PERSON>A</PERSON>양입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "XYZ",
+                "position": "[32, 36]"
+            }
+        ]
+    },
+    "924728": {
+        "text": "I 로봇의 AI, <WORK_OF_ART>MU </WORK_OF_ART>영화의 <PERSON>자비스</PERSON>와 <PERSON>프라이데이</PERSON>, SW의 C는 모두 강력한 AI의 예이다.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "MU",
+                "position": "[10, 13]"
+            }
+        ]
+    },
+    "925176": {
+        "text": "1위<ORG> UiPath</ORG> MVP로부터<PRODUCT> RPA</PRODUCT> 빅픽처를 얻으세요!",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "UiPath",
+                "position": "[2, 9]"
+            },
+            {
+                "tag": "PRODUCT",
+                "value": "RPA",
+                "position": "[16, 20]"
+            }
+        ]
+    },
+    "926675": {
+        "text": ">그날 경기를 하면서<PERSON> 사오리</PERSON>하고 나하고 <PERSON>안영미</PERSON>하고 3중 추돌을 해가지고 내 여기가 <PERSON>안영미</PERSON>의 눈을 여기를 쳤어.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "사오리",
+                "position": "[11, 15]"
+            }
+        ]
+    },
+    "927686": {
+        "text": "<PERSON>A</PERSON>씨, 저는 <ORG>BBB1</ORG>의<PERSON> B</PERSON>씨입니다. 당신의 새로운 가격 리스트 때문에 전화드렸습니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "B",
+                "position": "[12, 14]"
+            }
+        ]
+    },
+    "935719": {
+        "text": "프로 시리즈는 <PRODUCT>OEKO-TEXï</PRODUCT>¸의<PRODUCT> STANDARD 100 </PRODUCT>인증을 받았습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "STANDARD 100",
+                "position": "[19, 33]"
+            }
+        ]
+    },
+    "936392": {
+        "text": "안전한 수술을 위해 미국<ORG> BBB2</ORG>사의 마취 장비와 수술중 환자 감시 장치를 운영합니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB2",
+                "position": "[13, 18]"
+            }
+        ]
+    },
+    "937986": {
+        "text": "파트너 문의를 주셔서 저 또한<ORG> BBB2</ORG>의 판매 중인 의류를 보았습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB2",
+                "position": "[16, 21]"
+            }
+        ]
+    },
+    "942991": {
+        "text": ">아니, 지금 들리는 얘기로는 <ORG>롯O </ORG>회장님하고 층수도 같이 사무실을 쓰신다고.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "롯O",
+                "position": "[17, 20]"
+            }
+        ]
+    },
+    "952065": {
+        "text": "본<PRODUCT> 머그컵 4개 세</PRODUCT>트는 버터플라이 매도우의 20주년을 기념하기 위해 고안되었습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "머그컵 4개 세",
+                "position": "[1, 10]"
+            }
+        ]
+    },
+    "955060": {
+        "text": "그렇게 하도록<ORG> 방사선사</ORG>에게 알려두겠습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "방사선사",
+                "position": "[7, 12]"
+            }
+        ]
+    },
+    "957574": {
+        "text": "저는 남성용 <PRODUCT>플란넬 셔츠 </PRODUCT>제품을 소개하려고 합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "플란넬 셔츠",
+                "position": "[7, 14]"
+            }
+        ]
+    },
+    "965084": {
+        "text": ">그럼 <PERSON>세찬</PERSON> vs <PERSON>종협</PERSON>으로 하고 <PERSON>소민 </PERSON>vs <PERSON>재석</PERSON>으로 할까요?",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "소민",
+                "position": "[18, 21]"
+            }
+        ]
+    },
     "965420": {
         "text": "옆에 계신 분은 제 상사이신 박 이사님이십니다.",
         "tags": [
@@ -104,6 +2444,176 @@
             }
         ]
     },
+    "977739": {
+        "text": "<PRODUCT>L</PRODUCT>은 <PRODUCT>애플</PRODUCT><PRODUCT> iOS</PRODUCT>용으로 설계된 입력/출력 브레이크 아웃 박스입니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "iOS",
+                "position": "[5, 9]"
+            }
+        ]
+    },
+    "981080": {
+        "text": ">아니야,<PERSON> 세찬이</PERSON> 손이 아니야.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "세찬이",
+                "position": "[5, 9]"
+            }
+        ]
+    },
+    "982274": {
+        "text": "먼저 저희의 <ORG>DAC </ORG>제품은 세 가지 음향기기가 합쳐진 거라고 볼 수 있습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "DAC",
+                "position": "[7, 11]"
+            }
+        ]
+    },
+    "984310": {
+        "text": "달려<PERSON> 하바타</PERSON>!",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "하바타",
+                "position": "[2, 6]"
+            }
+        ]
+    },
+    "985849": {
+        "text": "자,<PRODUCT> 트라우마 플레이트</PRODUCT>로 만든 방탄은?",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "트라우마 플레이트",
+                "position": "[2, 12]"
+            }
+        ]
+    },
+    "990428": {
+        "text": "<ORG>ublox Korea</ORG>, <ORG>RXN</ORG> 과 <ORG>Multiwave</ORG>가 충분히 SAGPS 테스트를 하고, 이상이 없다라고 판단되면 <PRODUCT>Thinkware </PRODUCT>에서 테스트를 하는 방법을 제안 드립니다",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "Thinkware",
+                "position": "[63, 73]"
+            }
+        ]
+    },
+    "990565": {
+        "text": ">기본<PERSON> 김숙</PERSON>이야.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "김숙",
+                "position": "[3, 6]"
+            }
+        ]
+    },
+    "993073": {
+        "text": "안녕하세요 선생님! <ORG>헬로텍일렉트로닉스</ORG>의<PERSON> A</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "A",
+                "position": "[21, 23]"
+            }
+        ]
+    },
+    "995099": {
+        "text": "저는<ORG> BBB Metals Korea</ORG>의 지역 이사 <PERSON>AAA2</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "BBB Metals Korea",
+                "position": "[2, 19]"
+            }
+        ]
+    },
+    "1001800": {
+        "text": "올해 12월 11~12일 양일 간 귀사의 부산 <ORG>에어비앤비 </ORG>숙소를 예약하고 싶습니다.",
+        "tags": [
+            {
+                "tag": "ORG",
+                "value": "에어비앤비",
+                "position": "[26, 32]"
+            }
+        ]
+    },
+    "1013198": {
+        "text": "제가 주문한 제품은 호수가 필요한 고객을 위한<PRODUCT> 2M 샤워 호수</PRODUCT> 제품이었습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "2M 샤워 호수",
+                "position": "[25, 34]"
+            }
+        ]
+    },
+    "1015308": {
+        "text": "본사의 <PRODUCT>IPTV </PRODUCT>키즈 서비스에 '오늘의 학습'이 연계됩니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "IPTV",
+                "position": "[4, 9]"
+            }
+        ]
+    },
+    "1024767": {
+        "text": "<WORK_OF_ART>펜트하우스 </WORK_OF_ART>드라마에서 <PERSON>로건 리</PERSON> 집이었어.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "펜트하우스",
+                "position": "[0, 6]"
+            }
+        ]
+    },
+    "1034920": {
+        "text": "그래서 저희의 이런 정성을 알아주신 덕분에 저희의<PRODUCT> FFF1</PRODUCT>이 한국에서 가장 많이 팔린 짜장라면이 되었다고 생각합니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "FFF1",
+                "position": "[27, 32]"
+            }
+        ]
+    },
+    "1047773": {
+        "text": "><PERSON>김연경</PERSON> 선수 들어왔는데 약간 오랜만에 <PERSON>광수 </PERSON>필이 확 나서.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "광수",
+                "position": "[22, 25]"
+            }
+        ]
+    },
+    "1051716": {
+        "text": "시공할 때<PRODUCT> 젯소나 프라이머</PRODUCT>가 따로 필요할까요?",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "젯소나 프라이머",
+                "position": "[5, 14]"
+            }
+        ]
+    },
+    "1054680": {
+        "text": "네, <PRODUCT>PDF </PRODUCT>버전의 디자인을 다듬고 있고, <PRODUCT>EPUB</PRODUCT> 작업을 도와줄 친구들도 찾았습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "PDF",
+                "position": "[3, 7]"
+            }
+        ]
+    },
     "1055667": {
         "text": "모든 <ORG>브리타</ORG> 필터링 물병과 호환 가능합니다.",
         "tags": [
@@ -111,6 +2621,36 @@
                 "tag": "PRODUCT",
                 "value": "브리타 필터링 물병",
                 "position": "[3, 13]"
+            }
+        ]
+    },
+    "1059155": {
+        "text": "현재 모든 제품은<PRODUCT> ISO9001</PRODUCT> 인증을 받았습니다.",
+        "tags": [
+            {
+                "tag": "PRODUCT",
+                "value": "ISO9001",
+                "position": "[9, 17]"
+            }
+        ]
+    },
+    "1060199": {
+        "text": "네 안녕하세요. <ORG>BB투자</ORG> 해외영업담당<PERSON> AA</PERSON>입니다.",
+        "tags": [
+            {
+                "tag": "PERSON",
+                "value": "AA",
+                "position": "[20, 23]"
+            }
+        ]
+    },
+    "1060464": {
+        "text": "> 2015 <WORK_OF_ART>X맨</WORK_OF_ART> <WORK_OF_ART>런닝맨 </WORK_OF_ART>콜라보 자 지금부터 그 마지막 현장으로 여러분과 함께 가보도록 하겠습니다.",
+        "tags": [
+            {
+                "tag": "WORK_OF_ART",
+                "value": "런닝맨",
+                "position": "[10, 14]"
             }
         ]
     }

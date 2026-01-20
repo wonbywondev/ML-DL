@@ -50,3 +50,5 @@
 12_DL_transformers/notebooks/\[스프린트미션]12_문서요약.ipynb
 11_DL_Attention/checkpoints/
 00_template
+13_DL_LLM_Tuning/template.ipynb
+13_DL_LLM_Tuning/.env

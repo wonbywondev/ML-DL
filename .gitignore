@@ -52,3 +52,4 @@
 00_template
 13_DL_LLM_Tuning/template.ipynb
 13_DL_LLM_Tuning/.env
+13_DL_LLM_Tuning/data/raw/

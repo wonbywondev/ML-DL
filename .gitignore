@@ -53,3 +53,5 @@
 13_DL_LLM_Tuning/template.ipynb
 13_DL_LLM_Tuning/.env
 13_DL_LLM_Tuning/data/raw/
+13_DL_LLM_Tuning/notebooks/.tmp.driveupload
+13_DL_LLM_Tuning/notebooks/.tmp.drivedownload

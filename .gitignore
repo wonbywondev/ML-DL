@@ -58,3 +58,5 @@
 13_DL_LLM_Tuning/notebooks/wandb/
 13_DL_LLM_Tuning/.venv
 14_DL_RAG/data/raw/
+14_DL_RAG/.env
+14_DL_RAG/notebooks/template.ipynb

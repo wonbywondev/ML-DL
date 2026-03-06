@@ -1,0 +1,40 @@
+# VCS
+.git
+.gitignore
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv docs
+uv.lock
+pyproject.toml
+.python-version
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Runtime outputs (keep raw data, exclude generated model/results)
+data/model/
+*.pkl
+*.log
+

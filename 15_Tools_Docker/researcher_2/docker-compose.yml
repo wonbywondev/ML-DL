@@ -1,0 +1,31 @@
+# tools:
+#   preprocess_and_modeling:
+#     image: pixar12372/pre_and_modeling:1.0
+#     volumes:
+
+#   predict:
+#     image: jupyter/datascience-notebook
+
+
+services:
+
+  modeling:
+    image: pixar12372/pre_and_modeling:1.0
+    container_name: researcher_1
+    command: sh -lc "python main.py && cp /app/data/model/model.pkl /shared/model.pkl && cp /app/data/raw/mission15_test.csv /shared/mission15_test.csv"
+    volumes:
+      - shared_data:/shared
+
+  jupyter:
+    image: jupyter/scipy-notebook:python-3.12
+    container_name: researcher_2
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
+    volumes: 
+      - shared_data:/shared
+    ports:
+      - 8888:8888
+    depends_on:
+      - modeling
+
+volumes:
+  shared_data:

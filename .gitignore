@@ -68,3 +68,4 @@
 14_DL_RAG/notebooks/__pycache__/grading_utils.cpython-310.pyc
 200_DL_RAG/.env
 15_Tools_Docker/.env
+15_Tools_Docker/researcher_1/data/model/model.pkl

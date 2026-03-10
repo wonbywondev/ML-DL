@@ -55,7 +55,7 @@ def get_bbox(img_path):
     return [xmin, ymin, xmax, ymax]
 
 
-def get_train_dataset():
+def get_dataset(mode: str = "train" | "test"):
 
     from glob import glob
     import xml.etree.ElementTree as ET
@@ -71,7 +71,7 @@ def get_train_dataset():
 
     all_image_set = {file_name.split(".")[0].strip() for file_name in os.listdir(IMAGE_DIR)}
     all_bbox_set = {file_name.split(".")[0].strip() for file_name in os.listdir(BBOX_DIR)}
-
+    
     trainval_image_set = all_image_set & all_bbox_set & trainval_label_set
     test_image_set = all_image_set & all_bbox_set & test_label_set
 
@@ -100,7 +100,7 @@ def get_train_dataset():
 
     trainval_name_list = [
         name for name in trainval_name_list
-        if name not in (del_name_set and multi_object_name_set)
+        if name not in (del_name_set | multi_object_name_set)
     ]
 
     TRAINVAL_IMAGE_LIST = [f"{os.path.join(IMAGE_DIR, name)}.jpg" for name in trainval_name_list]
@@ -133,15 +133,16 @@ def get_train_dataset():
             }
             
             return image, target
-        
-        
+
+
     trainval_dataset = CatDogDataset()
 
 
     train_indices, val_indices = train_test_split(
         list(range(len(trainval_dataset))),
         test_size=0.2,
-        stratify=[label for label in trainval_dataset.labels]
+        stratify=[label for label in trainval_dataset.labels],
+        random_state=42
     )
 
     train_subset = Subset(trainval_dataset, train_indices)

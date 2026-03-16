@@ -1,18 +1,20 @@
 import os
 import urllib.request
 
+import altair as alt
 import numpy as np
 import onnxruntime as ort
+import pandas as pd
 import streamlit as st
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 
 # ── 상수 ──────────────────────────────────────────────────────────────────────
-MODEL_NAME = "mnist-12-int8"
+MODEL_NAME = "mnist-12"
 MODEL_PATH = f"models/{MODEL_NAME}/{MODEL_NAME}.onnx"
 MODEL_URL = (
     "https://github.com/onnx/models/raw/main/validated/"
-    "vision/classification/mnist/model/mnist-12-int8.onnx"
+    "vision/classification/mnist/model/mnist-12.onnx"
 )
 CANVAS_SIZE = 280  # 캔버스 픽셀 크기 (28x28의 10배)
 INPUT_SIZE = 28    # 모델 입력 크기
@@ -29,10 +31,10 @@ def download_model(url: str, path: str) -> None:
 
 
 @st.cache_resource
-def load_model() -> ort.InferenceSession:
-    """ONNX 모델 로드 (세션 간 캐싱)"""
-    download_model(MODEL_URL, MODEL_PATH)
-    return ort.InferenceSession(MODEL_PATH)
+def load_model(model_path: str) -> ort.InferenceSession:
+    """ONNX 모델 로드 (모델 경로를 캐시 키로 사용)"""
+    download_model(MODEL_URL, model_path)
+    return ort.InferenceSession(model_path)
 
 
 # ── 이미지 처리 ────────────────────────────────────────────────────────────────
@@ -49,8 +51,8 @@ def preprocess(canvas_image: np.ndarray) -> tuple[np.ndarray, Image.Image]:
 
     # 28x28 리사이즈
     pil_img = Image.fromarray(gray.astype(np.uint8)).resize((INPUT_SIZE, INPUT_SIZE), Image.LANCZOS)
-    # int8 모델은 0~255 범위 float32 그대로 입력
-    img_array = np.array(pil_img, dtype=np.float32)
+    # 0~255 → 0~1 정규화
+    img_array = np.array(pil_img, dtype=np.float32) / 255.0
 
     # (1, 1, 28, 28) NCHW 형태로 변환
     input_tensor = img_array.reshape(1, 1, INPUT_SIZE, INPUT_SIZE)
@@ -73,7 +75,7 @@ def run_inference(session: ort.InferenceSession, input_tensor: np.ndarray) -> np
 st.set_page_config(page_title="MNIST 숫자 인식", layout="wide")
 st.title("✏️ 손글씨 숫자 인식 (MNIST)")
 
-session = load_model()
+session = load_model(MODEL_PATH)
 
 # 이미지 저장소 초기화
 if "gallery" not in st.session_state:
@@ -113,20 +115,39 @@ if canvas_result.image_data is not None and has_drawing:
     input_tensor, preview_img = preprocess(img_data)
     probs = run_inference(session, input_tensor)
 
-    label = int(probs.argmax())
-    confidence = float(probs.max())
+    top3_idx = probs.argsort()[::-1][:3]
+    label = int(top3_idx[0])
+    confidence = float(probs[label])
+
+    caption = "  |  ".join(
+        f"{'1위' if i == 0 else f'{i+1}위'}: {top3_idx[i]} ({probs[top3_idx[i]]:.1%})"
+        for i in range(3)
+    )
 
     # 전처리 이미지 표시
     preview_placeholder.image(
         preview_img,
-        caption=f"예측: {label}  ({confidence:.1%})",
+        caption=caption,
         width=CANVAS_SIZE,
     )
 
-    # bar chart
-    chart_placeholder.bar_chart(
-        {"확률": {str(i): float(probs[i]) for i in range(10)}}
+    # bar chart (y축 0~1 고정)
+    df = pd.DataFrame({"숫자": [str(i) for i in range(10)], "확률": probs.tolist()})
+    chart = (
+        alt.Chart(df)
+        .mark_bar()
+        .encode(
+            x=alt.X("숫자:N", sort=None),
+            y=alt.Y("확률:Q", scale=alt.Scale(domain=[0, 1])),
+            color=alt.condition(
+                alt.datum["숫자"] == str(label),
+                alt.value("#f63366"),
+                alt.value("#4C78A8"),
+            ),
+        )
+        .properties(height=300)
     )
+    chart_placeholder.altair_chart(chart, use_container_width=True)
 
     # 저장 버튼
     if st.button("이미지 저장"):

@@ -75,17 +75,52 @@ def run_inference(session: ort.InferenceSession, input_tensor: np.ndarray) -> np
 st.set_page_config(page_title="MNIST 숫자 인식", layout="wide")
 st.title("✏️ 손글씨 숫자 인식 (MNIST)")
 
+
 session = load_model(MODEL_PATH)
 
 # 이미지 저장소 초기화
 if "gallery" not in st.session_state:
     st.session_state.gallery = []  # list of (PIL.Image, label, prob)
 
+# undo/redo 히스토리 초기화
+EMPTY_DRAWING = {"version": "4.4.0", "objects": []}
+if "undo_stack" not in st.session_state:
+    st.session_state.undo_stack = []
+if "redo_stack" not in st.session_state:
+    st.session_state.redo_stack = []
+if "current_drawing" not in st.session_state:
+    st.session_state.current_drawing = EMPTY_DRAWING
+if "canvas_key" not in st.session_state:
+    st.session_state.canvas_key = 0
+
 # ── 1. 입력 캔버스 / 2. 전처리 이미지 ──────────────────────────────────────────
 col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("입력 캔버스")
+
+    # undo/redo/reset 버튼 (캔버스보다 먼저 렌더링하여 스택 상태 반영)
+    btn_col1, btn_col2, btn_col3 = st.columns(3)
+    with btn_col1:
+        if st.button("↩️ Undo", use_container_width=True, disabled=len(st.session_state.undo_stack) == 0):
+            st.session_state.redo_stack.append(st.session_state.current_drawing)
+            st.session_state.current_drawing = st.session_state.undo_stack.pop()
+            st.session_state.canvas_key += 1
+            st.rerun()
+    with btn_col2:
+        if st.button("↪️ Redo", use_container_width=True, disabled=len(st.session_state.redo_stack) == 0):
+            st.session_state.undo_stack.append(st.session_state.current_drawing)
+            st.session_state.current_drawing = st.session_state.redo_stack.pop()
+            st.session_state.canvas_key += 1
+            st.rerun()
+    with btn_col3:
+        if st.button("🗑️ Reset", use_container_width=True):
+            st.session_state.undo_stack.append(st.session_state.current_drawing)
+            st.session_state.redo_stack.clear()
+            st.session_state.current_drawing = EMPTY_DRAWING
+            st.session_state.canvas_key += 1
+            st.rerun()
+
     canvas_result = st_canvas(
         fill_color="rgba(0, 0, 0, 0)",
         stroke_width=12,
@@ -94,7 +129,9 @@ with col1:
         height=CANVAS_SIZE,
         width=CANVAS_SIZE,
         drawing_mode="freedraw",
-        key="canvas",
+        display_toolbar=False,
+        initial_drawing=st.session_state.current_drawing,
+        key=f"canvas_{st.session_state.canvas_key}",
     )
 
 with col2:
@@ -104,6 +141,18 @@ with col2:
 # ── 3. 추론 결과 ───────────────────────────────────────────────────────────────
 st.subheader("모델 추론 결과")
 chart_placeholder = st.empty()
+
+# ── 캔버스 히스토리 업데이트 ────────────────────────────────────────────────────
+if canvas_result.json_data is not None:
+    new_drawing = canvas_result.json_data
+    new_count = len(new_drawing.get("objects", []))
+    cur_count = len(st.session_state.current_drawing.get("objects", []))
+    # 스트로크가 추가됐을 때만 undo 스택에 push 후 rerun으로 버튼 상태 갱신
+    if new_count > cur_count:
+        st.session_state.undo_stack.append(st.session_state.current_drawing)
+        st.session_state.redo_stack.clear()
+        st.session_state.current_drawing = new_drawing
+        st.rerun()
 
 # ── 캔버스 입력 처리 ───────────────────────────────────────────────────────────
 has_drawing = (
@@ -153,6 +202,17 @@ if canvas_result.image_data is not None and has_drawing:
     if st.button("이미지 저장"):
         st.session_state.gallery.append((preview_img.copy(), label, confidence))
         st.success(f"저장 완료: 예측 {label} ({confidence:.1%})")
+else:
+    empty_chart = (
+        alt.Chart(pd.DataFrame({"숫자": [str(i) for i in range(10)], "확률": [0.0] * 10}))
+        .mark_bar()
+        .encode(
+            x=alt.X("숫자:N", sort=None),
+            y=alt.Y("확률:Q", scale=alt.Scale(domain=[0, 1])),
+        )
+        .properties(height=300, title="이미지를 그려주세요.")
+    )
+    chart_placeholder.altair_chart(empty_chart, use_container_width=True)
 
 # ── 4. 이미지 저장소 ───────────────────────────────────────────────────────────
 st.subheader("이미지 저장소")

@@ -112,3 +112,29 @@ session = load_model(MODEL_PATH)
 2. 28×28 리사이즈 (PIL LANCZOS)
 3. `/ 255.0` 으로 0~1 정규화
 4. `(1, 1, 28, 28)` NCHW reshape → float32 → 모델 입력
+
+---
+
+### 7. Undo/Redo 버튼 비활성화 문제
+
+**원인**
+버튼은 캔버스보다 먼저 렌더링되므로, 같은 실행 사이클 안에서 히스토리 스택이 업데이트되어도 버튼의 `disabled` 상태에 반영되지 않음.
+
+**해결**
+- 버튼을 캔버스 위에 배치 (스택 상태가 이미 세션에 저장된 상태에서 렌더링)
+- 스트로크 추가 시 히스토리 업데이트 후 `st.rerun()` 호출하여 버튼 상태 즉시 갱신
+
+**Undo/Redo/Reset 구현 방식**
+- `undo_stack` / `redo_stack` / `current_drawing` 을 `st.session_state`로 관리
+- 스트로크 추가 감지: `json_data["objects"]` 길이가 늘어날 때 undo 스택에 push
+- `canvas_key` 를 증가시켜 `st_canvas` 를 강제 재생성 → `initial_drawing` 반영
+
+---
+
+### 8. drawable-canvas 툴바 스타일 문제
+
+**원인**
+툴바가 iframe 내부에 렌더링되어 외부 CSS 적용 불가. `prefers-color-scheme`, `data-theme` 등 모든 CSS 방식 시도했으나 실패.
+
+**해결**
+`display_toolbar=False` 로 기본 툴바를 숨기고, Streamlit 버튼(↩️ Undo / ↪️ Redo / 🗑️ Reset)으로 대체.

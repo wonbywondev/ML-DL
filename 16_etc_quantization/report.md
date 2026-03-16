@@ -11,7 +11,7 @@
 | 데이터셋 | Oxford-IIIT Pet Dataset |
 | 클래스 | background(0), cat(1), dog(2) — 총 3개 |
 | Backbone | VGG16 (pretrained on ImageNet) |
-| 학습 방식 | Backbone만 사전학습, SSD Head는 랜덤 초기화 후 fine-tuning |
+| 학습 방식 | Backbone만 사전학습, SSD Head는 랜덤 초기화 후 fine-tuning(1 epoch) |
 | 옵티마이저 | SGD (lr=1e-4, momentum=0.9, weight_decay=5e-4) |
 | 스케줄러 | StepLR (step_size=2, gamma=0.1) |
 

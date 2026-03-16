@@ -69,4 +69,6 @@
 200_DL_RAG/.env
 15_Tools_Docker/.env
 15_Tools_Docker/researcher_1/data/model/model.pkl
-16_etc_quantization/data/raw
+16_Tools_quantization/data/raw
+16_Tools_quantization/pyproject.toml
+16_Tools_quantization/data/

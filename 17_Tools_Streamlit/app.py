@@ -98,8 +98,20 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("입력 캔버스")
+    canvas_result = st_canvas(
+        fill_color="rgba(0, 0, 0, 0)",
+        stroke_width=12,
+        stroke_color="#000000",
+        background_color="#FFFFFF",
+        height=CANVAS_SIZE,
+        width=CANVAS_SIZE,
+        drawing_mode="freedraw",
+        display_toolbar=False,
+        initial_drawing=st.session_state.current_drawing,
+        key=f"canvas_{st.session_state.canvas_key}",
+    )
 
-    # undo/redo/reset 버튼 (캔버스보다 먼저 렌더링하여 스택 상태 반영)
+    # undo/redo/reset 버튼
     btn_col1, btn_col2, btn_col3 = st.columns(3)
     with btn_col1:
         if st.button("↩️ Undo", use_container_width=True, disabled=len(st.session_state.undo_stack) == 0):
@@ -120,19 +132,6 @@ with col1:
             st.session_state.current_drawing = EMPTY_DRAWING
             st.session_state.canvas_key += 1
             st.rerun()
-
-    canvas_result = st_canvas(
-        fill_color="rgba(0, 0, 0, 0)",
-        stroke_width=12,
-        stroke_color="#000000",
-        background_color="#FFFFFF",
-        height=CANVAS_SIZE,
-        width=CANVAS_SIZE,
-        drawing_mode="freedraw",
-        display_toolbar=False,
-        initial_drawing=st.session_state.current_drawing,
-        key=f"canvas_{st.session_state.canvas_key}",
-    )
 
 with col2:
     st.subheader("전처리 이미지 (28×28)")

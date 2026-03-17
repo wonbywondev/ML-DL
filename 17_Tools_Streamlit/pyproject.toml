@@ -10,6 +10,7 @@ dependencies = [
     "numpy>=2.4.3",
     "onnxruntime>=1.24.3",
     "pillow>=12.1.1",
+    "reportlab>=4.4.10",
     "streamlit>=1.55.0",
     "streamlit-drawable-canvas>=0.9.3",
 ]

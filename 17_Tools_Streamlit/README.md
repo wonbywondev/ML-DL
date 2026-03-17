@@ -22,6 +22,16 @@ uv sync
 uv run streamlit run app.py
 ```
 
+### 로컬 실행 (pip)
+
+```bash
+# 의존성 설치
+pip install streamlit streamlit-drawable-canvas onnxruntime pillow numpy altair
+
+# 앱 실행
+streamlit run app.py
+```
+
 앱 시작 시 모델 파일(`models/mnist-12/mnist-12.onnx`)이 없으면 자동으로 다운로드됩니다.
 
 ### Docker 실행

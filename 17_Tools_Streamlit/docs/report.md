@@ -1,3 +1,94 @@
+# MNIST 손글씨 숫자 인식 서비스 보고서
+
+## 1. 프로젝트 개요
+
+사용자가 웹 브라우저에서 마우스로 숫자를 그리면 MNIST ONNX 모델이 실시간으로 숫자를 예측하는 Streamlit 기반 웹 서비스.
+
+**사용 기술**
+- Python 3.12, Streamlit
+- streamlit-drawable-canvas (캔버스 입력)
+- ONNX Runtime (모델 추론)
+- Pillow, NumPy (이미지 처리)
+- Altair (시각화)
+
+**화면 구성**
+| 영역 | 설명 |
+|------|------|
+| 입력 캔버스 | 사용자가 마우스로 숫자를 그리는 280×280 캔버스. Undo/Redo/Reset 버튼 포함 |
+| 전처리 이미지 | 캔버스 입력을 28×28 흑백으로 전처리한 결과 + top3 예측 결과 캡션 |
+| 모델 추론 결과 | 0~9 각 숫자의 예측 확률을 bar chart로 시각화 (y축 0~1 고정) |
+| 이미지 저장소 | 저장한 이미지를 갤러리 형태로 표시 |
+
+---
+
+## 2. 코드 설명
+
+### 모델 관리
+
+```python
+def download_model(url: str, path: str) -> None:
+    """모델 파일이 없을 경우 GitHub에서 다운로드"""
+    if os.path.exists(path):
+        return
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with st.spinner("MNIST 모델 다운로드 중..."):
+        urllib.request.urlretrieve(url, path)
+
+@st.cache_resource
+def load_model(model_path: str) -> ort.InferenceSession:
+    """ONNX 모델 로드 (모델 경로를 캐시 키로 사용하여 세션 간 재로드 방지)"""
+    download_model(MODEL_URL, model_path)
+    return ort.InferenceSession(model_path)
+```
+
+- 앱 시작 시 모델 파일이 없으면 GitHub ONNX 저장소에서 자동 다운로드
+- `@st.cache_resource`로 세션 간 모델 재로드 방지. `model_path`를 인자로 받아 캐시 키로 사용하여 모델 교체 시 자동 재로드
+
+### 이미지 처리 및 추론
+
+```python
+def preprocess(canvas_image: np.ndarray) -> tuple[np.ndarray, Image.Image]:
+    # RGBA → R채널 반전: 흰 배경·검정 획 → MNIST 형식(검정 배경·흰 글씨)
+    gray = (255 - canvas_image[:, :, 0]).astype(np.float32)
+    # 28×28 리사이즈
+    pil_img = Image.fromarray(gray.astype(np.uint8)).resize((28, 28), Image.LANCZOS)
+    # 0~1 정규화 → (1, 1, 28, 28) NCHW
+    input_tensor = np.array(pil_img, dtype=np.float32) / 255.0
+    return input_tensor.reshape(1, 1, 28, 28), pil_img
+
+def run_inference(session, input_tensor) -> np.ndarray:
+    logits = session.run(None, {session.get_inputs()[0].name: input_tensor})[0][0]
+    exp = np.exp(logits - logits.max())
+    return exp / exp.sum()  # softmax
+```
+
+**전처리 파이프라인**
+1. RGBA 캔버스에서 R채널 추출 후 반전 (`255 - R`) → MNIST 입력 형식으로 변환
+2. PIL LANCZOS 필터로 28×28 리사이즈
+3. 0~1 정규화 → `(1, 1, 28, 28)` NCHW float32로 변환
+4. ONNX Runtime으로 추론 → softmax로 확률 변환
+
+### Undo/Redo 구현
+
+`streamlit-drawable-canvas`의 기본 툴바는 iframe 내부라 다크/라이트 모드 스타일 적용이 불가하여 `display_toolbar=False`로 숨기고 Streamlit 버튼으로 대체.
+
+- `undo_stack` / `redo_stack` / `current_drawing`을 `st.session_state`로 관리
+- 스트로크 추가 감지: `json_data["objects"]` 길이 증가 시 undo 스택에 push 후 `st.rerun()`
+- `canvas_key` 증가로 `st_canvas` 강제 재생성 → `initial_drawing` 반영
+
+---
+
+## 3. Docker Hub URL
+
+```
+docker pull pixar12372/mnist-streamlit:latest
+docker run -p 8501:8501 pixar12372/mnist-streamlit:latest
+```
+
+[https://hub.docker.com/r/pixar12372/mnist-streamlit](https://hub.docker.com/r/pixar12372/mnist-streamlit)
+
+---
+
   ## 모델 선택
   
   핵심 차이점

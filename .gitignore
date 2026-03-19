@@ -74,3 +74,5 @@
 16_Tools_quantization/data/
 17_Tools_Streamlit/models/mnist-12-int8/
 17_Tools_Streamlit/docs/scenario.md
+18_Tools_FastAPI/docs/scenario.md
+18_Tools_FastAPI/__pycache__/crawler.cpython-312.pyc

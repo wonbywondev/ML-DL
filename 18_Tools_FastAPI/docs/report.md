@@ -43,4 +43,31 @@ in-memory dict를 선택한 이유:
 
 ## Step 4: Streamlit UI
 
-> 작업 예정
+### 구현 내용
+
+백엔드 API를 호출하는 Streamlit 프론트엔드 작성.
+
+#### 화면 구성
+
+| 섹션 | 기능 |
+|---|---|
+| 영화 등록 | `st.form`으로 제목/개봉일/감독/장르/포스터 URL 입력 후 `POST /movies` |
+| 영화 목록 | `GET /movies` 조회 후 3열 그리드로 포스터·정보 표시 |
+| 삭제 버튼 | 각 카드에 삭제 버튼 → `DELETE /movies/{id}` → `st.rerun()` |
+
+#### 설계 포인트
+
+- 모든 데이터는 백엔드에서 관리 (Streamlit 내부 state 없음)
+- `BACKEND_URL` 상수로 백엔드 주소 관리 (배포 시 환경변수로 교체 가능)
+- 백엔드 연결 실패 시 에러 메시지 표시, 빈 목록으로 graceful 처리
+- 포스터는 URL 기반 `st.image()` 렌더링
+
+#### 실행 방법
+
+```bash
+# 백엔드
+uvicorn apps.backend:app --reload
+
+# 프론트엔드 (별도 터미널)
+streamlit run apps/streamlit.py
+```

@@ -8,17 +8,24 @@ from datetime import date
 app = FastAPI()
 
 
-def _load_seed() -> tuple[dict[int, dict], int]:
-    seed_path = Path(__file__).parent.parent / "data" / "movies.json"
-    if not seed_path.exists():
+DB_PATH = Path(__file__).parent.parent / "data" / "movies.json"
+
+
+def _load() -> tuple[dict[int, dict], int]:
+    if not DB_PATH.exists():
         return {}, 1
-    raw = json.loads(seed_path.read_text())
+    raw = json.loads(DB_PATH.read_text())
     db = {i + 1: m for i, m in enumerate(raw)}
     return db, len(db) + 1
 
 
+def _save():
+    DB_PATH.parent.mkdir(exist_ok=True)
+    DB_PATH.write_text(json.dumps(list(movies.values()), ensure_ascii=False, indent=2))
+
+
 # In-memory DB
-movies, next_id = _load_seed()
+movies, next_id = _load()
 
 
 class MovieCreate(BaseModel):
@@ -51,9 +58,10 @@ def get_movie(movie_id: int):
 @app.post("/movies", response_model=Movie, status_code=201)
 def add_movie(movie: MovieCreate):
     global next_id
-    movies[next_id] = movie.model_dump()
+    movies[next_id] = movie.model_dump(mode="json")
     created = Movie(id=next_id, **movies[next_id])
     next_id += 1
+    _save()
     return created
 
 
@@ -63,3 +71,4 @@ def remove_movie(movie_id: int):
     if movie_id not in movies:
         raise HTTPException(status_code=404, detail="Movie not found")
     del movies[movie_id]
+    _save()

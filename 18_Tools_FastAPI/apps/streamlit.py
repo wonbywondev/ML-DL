@@ -52,8 +52,9 @@ else:
     cols = st.columns(3)
     for i, movie in enumerate(movies):
         with cols[i % 3]:
-            if movie["poster_url"]:
-                st.image(movie["poster_url"], use_container_width=True)
+            url = movie.get("poster_url", "")
+            if url.startswith("http"):
+                st.image(url, use_container_width=True)
             st.subheader(movie["title"])
             st.caption(f"{movie['release_date']} | {movie['genre']} | {movie['director']}")
             if st.button("삭제", key=f"del_{movie['id']}"):

@@ -1,0 +1,15 @@
+torch
+torchvision
+opencv-python
+Pillow
+numpy
+pandas
+matplotlib
+pyyaml
+tqdm
+scikit-learn
+ultralytics>=8.0.196
+opencv-python
+pandas
+pyyaml
+

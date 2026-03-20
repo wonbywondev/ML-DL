@@ -1,12 +1,24 @@
+import json
+from pathlib import Path
+
 from pydantic import BaseModel
 from fastapi import FastAPI, HTTPException
 from datetime import date
 
 app = FastAPI()
 
+
+def _load_seed() -> tuple[dict[int, dict], int]:
+    seed_path = Path(__file__).parent.parent / "data" / "movies.json"
+    if not seed_path.exists():
+        return {}, 1
+    raw = json.loads(seed_path.read_text())
+    db = {i + 1: m for i, m in enumerate(raw)}
+    return db, len(db) + 1
+
+
 # In-memory DB
-movies: dict[int, dict] = {}
-next_id: int = 1
+movies, next_id = _load_seed()
 
 
 class MovieCreate(BaseModel):

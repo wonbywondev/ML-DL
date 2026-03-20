@@ -21,4 +21,3 @@ def get_faster_rcnn_model(num_classes: int):
     model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
 
     return model
-

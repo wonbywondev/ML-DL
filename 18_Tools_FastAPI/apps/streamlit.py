@@ -46,6 +46,15 @@ except Exception as e:
     st.error(f"백엔드 연결 실패: {e}")
     movies = []
 
+st.markdown("""
+<style>
+.movie-poster { width: 100%; height: 260px; object-fit: cover; border-radius: 6px; }
+.movie-poster-empty { width: 100%; height: 260px; background: #333; border-radius: 6px; }
+.movie-title { font-size: 1.1rem; font-weight: 700; height: 3.2rem; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin: 0.5rem 0 0.25rem; }
+.movie-caption { font-size: 0.8rem; color: gray; height: 1.4rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin-bottom: 0.5rem; }
+</style>
+""", unsafe_allow_html=True)
+
 if not movies:
     st.info("등록된 영화가 없습니다.")
 else:
@@ -54,12 +63,11 @@ else:
         with cols[i % 3]:
             url = movie.get("poster_url", "")
             if url.startswith("http"):
-                st.image(url, use_container_width=True)
-            title = movie["title"]
-            if len(title) > 16:
-                title = title[:15] + "…"
-            st.subheader(title)
-            st.caption(f"{movie['release_date']} | {movie['genre']} | {movie['director']}")
+                st.markdown(f'<img class="movie-poster" src="{url}">', unsafe_allow_html=True)
+            else:
+                st.markdown('<div class="movie-poster-empty"></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="movie-title">{movie["title"]}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="movie-caption">{movie["release_date"]} | {movie["genre"]} | {movie["director"]}</div>', unsafe_allow_html=True)
             if st.button("삭제", key=f"del_{movie['id']}"):
                 resp = requests.delete(f"{BACKEND_URL}/movies/{movie['id']}")
                 if resp.status_code == 204:

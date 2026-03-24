@@ -55,7 +55,10 @@ else:
             url = movie.get("poster_url", "")
             if url.startswith("http"):
                 st.image(url, use_container_width=True)
-            st.subheader(movie["title"])
+            title = movie["title"]
+            if len(title) > 16:
+                title = title[:15] + "…"
+            st.subheader(title)
             st.caption(f"{movie['release_date']} | {movie['genre']} | {movie['director']}")
             if st.button("삭제", key=f"del_{movie['id']}"):
                 resp = requests.delete(f"{BACKEND_URL}/movies/{movie['id']}")

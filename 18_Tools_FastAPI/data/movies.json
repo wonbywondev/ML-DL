@@ -7,39 +7,11 @@
     "poster_url": "https://image.tmdb.org/t/p/w500/cfeIYPthWgq5XFZnx7cbpr7xFTp.jpg"
   },
   {
-    "title": "쉘터",
-    "release_date": "2026-01-28",
-    "director": "Ric Roman Waugh",
-    "genre": "액션",
-    "poster_url": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg"
-  },
-  {
-    "title": "Твое сердце будет разбито",
-    "release_date": "2026-03-26",
-    "director": "Михаил Вайнберг",
-    "genre": "로맨스",
-    "poster_url": "https://image.tmdb.org/t/p/w500/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg"
-  },
-  {
-    "title": "아바타: 불과 재",
-    "release_date": "2025-12-17",
-    "director": "제임스 카메론",
-    "genre": "SF",
-    "poster_url": "https://image.tmdb.org/t/p/w500/l18o0AK18KS118tWeROOKYkF0ng.jpg"
-  },
-  {
-    "title": "더 블러프",
-    "release_date": "2026-02-17",
-    "director": "Frank E. Flowers",
-    "genre": "액션",
-    "poster_url": "https://image.tmdb.org/t/p/w500/al8uU4GVyxvYZlTD4n4HYcxWFDz.jpg"
-  },
-  {
-    "title": "주토피아 2",
-    "release_date": "2025-11-26",
-    "director": "재러드 부시",
-    "genre": "애니메이션",
-    "poster_url": "https://image.tmdb.org/t/p/w500/ib6v6qUXzez1x2qIOLN7C0yJNPQ.jpg"
+    "title": "피키 블라인더스: 불멸의 남자",
+    "release_date": "2026-03-05",
+    "director": "Tom Harper",
+    "genre": "범죄",
+    "poster_url": "https://image.tmdb.org/t/p/w500/q1GPxUb7dfzfw4toS5TnRoSPVbn.jpg"
   },
   {
     "title": "프로젝트 헤일메리",
@@ -49,32 +21,18 @@
     "poster_url": "https://image.tmdb.org/t/p/w500/qqGpVVZk2KD1lAvccgTU4Z6nh1H.jpg"
   },
   {
-    "title": "그린랜드 2",
-    "release_date": "2026-01-07",
+    "title": "쉘터",
+    "release_date": "2026-01-28",
     "director": "Ric Roman Waugh",
-    "genre": "어드벤처",
-    "poster_url": "https://image.tmdb.org/t/p/w500/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg"
+    "genre": "액션",
+    "poster_url": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg"
   },
   {
-    "title": "원 배틀 애프터 어나더",
-    "release_date": "2025-09-23",
-    "director": "폴 토마스 앤더슨",
-    "genre": "스릴러",
-    "poster_url": "https://image.tmdb.org/t/p/w500/bCg9iDSXPjVTUs1RyYH8AhmJ11d.jpg"
-  },
-  {
-    "title": "호퍼스",
-    "release_date": "2026-03-04",
-    "director": "다니엘 총",
-    "genre": "애니메이션",
-    "poster_url": "https://image.tmdb.org/t/p/w500/vJu9THzQ26Q5sWOVnhOkuRH5M1P.jpg"
-  },
-  {
-    "title": "크라임 101",
-    "release_date": "2026-02-11",
-    "director": "Bart Layton",
-    "genre": "범죄",
-    "poster_url": "https://image.tmdb.org/t/p/w500/77ggpowGO0ORQY9x33NeBIPajm1.jpg"
+    "title": "아바타: 불과 재",
+    "release_date": "2025-12-17",
+    "director": "제임스 카메론",
+    "genre": "SF",
+    "poster_url": "https://image.tmdb.org/t/p/w500/l18o0AK18KS118tWeROOKYkF0ng.jpg"
   },
   {
     "title": "스크림 7",
@@ -84,46 +42,60 @@
     "poster_url": "https://image.tmdb.org/t/p/w500/gqgBqxyr8tGQGJCFrRWAzfA7Cml.jpg"
   },
   {
-    "title": "노 머시: 90분",
-    "release_date": "2026-01-20",
-    "director": "Тимур Бекмамбетов",
-    "genre": "SF",
-    "poster_url": "https://image.tmdb.org/t/p/w500/fQ8Q3VAybCt6fHFJQD0kwd5azNL.jpg"
+    "title": "크라임 101",
+    "release_date": "2026-02-11",
+    "director": "Bart Layton",
+    "genre": "범죄",
+    "poster_url": "https://image.tmdb.org/t/p/w500/77ggpowGO0ORQY9x33NeBIPajm1.jpg"
   },
   {
-    "title": "씨너스: 죄인들",
-    "release_date": "2025-04-16",
-    "director": "라이언 쿠글러",
-    "genre": "공포",
-    "poster_url": "https://image.tmdb.org/t/p/w500/qEipksU5SzHxbeZbE0cZQzEt6bD.jpg"
+    "title": "그린랜드 2",
+    "release_date": "2026-01-07",
+    "director": "Ric Roman Waugh",
+    "genre": "어드벤처",
+    "poster_url": "https://image.tmdb.org/t/p/w500/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg"
+  },
+  {
+    "title": "Твое сердце будет разбито",
+    "release_date": "2026-03-26",
+    "director": "Михаил Вайнберг",
+    "genre": "로맨스",
+    "poster_url": "https://image.tmdb.org/t/p/w500/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg"
+  },
+  {
+    "title": "주토피아 2",
+    "release_date": "2025-11-26",
+    "director": "재러드 부시",
+    "genre": "애니메이션",
+    "poster_url": "https://image.tmdb.org/t/p/w500/ib6v6qUXzez1x2qIOLN7C0yJNPQ.jpg"
+  },
+  {
+    "title": "호퍼스",
+    "release_date": "2026-03-04",
+    "director": "다니엘 총",
+    "genre": "애니메이션",
+    "poster_url": "https://image.tmdb.org/t/p/w500/vJu9THzQ26Q5sWOVnhOkuRH5M1P.jpg"
   },
   {
     "title": "휘슬",
     "release_date": "2026-01-20",
     "director": "Corin Hardy",
     "genre": "공포",
-    "poster_url": "https://image.tmdb.org/t/p/w500/eGxPyseSnEZBMJaopGfRUO9HSYx.jpg"
+    "poster_url": "https://image.tmdb.org/t/p/w500/ieOiiCBbf0SNwR39iiA2xnGOnab.jpg"
   },
   {
-    "title": "Hellfire",
-    "release_date": "2026-02-05",
-    "director": "Isaac Florentine",
-    "genre": "액션",
-    "poster_url": "https://image.tmdb.org/t/p/w500/tQti9QTf13MfzNpXguijgNh7ojE.jpg"
+    "title": "\"폭풍의 언덕\"",
+    "release_date": "2026-02-11",
+    "director": "에메랄드 페넬",
+    "genre": "로맨스",
+    "poster_url": "https://image.tmdb.org/t/p/w500/oDXVQRHTomnm9N569Pu2d38IubP.jpg"
   },
   {
-    "title": "Bloodline Killer",
-    "release_date": "2024-04-26",
-    "director": "Ante Novakovic",
-    "genre": "공포",
-    "poster_url": "https://image.tmdb.org/t/p/w500/wHmzCQwBzT6m8wtZdXHOIITn82B.jpg"
-  },
-  {
-    "title": "더 레킹 크루",
-    "release_date": "2026-01-28",
-    "director": "앙헬 마누엘 소토",
-    "genre": "액션",
-    "poster_url": "https://image.tmdb.org/t/p/w500/bG8BPNRoOvTC9wIos7DIH1YWOqN.jpg"
+    "title": "원 배틀 애프터 어나더",
+    "release_date": "2025-09-23",
+    "director": "폴 토마스 앤더슨",
+    "genre": "스릴러",
+    "poster_url": "https://image.tmdb.org/t/p/w500/bCg9iDSXPjVTUs1RyYH8AhmJ11d.jpg"
   },
   {
     "title": "리턴 투 사일런트 힐",
@@ -133,39 +105,18 @@
     "poster_url": "https://image.tmdb.org/t/p/w500/lSzmchPGjy6gjLMCpousS3vQAjS.jpg"
   },
   {
-    "title": "“폭풍의 언덕”",
-    "release_date": "2026-02-11",
-    "director": "에메랄드 페넬",
-    "genre": "로맨스",
-    "poster_url": "https://image.tmdb.org/t/p/w500/oDXVQRHTomnm9N569Pu2d38IubP.jpg"
-  },
-  {
-    "title": "극장판 귀멸의 칼날: 무한성편",
-    "release_date": "2025-07-18",
-    "director": "소토자키 하루오",
-    "genre": "애니메이션",
-    "poster_url": "https://image.tmdb.org/t/p/w500/m6Dho6hDCcL5KI8mOQNemZAedFI.jpg"
-  },
-  {
-    "title": "우주전쟁",
-    "release_date": "2025-07-29",
-    "director": "Rich Lee",
+    "title": "노 머시: 90분",
+    "release_date": "2026-01-20",
+    "director": "Тимур Бекмамбетов",
     "genre": "SF",
-    "poster_url": "https://image.tmdb.org/t/p/w500/yvirUYrva23IudARHn3mMGVxWqM.jpg"
+    "poster_url": "https://image.tmdb.org/t/p/w500/fQ8Q3VAybCt6fHFJQD0kwd5azNL.jpg"
   },
   {
-    "title": "하우스메이드",
-    "release_date": "2025-12-18",
-    "director": "폴 피그",
-    "genre": "드라마",
-    "poster_url": "https://image.tmdb.org/t/p/w500/fUDX16A4fJXmAuUA5t0pnqzXS0b.jpg"
-  },
-  {
-    "title": "포풍추영",
-    "release_date": "2025-08-16",
-    "director": "杨子",
+    "title": "Hellfire",
+    "release_date": "2026-02-05",
+    "director": "Isaac Florentine",
     "genre": "액션",
-    "poster_url": "https://image.tmdb.org/t/p/w500/uiIT7CsJ4V7rMnTqy7xYvj9IRhs.jpg"
+    "poster_url": "https://image.tmdb.org/t/p/w500/tQti9QTf13MfzNpXguijgNh7ojE.jpg"
   },
   {
     "title": "Vanaveera",
@@ -175,11 +126,81 @@
     "poster_url": "https://image.tmdb.org/t/p/w500/oBYExKI8E3bTzQjPkofhpV2EJon.jpg"
   },
   {
-    "title": "Cipher Bureau",
-    "release_date": "1938-10-25",
-    "director": "Charles Lamont",
+    "title": "극장판 귀멸의 칼날: 무한성편",
+    "release_date": "2025-07-18",
+    "director": "소토자키 하루오",
+    "genre": "애니메이션",
+    "poster_url": "https://image.tmdb.org/t/p/w500/m6Dho6hDCcL5KI8mOQNemZAedFI.jpg"
+  },
+  {
+    "title": "더 레킹 크루",
+    "release_date": "2026-01-28",
+    "director": "앙헬 마누엘 소토",
+    "genre": "액션",
+    "poster_url": "https://image.tmdb.org/t/p/w500/bG8BPNRoOvTC9wIos7DIH1YWOqN.jpg"
+  },
+  {
+    "title": "포풍추영",
+    "release_date": "2025-08-16",
+    "director": "杨子",
+    "genre": "액션",
+    "poster_url": "https://image.tmdb.org/t/p/w500/uiIT7CsJ4V7rMnTqy7xYvj9IRhs.jpg"
+  },
+  {
+    "title": "씨너스: 죄인들",
+    "release_date": "2025-04-16",
+    "director": "라이언 쿠글러",
+    "genre": "공포",
+    "poster_url": "https://image.tmdb.org/t/p/w500/qEipksU5SzHxbeZbE0cZQzEt6bD.jpg"
+  },
+  {
+    "title": "धुरंधर: द रिवेंज",
+    "release_date": "2026-03-18",
+    "director": "Aditya Dhar",
+    "genre": "액션",
+    "poster_url": "https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg"
+  },
+  {
+    "title": "Lake Jesup: Bonecrusher's Revenge",
+    "release_date": "2024-05-01",
+    "director": "Michael Houston King",
+    "genre": "공포",
+    "poster_url": "https://image.tmdb.org/t/p/w500/wm8vkpJmY7UbUXME8lXkxqIalX6.jpg"
+  },
+  {
+    "title": "하우스메이드",
+    "release_date": "2025-12-18",
+    "director": "폴 피그",
     "genre": "드라마",
-    "poster_url": "https://image.tmdb.org/t/p/w500/yx3SUGNca6FxRMSEfbDnVJ8Cz5V.jpg"
+    "poster_url": "https://image.tmdb.org/t/p/w500/fUDX16A4fJXmAuUA5t0pnqzXS0b.jpg"
+  },
+  {
+    "title": "Bloodline Killer",
+    "release_date": "2024-04-26",
+    "director": "Ante Novakovic",
+    "genre": "공포",
+    "poster_url": "https://image.tmdb.org/t/p/w500/wHmzCQwBzT6m8wtZdXHOIITn82B.jpg"
+  },
+  {
+    "title": "우주전쟁",
+    "release_date": "2025-07-29",
+    "director": "Rich Lee",
+    "genre": "SF",
+    "poster_url": "https://image.tmdb.org/t/p/w500/yvirUYrva23IudARHn3mMGVxWqM.jpg"
+  },
+  {
+    "title": "패신저 57",
+    "release_date": "1992-11-06",
+    "director": "케빈 훅스",
+    "genre": "액션",
+    "poster_url": "https://image.tmdb.org/t/p/w500/lhHKAwIQ1XB9YR4w8QBwROecv1g.jpg"
+  },
+  {
+    "title": "패러렐즈",
+    "release_date": "2015-03-01",
+    "director": "Christopher Leone",
+    "genre": "SF",
+    "poster_url": "https://image.tmdb.org/t/p/w500/fqUallsX9KSSey1tw7AbujlOmOa.jpg"
   },
   {
     "title": "프레데터: 죽음의 땅",
@@ -187,26 +208,5 @@
     "director": "댄 트랙턴버그",
     "genre": "액션",
     "poster_url": "https://image.tmdb.org/t/p/w500/8lpCbwbYh9SSzCFsHDndZHKrcD4.jpg"
-  },
-  {
-    "title": "알파",
-    "release_date": "2025-08-20",
-    "director": "쥘리아 뒤쿠르노",
-    "genre": "공포",
-    "poster_url": "https://image.tmdb.org/t/p/w500/89rX9774vG6GzE128Varjy6rKOl.jpg"
-  },
-  {
-    "title": "굿 럭, 해브 펀, 돈 다이",
-    "release_date": "2026-02-13",
-    "director": "고어 버빈스키",
-    "genre": "SF",
-    "poster_url": "https://image.tmdb.org/t/p/w500/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg"
-  },
-  {
-    "title": "SHINE 26",
-    "release_date": "2015-04-03",
-    "director": "미상",
-    "genre": "기타",
-    "poster_url": "https://image.tmdb.org/t/p/w500/2tWGKO9ht3KIJnpkB5OuzO32HaB.jpg"
   }
 ]

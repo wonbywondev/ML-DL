@@ -6,11 +6,11 @@ import json
 import os
 import requests
 from pathlib import Path
+from dotenv import load_dotenv
 
-TMDB_TOKEN = os.environ.get(
-    "TMDB_TOKEN",
-    "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkYjk2MGIxYmZjNGE3YTIwMzAwZTJjNjBhOTU2MGU5NSIsIm5iZiI6MTc3Mzk3MTQ0OC44NzksInN1YiI6IjY5YmNhN2Y4MTJhNmQzZjY0NjlkZWI3MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.muGQZjfTNn-AE2uXWhtHePNSAkfWEWAOWEk19EbNoKg",
-)
+load_dotenv()
+TMDB_TOKEN = os.getenv("TMDB_TOKEN")
+
 POSTER_BASE = "https://image.tmdb.org/t/p/w500"
 TARGET = 30
 

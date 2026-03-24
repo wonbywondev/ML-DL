@@ -39,7 +39,13 @@ if submitted:
             st.error(f"등록 실패: {resp.text}")
 
 # ── 영화 목록 ────────────────────────────────────────────
-st.header("영화 목록")
+col_header, col_btn = st.columns([6, 1])
+col_header.header("영화 목록")
+if "manage_mode" not in st.session_state:
+    st.session_state.manage_mode = False
+if col_btn.button("🛠 관리" if not st.session_state.manage_mode else "✅ 완료"):
+    st.session_state.manage_mode = not st.session_state.manage_mode
+    st.rerun()
 try:
     movies = fetch_movies()
 except Exception as e:
@@ -68,10 +74,11 @@ else:
                 st.markdown('<div class="movie-poster-empty"></div>', unsafe_allow_html=True)
             st.markdown(f'<div class="movie-title">{movie["title"]}</div>', unsafe_allow_html=True)
             st.markdown(f'<div class="movie-caption">{movie["release_date"]} | {movie["genre"]} | {movie["director"]}</div>', unsafe_allow_html=True)
-            if st.button("삭제", key=f"del_{movie['id']}"):
-                resp = requests.delete(f"{BACKEND_URL}/movies/{movie['id']}")
-                if resp.status_code == 204:
-                    st.success("삭제 완료!")
-                    st.rerun()
-                else:
-                    st.error(f"삭제 실패: {resp.text}")
+            if st.session_state.manage_mode:
+                if st.button("삭제", key=f"del_{movie['id']}"):
+                    resp = requests.delete(f"{BACKEND_URL}/movies/{movie['id']}")
+                    if resp.status_code == 204:
+                        st.success("삭제 완료!")
+                        st.rerun()
+                    else:
+                        st.error(f"삭제 실패: {resp.text}")

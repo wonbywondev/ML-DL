@@ -118,10 +118,14 @@ tests/test_backend.py::test_delete_movie_not_found      PASSED
 
 ## 7. 서비스 동작 캡처
 
-> 캡처 이미지 첨부 필요
+### 영화 목록
+![영화 목록](images/01_movie_list.png)
 
-- [ ] 영화 목록 화면
-- [ ] 영화 등록 폼
-- [ ] 관리 모드 (삭제 버튼 표시)
-- [ ] FastAPI Docs (`/docs`) 전체
-- [ ] FastAPI Docs — 각 엔드포인트 상세
+### 영화 등록 폼
+![영화 등록 폼](images/02_add_form.png)
+
+### 관리 모드 (삭제 버튼 표시)
+![관리 모드](images/03_manage_mode.png)
+
+### FastAPI Docs
+![FastAPI Docs](images/04_fastapi_docs.png)

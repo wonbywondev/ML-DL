@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
-import apps.backend as backend
-from apps.backend import app
+import backend.backend as backend
+from backend.backend import app
 
 
 @pytest.fixture(autouse=True)

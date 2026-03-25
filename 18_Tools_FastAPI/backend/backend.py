@@ -78,7 +78,7 @@ def remove_movie(movie_id: int):
 @app.post("/crawl", status_code=200)
 def crawl_movies():
     global movies, next_id
-    from apps.crawler import crawl
+    from backend.crawler import crawl
     result = crawl()
     movies = {i + 1: m for i, m in enumerate(result)}
     next_id = len(movies) + 1

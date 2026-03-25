@@ -39,24 +39,24 @@ pip install -r requirements.txt
 
 **uv**
 ```bash
-uv run uvicorn apps.backend:app --reload
+uv run uvicorn backend.backend:app --reload
 ```
 
 **pip**
 ```bash
-uvicorn apps.backend:app --reload
+uvicorn backend.backend:app --reload
 ```
 
 ### 프론트엔드 실행
 
 **uv**
 ```bash
-uv run streamlit run apps/streamlit.py
+uv run streamlit run frontend/streamlit.py
 ```
 
 **pip**
 ```bash
-streamlit run apps/streamlit.py
+streamlit run frontend/streamlit.py
 ```
 
 브라우저에서 `http://localhost:8501` 접속

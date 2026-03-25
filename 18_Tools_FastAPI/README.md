@@ -45,6 +45,17 @@ uv run python -m apps.crawler
 | 평균 평점 | 감성 분석 점수 기반 영화별 평균 평점 산출 |
 | 리뷰 목록 표시 | 최근 10개 리뷰 (작성일, 내용, 감성 결과) 표시 |
 
+## Streamlit Cloud 배포
+
+1. [share.streamlit.io](https://share.streamlit.io) 접속 → GitHub 연동
+2. **Repository** 선택 → **Branch**: `main`
+3. **Main file path**: `18_Tools_FastAPI/apps/streamlit.py`
+4. **Advanced settings → Secrets**:
+   ```toml
+   BACKEND_URL = "http://localhost:8000"
+   ```
+5. 로컬에서 백엔드 서버를 실행한 상태로 Streamlit Cloud 앱 접속
+
 ## 실행 방법
 
 ### 사전 준비

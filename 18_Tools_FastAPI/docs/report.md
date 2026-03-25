@@ -9,7 +9,7 @@ TMDB API를 활용해 인기 영화 데이터를 수집하고, 영화 목록 조
 - **프론트엔드**: Streamlit (Streamlit Cloud 배포)
 - **백엔드**: FastAPI (Render 배포)
 - **데이터**: TMDB popular API 기반 영화 30개 (파일 기반 저장)
-- **서비스 URL**: https://nqcnn7mmygkfrdw9n54mvx.streamlit.app/
+- **서비스 URL**: https://p4v8j2ktcapptsprgt3fpkg.streamlit.app/
 - **백엔드 URL**: https://one8-movies.onrender.com
 
 ---

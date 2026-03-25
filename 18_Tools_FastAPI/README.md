@@ -6,7 +6,7 @@ TMDB 인기 영화 30개를 기반으로 영화를 조회하고 관리할 수 �
 
 별도 설치 없이 아래 링크에서 바로 사용할 수 있습니다.
 
-- 서비스 URL: https://nqcnn7mmygkfrdw9n54mvx.streamlit.app/
+- 서비스 URL: https://p4v8j2ktcapptsprgt3fpkg.streamlit.app/
 
 > 데이터가 없을 경우 상단 **🔄** 버튼으로 TMDB에서 영화 데이터를 수집할 수 있습니다.
 > TMDB 토큰은 서버에 설정되어 있습니다.

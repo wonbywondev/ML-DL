@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python312"]
+
+[phases.install]
+cmds = ["pip install -r 18_Tools_FastAPI/requirements.txt"]
+
+[start]
+cmd = "cd 18_Tools_FastAPI && uvicorn apps.backend:app --host 0.0.0.0 --port $PORT"

@@ -74,4 +74,7 @@
 17_Tools_Streamlit/models/mnist-12-int8/
 17_Tools_Streamlit/docs/scenario.md
 18_Tools_FastAPI/docs/scenario.md
-18_Tools_FastAPI/__pycache__/crawler.cpython-312.pyc
+18_Tools_FastAPI/.env
+18_Tools_FastAPI/uv.lock
+18_Tools_FastAPI/**/__pycache__/
+18_Tools_FastAPI/.venv/

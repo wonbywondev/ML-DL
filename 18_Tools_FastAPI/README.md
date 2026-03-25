@@ -45,6 +45,15 @@ uv run python -m apps.crawler
 | 평균 평점 | 감성 분석 점수 기반 영화별 평균 평점 산출 |
 | 리뷰 목록 표시 | 최근 10개 리뷰 (작성일, 내용, 감성 결과) 표시 |
 
+## 백엔드 배포 (Railway)
+
+1. [railway.app](https://railway.app) 접속 → GitHub 연동
+2. **New Project → Deploy from GitHub repo** 선택
+3. **Settings → Root Directory**: `18_Tools_FastAPI` 로 지정
+4. 배포 완료 후 생성된 URL 확인 (예: `https://xxx.up.railway.app`)
+
+> **주의**: Railway 무료 티어는 재배포 시 파일 시스템이 초기화됩니다. `movies.json`의 등록/삭제 내용은 재배포 시 시드 데이터로 리셋됩니다.
+
 ## Streamlit Cloud 배포
 
 1. [share.streamlit.io](https://share.streamlit.io) 접속 → GitHub 연동
@@ -52,9 +61,8 @@ uv run python -m apps.crawler
 3. **Main file path**: `18_Tools_FastAPI/apps/streamlit.py`
 4. **Advanced settings → Secrets**:
    ```toml
-   BACKEND_URL = "http://localhost:8000"
+   BACKEND_URL = "https://your-backend.up.railway.app"
    ```
-5. 로컬에서 백엔드 서버를 실행한 상태로 Streamlit Cloud 앱 접속
 
 ## 실행 방법
 

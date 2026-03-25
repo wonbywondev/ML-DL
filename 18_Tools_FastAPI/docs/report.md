@@ -1,73 +1,127 @@
-# 미션 18 개발 보고서
-
-## Step 1–3: FastAPI 백엔드 기반 구축
-
-### 변경 사항 요약
-
-#### 1. DB 방식 결정 — In-memory dict
-
-| 항목 | 이전 | 이후 |
-|---|---|---|
-| 저장소 | `pd.read_csv()` (경로 없음, 에러) | `dict[int, dict]` in-memory |
-| ID 관리 | 클라이언트가 전달 | `next_id` 카운터로 서버 자동 생성 |
-| 의존성 | pandas | 없음 (표준 라이브러리만) |
-
-in-memory dict를 선택한 이유:
-- 미션 범위(학습/제출)에서 영속성 불필요
-- pandas DataFrame은 row 단위 CRUD에 부적합
-- SQLite보다 설정 없이 즉시 사용 가능
-
-#### 2. Movie 모델 수정
-
-| 필드 | 이전 | 이후 |
-|---|---|---|
-| `poster` | `UploadFile` (Pydantic 불가) | `poster_url: str` (URL) |
-| `id` | 클라이언트가 전달 | 서버 생성, 응답 전용 |
-| `rate` | `Optional[int]` (미사용) | 제거 (심화 기능으로 분리) |
-
-`MovieCreate` (입력용) / `Movie` (응답용, id 포함) 로 분리.
-
-#### 3. 엔드포인트 수정
-
-| 기능 | 이전 | 이후 |
-|---|---|---|
-| 전체 조회 | — | `GET /movies` |
-| 특정 조회 | `GET /movie/info/{movie_id}` (시그니처 오류) | `GET /movies/{movie_id}` |
-| 등록 | `POST /movie/add/{movie_id}` | `POST /movies` (201) |
-| 삭제 | `POST /movie/remove/{movie_id}` | `DELETE /movies/{movie_id}` (204) |
-
-- 404 처리 추가 (존재하지 않는 id 접근 시)
-- 응답 형식 `set literal` → `response_model` 기반 Pydantic 직렬화
+# 스프린트 미션 18 보고서 — 영화 정보 서비스
 
 ---
 
-## Step 4: Streamlit UI
+## 1. 서비스 개요
 
-### 구현 내용
+TMDB API를 활용해 인기 영화 데이터를 수집하고, 영화 목록 조회·등록·삭제 기능을 제공하는 웹 애플리케이션입니다.
 
-백엔드 API를 호출하는 Streamlit 프론트엔드 작성.
+- **프론트엔드**: Streamlit (Streamlit Cloud 배포)
+- **백엔드**: FastAPI (Render 배포)
+- **데이터**: TMDB popular API 기반 영화 30개 (파일 기반 저장)
+- **서비스 URL**: https://nqcnn7mmygkfrdw9n54mvx.streamlit.app/
+- **백엔드 URL**: https://one8-movies.onrender.com
 
-#### 화면 구성
+---
 
-| 섹션 | 기능 |
-|---|---|
-| 영화 등록 | `st.form`으로 제목/개봉일/감독/장르/포스터 URL 입력 후 `POST /movies` |
-| 영화 목록 | `GET /movies` 조회 후 3열 그리드로 포스터·정보 표시 |
-| 삭제 버튼 | 각 카드에 삭제 버튼 → `DELETE /movies/{id}` → `st.rerun()` |
+## 2. 서비스 구조도
 
-#### 설계 포인트
-
-- 모든 데이터는 백엔드에서 관리 (Streamlit 내부 state 없음)
-- `BACKEND_URL` 상수로 백엔드 주소 관리 (배포 시 환경변수로 교체 가능)
-- 백엔드 연결 실패 시 에러 메시지 표시, 빈 목록으로 graceful 처리
-- 포스터는 URL 기반 `st.image()` 렌더링
-
-#### 실행 방법
-
-```bash
-# 백엔드
-uvicorn apps.backend:app --reload
-
-# 프론트엔드 (별도 터미널)
-streamlit run apps/streamlit.py
 ```
+[사용자 브라우저]
+      │
+      ▼
+[Streamlit Cloud]          ← apps/streamlit.py
+      │  HTTP 요청
+      ▼
+[Render - FastAPI 서버]    ← apps/backend.py
+      │
+      ├── GET  /movies           전체 영화 조회
+      ├── GET  /movies/{id}      특정 영화 조회
+      ├── POST /movies           영화 등록
+      ├── DELETE /movies/{id}    영화 삭제
+      └── POST /crawl            TMDB 크롤링 실행
+                │
+                ▼
+          [TMDB API]             ← apps/crawler.py
+                │
+                ▼
+          [data/movies.json]     ← 파일 기반 DB
+```
+
+---
+
+## 3. 데이터베이스 구조 (ERD)
+
+파일 기반 저장소(`data/movies.json`)를 사용합니다.
+
+### Movie
+
+| 필드 | 타입 | 설명 |
+|---|---|---|
+| id | int | 자동 증가 식별자 |
+| title | str | 영화 제목 |
+| release_date | date | 개봉일 (YYYY-MM-DD) |
+| director | str | 감독 이름 |
+| genre | str | 장르 |
+| poster_url | str | 포스터 이미지 URL |
+
+> 심화 기능(리뷰, 감성 분석)은 미구현으로 Review 테이블 없음
+
+---
+
+## 4. API 명세 (FastAPI Docs)
+
+베이스 URL: `https://one8-movies.onrender.com`
+
+| 메서드 | 경로 | 설명 | 응답 코드 |
+|---|---|---|---|
+| GET | `/movies` | 전체 영화 목록 조회 | 200 |
+| GET | `/movies/{id}` | 특정 영화 조회 | 200 / 404 |
+| POST | `/movies` | 영화 등록 | 201 |
+| DELETE | `/movies/{id}` | 영화 삭제 | 204 / 404 |
+| POST | `/crawl` | TMDB에서 영화 30개 수집 | 200 |
+
+> FastAPI Docs 전체 캡처 첨부 (아래 섹션 참고)
+
+---
+
+## 5. 주요 구현 내용
+
+### 5-1. 크롤러 (`apps/crawler.py`)
+- TMDB `popular` 엔드포인트로 영화 목록 수집
+- `credits` 엔드포인트로 감독 정보 별도 조회
+- 결과를 `data/movies.json`에 저장
+- 백엔드 시작 시 자동 로드, `/crawl` 엔드포인트로 재수집 가능
+
+### 5-2. 백엔드 (`apps/backend.py`)
+- FastAPI 기반 REST API
+- 인메모리 딕셔너리 + 파일(`movies.json`) 이중 저장
+- 등록·삭제 시 즉시 파일에 반영
+- Pydantic 모델로 입력(`MovieCreate`) / 응답(`Movie`) 분리
+
+### 5-3. 프론트엔드 (`apps/streamlit.py`)
+- 영화 카드 3열 그리드 레이아웃
+- CSS로 포스터·제목·캡션 고정 높이 처리 (카드 정렬)
+- 관리 모드 토글 시에만 삭제 버튼 표시
+- 🔄 버튼으로 백엔드 크롤링 트리거
+
+---
+
+## 6. 테스트 결과
+
+```
+pytest tests/test_backend.py -v
+
+tests/test_backend.py::test_add_movie                   PASSED
+tests/test_backend.py::test_add_movie_auto_increment_id PASSED
+tests/test_backend.py::test_get_movies_empty            PASSED
+tests/test_backend.py::test_get_movies                  PASSED
+tests/test_backend.py::test_get_movie                   PASSED
+tests/test_backend.py::test_get_movie_not_found         PASSED
+tests/test_backend.py::test_delete_movie                PASSED
+tests/test_backend.py::test_delete_movie_not_found      PASSED
+
+8 passed in 0.18s
+```
+
+---
+
+## 7. 서비스 동작 캡처
+
+> 캡처 이미지 첨부 필요
+
+- [ ] 영화 목록 화면
+- [ ] 영화 등록 폼
+- [ ] 관리 모드 (삭제 버튼 표시)
+- [ ] FastAPI Docs (`/docs`) 전체
+- [ ] FastAPI Docs — 각 엔드포인트 상세

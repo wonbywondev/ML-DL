@@ -21,10 +21,10 @@ TMDB API를 활용해 인기 영화 데이터를 수집하고, 영화 목록 조
 [사용자 브라우저]
       │
       ▼
-[Streamlit Cloud]          ← apps/streamlit.py
+[Streamlit Cloud]          ← frontend/streamlit.py
       │  HTTP 요청
       ▼
-[Render - FastAPI 서버]    ← apps/backend.py
+[Render - FastAPI 서버]    ← backend/backend.py
       │
       ├── GET  /movies           전체 영화 조회
       ├── GET  /movies/{id}      특정 영화 조회
@@ -33,7 +33,7 @@ TMDB API를 활용해 인기 영화 데이터를 수집하고, 영화 목록 조
       └── POST /crawl            TMDB 크롤링 실행
                 │
                 ▼
-          [TMDB API]             ← apps/crawler.py
+          [TMDB API]             ← backend/crawler.py
                 │
                 ▼
           [data/movies.json]     ← 파일 기반 DB
@@ -78,19 +78,19 @@ TMDB API를 활용해 인기 영화 데이터를 수집하고, 영화 목록 조
 
 ## 5. 주요 구현 내용
 
-### 5-1. 크롤러 (`apps/crawler.py`)
+### 5-1. 크롤러 (`backend/crawler.py`)
 - TMDB `popular` 엔드포인트로 영화 목록 수집
 - `credits` 엔드포인트로 감독 정보 별도 조회
 - 결과를 `data/movies.json`에 저장
 - 백엔드 시작 시 자동 로드, `/crawl` 엔드포인트로 재수집 가능
 
-### 5-2. 백엔드 (`apps/backend.py`)
+### 5-2. 백엔드 (`backend/backend.py`)
 - FastAPI 기반 REST API
 - 인메모리 딕셔너리 + 파일(`movies.json`) 이중 저장
 - 등록·삭제 시 즉시 파일에 반영
 - Pydantic 모델로 입력(`MovieCreate`) / 응답(`Movie`) 분리
 
-### 5-3. 프론트엔드 (`apps/streamlit.py`)
+### 5-3. 프론트엔드 (`frontend/streamlit.py`)
 - 영화 카드 3열 그리드 레이아웃
 - CSS로 포스터·제목·캡션 고정 높이 처리 (카드 정렬)
 - 관리 모드 토글 시에만 삭제 버튼 표시

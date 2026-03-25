@@ -40,10 +40,18 @@ if submitted:
             st.error(f"등록 실패: {resp.text}")
 
 # ── 영화 목록 ────────────────────────────────────────────
-col_header, col_btn = st.columns([6, 1])
+col_header, col_crawl, col_btn = st.columns([5, 1, 1])
 col_header.header("영화 목록")
 if "manage_mode" not in st.session_state:
     st.session_state.manage_mode = False
+if col_crawl.button("🔄 새로고침"):
+    with st.spinner("TMDB에서 데이터 수집 중..."):
+        resp = requests.post(f"{BACKEND_URL}/crawl")
+        if resp.ok:
+            st.success(f"{resp.json()['count']}개 수집 완료!")
+            st.rerun()
+        else:
+            st.error("수집 실패")
 if col_btn.button("🛠 관리" if not st.session_state.manage_mode else "✅ 완료"):
     st.session_state.manage_mode = not st.session_state.manage_mode
     st.rerun()

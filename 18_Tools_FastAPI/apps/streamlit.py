@@ -44,7 +44,7 @@ col_header, col_crawl, col_btn = st.columns([5, 1, 1])
 col_header.header("영화 목록")
 if "manage_mode" not in st.session_state:
     st.session_state.manage_mode = False
-if col_crawl.button("🔄 새로고침"):
+if col_crawl.button("🔄", help="TMDB에서 데이터 새로고침"):
     with st.spinner("TMDB에서 데이터 수집 중..."):
         resp = requests.post(f"{BACKEND_URL}/crawl")
         if resp.ok:

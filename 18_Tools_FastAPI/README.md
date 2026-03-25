@@ -18,6 +18,33 @@ Streamlit (frontend) ──HTTP──▶ FastAPI (backend) ──▶ movies.json
 - 관리 모드 토글 (삭제 버튼 노출 제어)
 - TMDB 크롤러로 인기 영화 30개 시드 데이터 수집
 
+## TMDB 크롤러 (`apps/crawler.py`)
+
+[TMDB API](https://www.themoviedb.org/documentation/api)를 사용해 인기 영화 데이터를 수집합니다.
+
+- `popular` 엔드포인트로 영화 목록 수집
+- `credits` 엔드포인트로 감독 정보 별도 조회
+- 수집 항목: 제목, 개봉일, 감독, 장르, 포스터 URL
+- 결과를 `data/movies.json`에 저장 (백엔드 시드 데이터로 자동 로드)
+
+TMDB API 키는 `.env` 파일에 `TMDB_TOKEN`으로 설정합니다.
+
+```bash
+# 재수집 시
+uv run python -m apps.crawler
+```
+
+## 심화 기능 (미구현)
+
+아래 기능은 미션 시나리오의 선택 과제로, 현재 버전에서는 구현하지 않았습니다.
+
+| 기능 | 설명 |
+|---|---|
+| 리뷰 등록/조회/삭제 | 영화별 사용자 리뷰 관리 API |
+| 감성 분석 | 리뷰 작성 시 한국어 감성 분석 모델 자동 실행 |
+| 평균 평점 | 감성 분석 점수 기반 영화별 평균 평점 산출 |
+| 리뷰 목록 표시 | 최근 10개 리뷰 (작성일, 내용, 감성 결과) 표시 |
+
 ## 실행 방법
 
 ### 사전 준비

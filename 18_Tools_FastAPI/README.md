@@ -6,20 +6,38 @@ TMDB 인기 영화 30개를 기반으로 영화를 조회하고 관리할 수 �
 
 ### 1. 의존성 설치
 
+**uv 사용 시**
 ```bash
 uv sync
 ```
 
+**pip 사용 시**
+```bash
+pip install -r requirements.txt
+```
+
 ### 2. 백엔드 실행
 
+**uv 사용 시**
 ```bash
 uv run uvicorn apps.backend:app --reload
 ```
 
+**pip 사용 시**
+```bash
+uvicorn apps.backend:app --reload
+```
+
 ### 3. 프론트엔드 실행
 
+**uv 사용 시**
 ```bash
 uv run streamlit run apps/streamlit.py
+```
+
+**pip 사용 시**
+```bash
+streamlit run apps/streamlit.py
 ```
 
 브라우저에서 `http://localhost:8501` 접속
